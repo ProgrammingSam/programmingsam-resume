@@ -2,5 +2,5 @@
 
 # Defines Home CRUD
 class HomeController < ApplicationController
-  def show; end
+  def index; end
 end
