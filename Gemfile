@@ -30,6 +30,11 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+# == Views enhancers ===========================================================
+# Provides Slim generators
+# https://github.com/slim-template/slim-rails
+gem 'slim-rails'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
