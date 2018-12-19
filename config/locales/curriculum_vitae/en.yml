@@ -1,10 +1,11 @@
 en:
   curriculum_vitae:
     index:
-      cv: "CV"
+      cv: "Resume"
       degrees: "Degrees"
-      download: "Download my cv"
+      download: "Download my resume"
       experiences: "Experiences"
-      file_name: "CV_BEN_ABBES_SAMI"
+      file_name: "RESUME_BEN_ABBES_SAMI"
       file_path: "files/cv.pdf"
       home: "Home"
+      # FIXME: Add content translations
