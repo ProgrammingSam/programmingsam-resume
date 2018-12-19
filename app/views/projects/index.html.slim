@@ -7,6 +7,12 @@ h1
   = t('.projects')
 
 ul
-  li = t('.sharing_slot')
-  li = t('.frizbiz')
-  li = t('.listy')
+  li
+    = t('.sharing_slot')
+    div style="background-image: url(#{image_url('projects/sharing_slot.jpg')});")
+  li
+    = t('.frizbiz')
+    div style="background-image: url(#{image_url('projects/frizbiz.png')});")
+  li
+    = t('.listy')
+    div style="background-image: url(#{image_url('projects/listy.png')});")

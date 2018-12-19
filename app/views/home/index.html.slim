@@ -3,18 +3,30 @@ h1
   =< t('.aka')
   =< t('.nickname')
 p = t('.about_me')
+div style="background-image: url(#{image_url('avatar/me.jpg')});")
 / FIXME: information général
 p = t('.hobbies')
 ul
   li
     = t('.coding')
+    i.fas.fa-code
+    div style="background-image: url(#{image_url('hobbies/coding.jpg')});")
   li
     = t('.skateboarding')
+    i.fas.fa-snowboard
+    div style="background-image: url(#{image_url('hobbies/skateboarding.jpg')});")
   li
     = t('.science')
+    i.fas.fa-atom
+    i.fas.fa-laptop
+    div style="background-image: url(#{image_url('hobbies/science.jpg')});")
   li
     = t('.music')
+    i.fas.fa-music
+    div style="background-image: url(#{image_url('hobbies/music.jpg')});")
   li
     = t('.videos')
+    i.fas.fa-film
+    div style="background-image: url(#{image_url('hobbies/videos.jpg')});")
 
 / Musique (sum41), Code, Skate, Sciences and technologie, films/séries (GOT)
