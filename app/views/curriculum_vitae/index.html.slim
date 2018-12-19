@@ -6,9 +6,7 @@ h1
 = link_to curriculum_vitae_index_path
   = t('.cv')
 
-
 p = t('.experiences')
-/ FIXME: each on a array for languages
 ul
   li
     p= t('.job_date_7')
@@ -21,6 +19,8 @@ ul
       = t('.job_location_7')
     p= t('.job_description_7')
     p= t('.job_tasks_7')
+    - %w[Ruby Rails Postgres JavaScript JQuery CSS3 SEO SASS HTML5 Yml Slim Git].each do |i|
+      = i
   li
     p= t('.job_date_6')
     p= t('.job_duration_6')
@@ -32,6 +32,8 @@ ul
       = t('.job_location_6')
     p= t('.job_description_6')
     p= t('.job_tasks_6_html')
+    - %w[Ruby Rails MySQL JavaScript JQuery CSS3 SASS HTML5 Erb Haml Yml Slim Git Markdown].each do |i|
+      = i
   li
     p= t('.job_date_5')
     p= t('.job_duration_5')
@@ -52,6 +54,8 @@ ul
       = t('.job_location_4')
     p= t('.job_description_4')
     p= t('.job_tasks_4_html')
+    - %w[VBA MATLAB LaTeX].each do |i|
+      = i
   li
     p= t('.job_date_3')
     p= t('.job_duration_3')
@@ -71,7 +75,7 @@ ul
       i.fas.fa-map-marker-alt
       = t('.job_location_2')
     p= t('.job_description_2')
-    p= t('.job_tasks_2')
+    p= t('.job_tasks_2_html')
   li
     p= t('.job_date_1')
     p= t('.job_duration_1')
@@ -84,10 +88,7 @@ ul
     p= t('.job_tasks_1')
 
 
-/ FIXME ajouter un lien sur listy et Frizbiz
-
 p = t('.degrees')
-
 - range = 7..1
 - (range.first).downto(range.last).each do |i|
   li
