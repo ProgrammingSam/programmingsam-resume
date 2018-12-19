@@ -1,24 +1,15 @@
-# README
+# ProgrammingSam's resume
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This resume application contains :
 
-Things you may want to cover:
+* Some general informations about me
 
-* Ruby version
+* My hobbies
 
-* System dependencies
+* My projects
 
-* Configuration
+* My degrees
 
-* Database creation
+* My experiences
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ways to contact me
