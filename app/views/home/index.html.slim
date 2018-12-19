@@ -3,7 +3,8 @@ h1
   =< t('.aka')
   =< t('.nickname')
 p = t('.about_me')
-div style="background-image: url(#{image_url('avatar/me.jpg')});")
+= image_tag image_url('avatar/me.jpg'), style: 'height: 300px;'
+= 'text'
 / FIXME: information général
 p = t('.hobbies')
 ul
