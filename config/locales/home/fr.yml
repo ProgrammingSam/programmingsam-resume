@@ -1,4 +1,12 @@
 fr:
   home:
     index:
-      title: "French test"
+      about_me: "A propos de moi"
+      aka: "aka"
+      coding: "Le code"
+      hobbies: "Loisirs"
+      music: "La musique"
+      name: "Sami Ben Abbés"
+      nickname: "ProgrammingSam"
+      science: "Les sciences et technologies"
+      skateboarding: "Le skateboard"
