@@ -3,3 +3,6 @@ en:
     footer:
       where_to_find_me: "Where to find me"
       with: "with"
+    header:
+      en: "en"
+      fr: "fr"
