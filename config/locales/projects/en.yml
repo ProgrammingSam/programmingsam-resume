@@ -1,1 +1,5 @@
 en:
+  projects:
+    index:
+      home: "Home"
+      projects: "Projects"

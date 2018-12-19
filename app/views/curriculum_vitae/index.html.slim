@@ -1,15 +1,16 @@
 h1
-  = 'CV'
+  = t('.cv')
 = link_to root_path
-  = 'Accueil'
-= '/'
+  = t('.home')
+= ' / '
 = link_to curriculum_vitae_index_path
-  = 'CV'
+  = t('.cv')
 
 
-p = "Expériences"
+p = t('.experiences')
+/ FIXME: each on a array for languages
 
-p = "Cursus"
+p = t('.degrees')
 
-
-/ FIXME: Lien téléchargement cv
+a target='_blank' href= t('.file_path')
+  = t('.download')

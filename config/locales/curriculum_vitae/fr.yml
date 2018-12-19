@@ -1,1 +1,10 @@
 fr:
+  curriculum_vitae:
+    index:
+      cv: "CV"
+      degrees: "Cursus"
+      download: "Télécharger mon cv"
+      experiences: "Expériences"
+      file_name: "CV_BEN_ABBES_SAMI"
+      file_path: "files/cv.pdf"
+      home: "Accueil"
