@@ -45,6 +45,9 @@ gem 'rails-i18n', '~> 5.1'
 # Makes navigating in the web application faster
 # https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
+# Provides some utility view helpers
+# https://github.com/thoughtbot/flutie
+gem 'flutie', '~> 2.0'
 # == Background jobs ===========================================================
 # == Authentication ============================================================
 # == Form manager and validator ================================================

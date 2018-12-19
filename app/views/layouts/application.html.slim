@@ -29,5 +29,7 @@ html
     / FIXME
     / meta name='twitter:image:src' content=meta_image
 
-  body
+  body class=body_class
+    = render 'layouts/header'
     = yield
+    = render 'layouts/footer'
