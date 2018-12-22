@@ -8,94 +8,55 @@ en:
       file_name: "RESUME_BEN_ABBES_SAMI"
       file_path: "files/cv.pdf"
       home: "Home"
-      # FIXME: Add content translations
-      job_date_1: "2010 – 2013"
-      job_duration_1: (3 ans en périodes estivales)
-      job_1: "Technicien de laboratoire contrôle de qualité (job étudiant)"
-      company_1: "Cimescaut Matériaux SA (SAGREX SA)"
-      job_location_1: "Antoing, Belgique"
-      job_description_1: "Exploitant de carrières calcaire, producteur de granulats et concassés dans le Tournaisis"
-      job_tasks_1: "Analyse de la granularité et de l'humidité des granulats et concassées produits"
-      job_date_2: "septembre 2013 - novembre 2013"
-      job_duration_2: "(3 mois)"
-      job_2: "Immersion professionnelle (stagiaire ingénieur)"
-      company_2: "Dufour Transports et Manutentions SA (Groupe Dufour SA)"
-      job_location_2: "Marquain, Belgique"
-      job_description_2: "..."
-      job_tasks_2_html: "Réalisation d'un répertoir de matériels de levage et suivis de chantier..."
-      job_date_3: "2014 - 2016"
-      job_duration_3: (2 ans)
-      job_3: "Concours"
-      company_3: "YEP (Young Entreprise Project) - JA Europe"
-      job_location_3: "Belgique"
-      job_description_3: "Programme d’apprentissage de création d’entreprise à travers lequel des groupes constitués de jeunes se lancent le défi de créer et développer un projet innovant"
-      job_tasks_3: "Participation au concours avec le groupe Fixabel"
-      job_date_4: "février 2016 - juin 2016"
-      job_duration_4: (5 mois)
-      job_4: "Stagiaire inégnieur d’études"
-      company_4: "I.D.E.A. SCRL"
-      job_location_4: "Mons, Belgique"
-      job_description_4: "Intercommunale pour le Développement Économique et l’Aménagement du territoire de la région Mons-Borinage-Centre"
-      job_tasks_4_html: "<ul>
-                            <li>Chargé d’études au bureau d’études service électromécanique et techniques spéciales</li>
-                            <li>Réalisation du projet : Processus décisionnel : étude, modélisation, analyse fonctionnelle et suivi de chantier du projet de
-                    séchage des boues issues de stations d’épuration de Wasmuël</li>
-                          </ul>"
-      job_date_5: "septembre 2015 - juin 2016"
-      job_duration_5: (10 mois)
-      job_5: "Bénévolat"
-      company_5: "Projet MyMachine"
-      job_location_5: "Belgique"
-      job_description_5: "..."
-      job_tasks_5: "Réaslisations de deux robots : Ecobot et Floppy"
-      job_date_6: "août 2017 - décembre 2018"
-      job_duration_6: (1 an, 5 mois)
-      job_6: "Developpeur Web Ruby on Rails"
-      company_6: "Frizbiz - VPGROUP"
-      job_location_6: "Lille, France"
-      job_description_6: "Première plateforme web en France dédiée aux services entre particuliers."
-      job_tasks_6_html: "<ul>
-                          <li>Maintenir le site</li>
-                          <li>Optimiser les performances</li>
-                          <li>Améliorer l'expérience utilisateur</li>
-                          <li>Travailler en TDD, améliorer la couverture de tests</li>
-                          <li>Amélioration du process Agile</li>
-                          <li>Garantir la sécurité du site</li>
-                          <li>Effectuer de la veille technologique</li>
-                          <li>Déploiement en environnement de recette et production</li>
-                        </ul>"
-      job_date_7: "novembre 2018 - aujourd'hui"
-      job_duration_7: (2 mois)
-      job_7: "Co-fondateur & Developpeur Web Ruby on Rails"
-      company_7: "Listy"
-      job_location_7: "Tourcoing, France"
-      job_description_7: "..."
-      job_tasks_7: "Developpeur back-end de l'application"
-      degree_date_1: "1998–2004"
-      degree_name_1: "CEB"
-      school_name_1: "Ecole des Frères"
-      school_location_1: "Tournai, Belgique"
-      degree_date_2: "2004 – 2010"
-      degree_name_2: "CESS"
-      school_name_2: "Collège Notre-Dame"
-      school_location_2: "Tournai, Belgique"
-      degree_date_3: "2010 – 2014"
-      degree_name_3: "Bachelier en science de l’ingénieur"
-      school_name_3: "HEPH Condorcet"
-      school_location_3: "Tournai, Belgique"
-      degree_date_4: "2010 – 2016"
-      degree_name_4: "Formations diverses"
-      school_name_4: "TechnoCampus"
-      school_location_4: "Belgique"
-      degree_date_5: "2014 – 2016"
-      degree_name_5: "Master en ingénieur industriel finalité industrie"
-      school_name_5: "HEPH Condorcet"
-      school_location_5: "Tournai, Belgique"
-      degree_date_6: "2016 – 2017"
-      degree_name_6: "Master en ingénieur civil des mines et géologue"
-      school_name_6: "Faculté Polytechnique"
-      school_location_6: "Mons, Belgisque"
-      degree_date_7: "2017"
-      degree_name_7: "Développeur Web fullstack - Fullstack Certificate of completion"
-      school_name_7: "Le Wagon"
-      school_location_7: "Lille, France"
+      company_idea: "IDEA SCRL"
+      company_frizbiz: "Frizbiz - VPGROUP"
+      company_listy: "Listy"
+      degree_date_heph_bac: "2010 – 2014"
+      degree_date_heph_master: "2014 – 2016"
+      degree_date_fpms_master: "2016 – 2017"
+      degree_date_wagon: "2017"
+      degree_name_heph_bac: "Bachelier en science de l’ingénieur"
+      degree_name_heph_master: "Master en ingénieur industriel finalité industrie"
+      degree_name_fpms_master: "Master en ingénieur civil des mines et géologue"
+      degree_name_wagon: "Développeur Web fullstack - Fullstack Certificate of completion"
+      job_idea: "Stagiaire inégnieur d’études"
+      job_frizbiz: "Developpeur Web Ruby on Rails"
+      job_listy: "Co-fondateur & Developpeur Web Ruby on Rails"
+      job_date_idea: "février 2016 - juin 2016"
+      job_date_frizbiz: "août 2017 - décembre 2018"
+      job_date_listy: "novembre 2018 - aujourd'hui"
+      job_description_idea: "Intercommunale pour le Développement Économique et l’Aménagement du territoire de la région Mons-Borinage-Centre"
+      job_description_frizbiz: "Première plateforme web en France dédiée aux services entre particuliers."
+      job_description_listy: "..."
+      job_duration_idea: (5 mois)
+      job_duration_frizbiz: (1 an, 5 mois)
+      job_duration_listy: (2 mois)
+      job_location_idea: "Mons, Belgique"
+      job_location_frizbiz: "Lille, France"
+      job_location_listy: "Tourcoing, France"
+      job_tasks_idea_html: "<ul>
+                              <li>Chargé d’études au bureau d’études service électromécanique et techniques spéciales</li>
+                              <li>Réalisation du travail de fin d'études : Processus décisionnel : étude, modélisation, analyse fonctionnelle et suivi de chantier du projet de
+                      séchage des boues issues de stations d’épuration de Wasmuël</li>
+                            </ul>"
+      job_tasks_frizbiz_html: "<ul>
+                                <li>Maintenir le site</li>
+                                <li>Optimiser les performances</li>
+                                <li>Améliorer l'expérience utilisateur</li>
+                                <li>Travailler en TDD, améliorer la couverture de tests</li>
+                                <li>Amélioration du process Agile</li>
+                                <li>Garantir la sécurité du site</li>
+                                <li>Effectuer de la veille technologique</li>
+                                <li>Déploiement en environnement de recette et production</li>
+                              </ul>"
+      job_tasks_listy: "Developpeur back-end de l'application"
+      school_location_heph_bac: "Tournai, Belgique"
+      school_location_heph_master: "Tournai, Belgique"
+      school_location_fpms_master: "Mons, Belgisque"
+      school_location_wagon: "Lille, France"
+      school_name_heph_bac: "HEPH Condorcet"
+      school_name_heph_master: "HEPH Condorcet"
+      school_name_fpms_master: "Faculté Polytechnique"
+      school_name_wagon: "Le Wagon"
+      more_details: "For more details"
+      linkedin: "Look my LinkedIn profile"

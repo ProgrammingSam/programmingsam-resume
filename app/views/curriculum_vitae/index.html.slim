@@ -9,96 +9,80 @@ h1
 p = t('.experiences')
 ul
   li
-    p= t('.job_date_7')
-    p= t('.job_duration_7')
-    p= t('.job_7')
-    = link_to 'https://www.listy.fr'
-      p= t('.company_7')
+    p= t('.job_date_listy')
+    p= t('.job_duration_listy')
+    p= t('.job_listy')
+    = link_to 'https://www.listy.fr', target: '_blank'
+      p= t('.company_listy')
     p
       i.fas.fa-map-marker-alt
-      = t('.job_location_7')
-    p= t('.job_description_7')
-    p= t('.job_tasks_7')
+      = t('.job_location_listy')
+    p= t('.job_description_listy')
+    p= t('.job_tasks_listy')
     - %w[Ruby Rails Postgres JavaScript JQuery CSS3 SEO SASS HTML5 Yml Slim Git].each do |i|
       = i
   li
-    p= t('.job_date_6')
-    p= t('.job_duration_6')
-    p= t('.job_6')
-    = link_to 'https://www.frizbiz.com/fr'
-      p= t('.company_6')
+    p= t('.job_date_frizbiz')
+    p= t('.job_duration_frizbiz')
+    p= t('.job_frizbiz')
+    = link_to 'https://www.frizbiz.com/fr', target: '_blank'
+      p= t('.company_frizbiz')
     p
       i.fas.fa-map-marker-alt
-      = t('.job_location_6')
-    p= t('.job_description_6')
-    p= t('.job_tasks_6_html')
+      = t('.job_location_frizbiz')
+    p= t('.job_description_frizbiz')
+    p= t('.job_tasks_frizbiz_html')
     - %w[Ruby Rails MySQL JavaScript JQuery CSS3 SASS HTML5 Erb Haml Yml Slim Git Markdown].each do |i|
       = i
   li
-    p= t('.job_date_5')
-    p= t('.job_duration_5')
-    p= t('.job_5')
-    p= t('.company_5')
+    p= t('.job_date_idea')
+    p= t('.job_duration_idea')
+    p= t('.job_idea')
+    = link_to 'http://www.idea.be/fr/accueil.html', target: '_blank'
+      p= t('.company_idea')
     p
       i.fas.fa-map-marker-alt
-      = t('.job_location_5')
-    p= t('.job_description_5')
-    p= t('.job_tasks_5')
-  li
-    p= t('.job_date_4')
-    p= t('.job_duration_4')
-    p= t('.job_4')
-    p= t('.company_4')
-    p
-      i.fas.fa-map-marker-alt
-      = t('.job_location_4')
-    p= t('.job_description_4')
-    p= t('.job_tasks_4_html')
+      = t('.job_location_idea')
+    p= t('.job_description_idea')
+    p= t('.job_tasks_idea_html')
     - %w[VBA MATLAB LaTeX].each do |i|
       = i
-  li
-    p= t('.job_date_3')
-    p= t('.job_duration_3')
-    p= t('.job_3')
-    p= t('.company_3')
-    p
-      i.fas.fa-map-marker-alt
-      = t('.job_location_3')
-    p= t('.job_description_3')
-    p= t('.job_tasks_3')
-  li
-    p= t('.job_date_2')
-    p= t('.job_duration_2')
-    p= t('.job_2')
-    p= t('.company_2')
-    p
-      i.fas.fa-map-marker-alt
-      = t('.job_location_2')
-    p= t('.job_description_2')
-    p= t('.job_tasks_2_html')
-  li
-    p= t('.job_date_1')
-    p= t('.job_duration_1')
-    p= t('.job_1')
-    p= t('.company_1')
-    p
-      i.fas.fa-map-marker-alt
-      = t('.job_location_1')
-    p= t('.job_description_1')
-    p= t('.job_tasks_1')
-
 
 p = t('.degrees')
-- range = 7..1
-- (range.first).downto(range.last).each do |i|
+ul
   li
-    p= t(".degree_date_#{i}")
-    p= t(".degree_name_#{i}")
-    p= t(".school_name_#{i}")
+    p= t(".degree_date_wagon")
+    p= t(".degree_name_wagon")
+    p= t(".school_name_wagon")
     p
       i.fas.fa-map-marker-alt
-      = t(".school_location_#{i}")
+      = t(".school_location_wagon")
+  li
+    p= t(".degree_date_fpms_master")
+    p= t(".degree_name_fpms_master")
+    p= t(".school_name_fpms_master")
+    p
+      i.fas.fa-map-marker-alt
+      = t(".school_location_fpms_master")
 
+  li
+    p= t(".degree_date_heph_master")
+    p= t(".degree_name_heph_master")
+    p= t(".school_name_heph_master")
+    p
+      i.fas.fa-map-marker-alt
+      = t(".school_location_heph_master")
 
+  li
+    p= t(".degree_date_heph_bac")
+    p= t(".degree_name_heph_bac")
+    p= t(".school_name_heph_bac")
+    p
+      i.fas.fa-map-marker-alt
+      = t(".school_location_heph_bac")
+
+= t('.more_details')
 a target='_blank' href= t('.file_path')
   = t('.download')
+= link_to 'https://www.linkedin.com/in/programmingsam', target: '_blank'
+  = t('.linkedin')
