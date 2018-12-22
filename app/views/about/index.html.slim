@@ -1,0 +1,32 @@
+h1
+  = t('.about')
+= link_to root_path
+  = t('.home')
+= ' / '
+= link_to about_index_path
+  = t('.about')
+
+p = t('.about_me')
+/ FIXME: information général
+p = t('.hobbies')
+ul
+  li
+    = t('.coding')
+    i.fas.fa-code
+  li
+    = t('.skateboarding')
+    i.fas.fa-snowboarding
+  li
+    = t('.science')
+    i.fas.fa-atom
+  li
+    = t('.technology')
+    i.fas.fa-laptop
+  li
+    = t('.music')
+    i.fas.fa-music
+  li
+    = t('.videos')
+    i.fas.fa-film
+
+  / Musique (sum41), Code, Skate, Sciences and technologie, films/séries (GOT)

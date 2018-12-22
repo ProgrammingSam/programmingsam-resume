@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   draw :errors
 
   scope '/:locale', locale: /#{I18n.available_locales.join('|')}/ do
+    resources :about, only: :index
     resources :curriculum_vitae, only: :index
     resources :home, only: :index
     resources :projects, only: :index
