@@ -19,7 +19,8 @@ ul
     p= t('.job_description_listy')
     p= t('.job_tasks_listy')
     - %w[Ruby Rails Postgres JavaScript JQuery CSS3 SEO SASS HTML5 Yml Slim Git].each do |i|
-      = i
+      .badge.badge-primary
+        = i
   li
     p= t('.job_date_frizbiz')
     p= t('.job_frizbiz')
@@ -31,7 +32,8 @@ ul
     p= t('.job_description_frizbiz')
     p= t('.job_tasks_frizbiz_html')
     - %w[Ruby Rails Sequel MySQL JavaScript JQuery CSS3 SASS HTML5 Erb Haml Yml Slim Git Markdown].each do |i|
-      = i
+      .badge.badge-primary
+        = i
   li
     p= t('.job_date_idea')
     p= t('.job_idea')
@@ -43,7 +45,8 @@ ul
     p= t('.job_description_idea')
     p= t('.job_tasks_idea_html')
     - %w[VBA MATLAB LaTeX].each do |i|
-      = i
+      .badge.badge-primary
+        = i
 
 p = t('.degrees')
 ul
@@ -81,5 +84,5 @@ ul
 = t('.more_details')
 a target='_blank' href= t('.file_path')
   = t('.download')
-= link_to , target: '_blank'
+= link_to t('.linkedin_url'), target: '_blank'
   = t('.linkedin')
