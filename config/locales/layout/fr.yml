@@ -3,10 +3,8 @@ fr:
     footer:
       with: "with"
     header:
-      about: "À PROPOS"
-      curriculum_vitae: "CURRICULUM VITÆ"
-      en: "EN"
-      en_locale: 'en'
-      fr: "FR"
-      fr_locale: 'fr'
-      home: "PROGRAMMINGSAM"
+      about: "À propos"
+      curriculum_vitae: "Curriculum vitæ"
+      en: "en"
+      fr: "fr"
+      home: "ProgrammingSam"
