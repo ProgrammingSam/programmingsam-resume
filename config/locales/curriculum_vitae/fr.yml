@@ -5,13 +5,11 @@ fr:
       company_frizbiz: "Frizbiz - VPGROUP"
       company_listy: "Listy"
       cv: "Curriculum vitæ"
-      degree_date_heph_bac: "2010 – 2014"
-      degree_date_heph_master: "2014 – 2016"
-      degree_date_fpms_master: "2016 – 2017"
+      degree_date_heph_bac: "2014"
+      degree_date_heph_master: "2016"
       degree_date_wagon: "2017"
       degree_name_heph_bac: "Bachelier en science de l’ingénieur"
       degree_name_heph_master: "Master en ingénieur industriel finalité industrie (électromécanique)"
-      degree_name_fpms_master: "Master en ingénieur civil des mines et géologue"
       degree_name_wagon: "Développeur Web fullstack - Fullstack Certificate of completion"
       degrees: "Diplômes et formations"
       download: "Télécharger mon Curriculum vitæ"
@@ -32,7 +30,7 @@ fr:
       job_location_frizbiz: "Lille, France"
       job_location_listy: "Tourcoing, France"
       job_tasks_idea_html: "<ul>
-                              <li>Chargé d’études au bureau d’études service électromécanique et techniques spéciales</li>
+                              <li>Chargé d’études au bureau d’études du service électromécanique et techniques spéciales</li>
                               <li>Réalisation du travail de fin d'études : Processus décisionnel : étude, modélisation, analyse fonctionnelle et suivi de chantier du projet de
                                   séchage des boues issues de stations d’épuration de Wasmuël</li>
                             </ul>"
@@ -52,9 +50,7 @@ fr:
       more_details: "Pour plus de détails"
       school_location_heph_bac: "Tournai, Belgique"
       school_location_heph_master: "Tournai, Belgique"
-      school_location_fpms_master: "Mons, Belgisque"
       school_location_wagon: "Lille, France"
       school_name_heph_bac: "HEPH Condorcet"
       school_name_heph_master: "HEPH Condorcet"
-      school_name_fpms_master: "Faculté Polytechnique"
       school_name_wagon: "Le Wagon"
