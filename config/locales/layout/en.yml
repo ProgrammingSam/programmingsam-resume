@@ -4,9 +4,8 @@ en:
       where_to_find_me: "Where to find me"
       with: "with"
     header:
-      about: "About"
-      curriculum_vitae: "Resume"
+      about: "ABOUT"
+      curriculum_vitae: "RESUME"
       en: "en"
       fr: "fr"
       home: "PROGRAMMINGSAM"
-      projects: "Projects"

@@ -1,11 +1,13 @@
-= link_to root_path
-  = t('.home')
-= link_to about_index_path
-  = t('.about')
-= link_to curriculum_vitae_index_path
-  = t('.curriculum_vitae')
-= link_to projects_path
-  = t('.projects')
+nav.navbar.navbar-light.navbar-expand-lg
+  .container
+    = link_to root_path, class: 'navbar__link navbar__link--home'
+      = t('.home')
+      .navbar__dot
+        =< '.'
+    = link_to about_index_path, class: 'navbar__link'
+      = t('.about')
+    = link_to curriculum_vitae_index_path, class: 'navbar__link'
+      = t('.curriculum_vitae')
 
-= link_to t('.fr'), locale: t('.fr')
-= link_to t('.en'), locale: t('.en')
+    = link_to t('.fr'), locale: t('.fr')
+    = link_to t('.en'), locale: t('.en')

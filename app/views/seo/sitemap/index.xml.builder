@@ -14,7 +14,7 @@ xml.urlset(xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9') do
     xml.priority '1.0'
   end
   xml.url do
-    xml.loc projects_url(locale: :fr)
+    xml.loc about_index_url(locale: :fr)
     xml.changefreq('monthly')
     xml.priority '1.0'
   end

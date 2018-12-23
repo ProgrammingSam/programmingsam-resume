@@ -8,7 +8,6 @@ Rails.application.routes.draw do
     resources :about, only: :index
     resources :curriculum_vitae, only: :index
     resources :home, only: :index
-    resources :projects, only: :index
     root 'home#index'
   end
 
