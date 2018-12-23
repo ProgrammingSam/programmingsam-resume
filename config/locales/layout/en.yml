@@ -1,11 +1,12 @@
 en:
   layouts:
     footer:
-      where_to_find_me: "Where to find me"
       with: "with"
     header:
       about: "ABOUT"
       curriculum_vitae: "RESUME"
-      en: "en"
-      fr: "fr"
+      en: "EN"
+      en_locale: 'en'
+      fr: "FR"
+      fr_locale: 'fr'
       home: "PROGRAMMINGSAM"
