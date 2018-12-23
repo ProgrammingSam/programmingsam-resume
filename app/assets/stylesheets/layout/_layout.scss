@@ -1,4 +1,61 @@
-body {
-  min-height: 100vh;
-  padding: 0 50px 0 50px;
+html, body {
+  color: black;
+  height: 100%;
+}
+
+.home, .curriculum_vitae, .about {
+  padding: 0 50px 50px;
+}
+
+.networks {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 25px;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.networks__icon {
+  color: black;
+  font-size: 22px;
+  margin: 5px 0;
+}
+
+.hero {
+  flex-grow: 1!important;
+}
+
+.hero__text {
+  background: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.hero__vectors {
+  background: #FF5858;
+  height: 100%;
+}
+
+
+.hero__title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: auto;
+}
+
+.hero__subtitle {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.hero__link {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: 50px;
 }

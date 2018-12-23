@@ -1,24 +1,15 @@
-.navbar__link {
-  background: none;
-  border: 0;
-  color: black;
-  cursor: pointer;
-  display: inline-flex;
-  font-size: 1rem;
-  outline: none;
-  padding: .5rem 0;
-  font-weight: 600;
-
-  &:focus {
-    outline: none;
-  }
-
-  &:hover {
-    text-decoration: none;
-    color: black;
-  }
-}
 .navbar {
-  width: 100%;
-  background-color: $white;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: black !important;
+  font-size: 14px;
 }

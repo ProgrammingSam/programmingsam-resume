@@ -36,7 +36,8 @@ html
     meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
 
   body class=body_class
-    = render 'layouts/header'
-    = render 'layouts/sidebar'
-    = yield
-    = render 'layouts/footer'
+    .container-fluid.d-flex.h-100.flex-column
+      = render 'layouts/header'
+      = render 'layouts/sidebar'
+      = yield
+      = render 'layouts/footer'

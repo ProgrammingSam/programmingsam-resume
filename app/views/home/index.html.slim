@@ -1,3 +1,10 @@
-h1
-  = t('.name')
-  = t('.job')
+.hero.row.h-100.no-gutters
+  .col-md-6
+    .hero__text
+      h1.hero__title
+        = t('.name')
+      h2.hero__subtitle.dotted
+        = t('.job')
+      = link_to about_index_path, class: 'hero__link'
+        = t('.about')
+  .col-md-6.hero__vectors
