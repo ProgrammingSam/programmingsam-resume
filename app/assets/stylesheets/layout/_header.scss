@@ -9,10 +9,6 @@
   padding: .5rem 0;
   font-weight: 600;
 
-  .navbar__dot {
-    color: $primary;
-  }
-
   &:focus {
     outline: none;
   }
@@ -21,8 +17,8 @@
     text-decoration: none;
     color: black;
   }
-
-  &--home {
-
-  }
+}
+.navbar {
+  width: 100%;
+  background-color: $white;
 }

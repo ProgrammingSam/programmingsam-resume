@@ -1,13 +1,21 @@
-nav.navbar.navbar-light.navbar-expand-lg
-  .container
-    = link_to root_path, class: 'navbar__link navbar__link--home'
+nav.navbar.navbar-expand-lg
+  = link_to root_path, class: 'navbar-brand navbar__link'
+    .doted
       = t('.home')
-      .navbar__dot
-        =< '.'
-    = link_to about_index_path, class: 'navbar__link'
-      = t('.about')
-    = link_to curriculum_vitae_index_path, class: 'navbar__link'
-      = t('.curriculum_vitae')
+  button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'
+    span class='navbar-toggler-icon'
+      i.fas.fa-bars
 
-    = link_to t('.fr'), locale: t('.fr_locale')
-    = link_to t('.en'), locale: t('.en_locale')
+  .collapse.navbar-collapse#navbarSupportedContent
+      ul class='navbar-nav mr-auto'
+        li class='nav-item active'
+          = link_to about_index_path, class: 'nav-link navbar__link'
+            = t('.about')
+        li class='nav-item'
+          = link_to curriculum_vitae_index_path, class: 'nav-link navbar__link'
+            = t('.curriculum_vitae')
+        / FIXME: Why style doesn't apply??
+        li class='nav-item'
+          = link_to t('.fr'), { locale: t('.fr_locale') }, class: 'nav-link navbar__link'
+        li class='nav-item'
+          = link_to t('.en'), { locale: t('.en_locale') }, class: 'nav-link navbar__link'
