@@ -7,6 +7,7 @@
 }
 
 .footer__icon {
+  line-height: 1.5;
   &--heart {
     color: $primary;
   }
@@ -16,4 +17,5 @@
   font-weight: 700;
   margin-right: 10px;
   margin-left: 10px;
+  text-transform: uppercase;
 }

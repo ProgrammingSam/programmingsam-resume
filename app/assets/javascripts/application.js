@@ -13,6 +13,8 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require popper
+//= require tooltip
 //= require bootstrap4/alert
 //= require bootstrap4/button
 //= require bootstrap4/carousel

@@ -36,7 +36,10 @@ html, body {
 }
 
 .profile__description {
-
+  font-size: 18px;
+  font-weight: 400;
+  color: $gray-600;
+  margin-top: 20px;
 }
 
 .profile__picture {
@@ -45,6 +48,10 @@ html, body {
 }
 .profile__hobbies {
   list-style-type: none;
+}
+
+.hobbies {
+  margin-top: 30px;
 }
 
 .hobbies__item {
@@ -66,9 +73,8 @@ html, body {
 .picture-container__box {
   height: 350px;
   width: 350px;
-
-
   overflow: hidden;
+
   img {
     max-width: 100%;
   }
