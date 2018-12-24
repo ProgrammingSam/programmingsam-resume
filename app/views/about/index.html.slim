@@ -1,28 +1,30 @@
-h1
-  = t('.about')
-= link_to root_path
-  = t('.home')
-= ' / '
-= link_to about_index_path
-  = t('.about')
+.profile.row.h-100.no-gutters
+  .col-md-6
+    .profile__text
+      h1.profile__title.dotted
+        = t('.about')
+      .profile__description
+        = "blazbababadqlh d lkhdq lkhdq lkhd qslkhd qskhsdq lhdq slhdqs lkhdq dsmqjdsqm j dqqdskj sdqmjdq smljd qsmlj sqdmlj dsqmlj dsqmljdq mljd qmljd sqmljd qsmljsqlmqjsd mljsq lmj "
 
-p = t('.about_me')
-= image_tag image_url('avatar/me.jpg'), style: 'height: 300px;'
-
-p = t('.hobbies')
-ul
-  li
-    = t('.coding')
-    i.fas.fa-code
-  li
-    = t('.science')
-    i.fas.fa-atom
-  li
-    = t('.technology')
-    i.fas.fa-laptop
-  li
-    = t('.music')
-    i.fas.fa-music
-  li
-    = t('.videos')
-    i.fas.fa-film
+      ul.profile__hobbies
+        li.hobbies__item
+          = t('.coding')
+          i.fas.fa-code
+        li.hobbies__item
+          = t('.science')
+          i.fas.fa-atom
+        li.hobbies__item
+          = t('.technology')
+          i.fas.fa-laptop
+        li.hobbies__item
+          = t('.music')
+          i.fas.fa-music
+        li.hobbies__item
+          = t('.videos')
+          i.fas.fa-film
+      = link_to curriculum_vitae_index_path, class: 'profile__link'
+        = t('.curriculum_vitae')
+        i.fas.fa-arrow-right
+  .col-md-6.profile__picture.picture-container
+    .picture-container__box
+      = image_tag image_url('avatar/me.jpg')

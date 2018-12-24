@@ -1,12 +1,10 @@
 en:
   about:
     index:
-      about_me: "About me"
       about: "About"
       coding: "Coding"
-      hobbies: "Hobbies"
-      home: "Home"
       music: "Music"
       science: "Science"
       technology: "Technology"
       videos: "Films and series"
+      curriculum_vitae: "Resume"

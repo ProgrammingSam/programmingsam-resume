@@ -22,8 +22,56 @@ html, body {
   margin: 5px 0;
 }
 
-.hero {
+.hero, .profile {
   flex-grow: 1!important;
+}
+
+.profile__text {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.profile__description {
+
+}
+
+.profile__picture {
+  background: $bg-grey;
+  height: 100%;
+}
+.profile__hobbies {
+  list-style-type: none;
+}
+
+.hobbies__item {
+  display: inline;
+}
+
+.profile__title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: auto;
+}
+
+.picture-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture-container__box {
+  height: 350px;
+  width: 350px;
+
+
+  overflow: hidden;
+  img {
+    max-width: 100%;
+  }
 }
 
 .hero__text {
@@ -51,7 +99,7 @@ html, body {
   font-weight: 700;
 }
 
-.hero__link {
+.hero__link, .profile__link {
   color: black;
   font-size: 14px;
   font-weight: 700;

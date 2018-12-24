@@ -25,4 +25,6 @@
 //= require bootstrap4/tab
 //= require bootstrap4/tooltip
 //= require bootstrap4/util
+//= require particles/setup
+//= require particles/initialize
 //= require_tree .
