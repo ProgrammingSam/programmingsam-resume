@@ -8,20 +8,25 @@
 
       ul.profile__hobbies.hobbies
         li.hobbies__item
-          = t('.coding')
-          i.fas.fa-code
+          i.fas.fa-code.item__icon
+          .item__text
+            = t('.coding')
         li.hobbies__item
-          = t('.science')
-          i.fas.fa-atom
+          i.fas.fa-atom.item__icon
+          .item__text
+            = t('.science')
         li.hobbies__item
-          = t('.technology')
-          i.fas.fa-laptop
+          i.fas.fa-laptop.item__icon
+          .item__text
+            = t('.technology')
         li.hobbies__item
-          = t('.music')
-          i.fas.fa-music
+          i.fas.fa-music.item__icon
+          .item__text
+            = t('.music')
         li.hobbies__item
-          = t('.videos')
-          i.fas.fa-film
+          i.fas.fa-film.item__icon
+          .item__text
+            = t('.videos')
       = link_to curriculum_vitae_index_path, class: 'profile__link'
         = t('.curriculum_vitae')
         i.fas.fa-arrow-right
