@@ -16,15 +16,17 @@ fr:
       experiences: "Expériences"
       file_name: "CV_BEN_ABBES_SAMI"
       file_path: "files/cv.pdf"
+      frizbiz_url: "https://www.frizbiz.com/fr"
+      idea_url: "http://www.idea.be/fr/accueil.html"
       job_idea: "Stagiaire ingénieur d’études"
-      job_frizbiz: "Developpeur Web Ruby on Rails"
-      job_listy: "Co-fondateur & Developpeur Web Ruby on Rails"
+      job_frizbiz: "Developpeur Web Ruby On Rails"
+      job_listy: "Co-fondateur & Developpeur Web Ruby On Rails"
       job_date_idea: "février 2016 - juin 2016"
       job_date_frizbiz: "août 2017 - décembre 2018"
       job_date_listy: "novembre 2018 - aujourd'hui"
       job_description_idea: "Intercommunale pour le Développement Économique et l’Aménagement du territoire de la région Mons-Borinage-Centre"
       job_description_frizbiz: "Première plateforme web en France dédiée aux services entre particuliers."
-      job_description_listy: "Plateforme dédiée à la gestion de listes (anniversaire, mariage,..)"
+      job_description_listy: "Plateforme dédiée à la gestion de listes (anniversaire, mariage,..)."
       job_location_idea: "Mons, Belgique"
       job_location_frizbiz: "Lille, France"
       job_location_listy: "Tourcoing, France"
@@ -43,9 +45,21 @@ fr:
                                 <li>Effectuer de la veille technologique</li>
                                 <li>Déploiement en environnement de recette et production</li>
                               </ul>"
-      job_tasks_listy: "Developpeur back-end de l'application"
+      job_tasks_listy_html: "<ul>
+                              <li>Recherches et développements</li>
+                              <li>Etudier le marché</li>
+                              <li>Développer et maintenir le site</li>
+                              <li>Optimiser les performances</li>
+                              <li>Améliorer l'expérience utilisateur</li>
+                              <li>Travailler en TDD, améliorer la couverture de tests</li>
+                              <li>Garantir la sécurité du site</li>
+                              <li>Effectuer de la veille technologique</li>
+                              <li>Déploiement en environnement de recette et production</li>
+                            </ul>"
+      heph_url: "https://www.condorcet.be/"
       linkedin: "Voir mon profile LinkedIn"
       linkedin_url: "https://www.linkedin.com/in/programmingsam"
+      listy_url: "https://www.listy.fr"
       more_details: "Pour plus de détails"
       school_location_heph_bac: "Tournai, Belgique"
       school_location_heph_master: "Tournai, Belgique"
@@ -53,3 +67,4 @@ fr:
       school_name_heph_bac: "HEPH Condorcet"
       school_name_heph_master: "HEPH Condorcet"
       school_name_wagon: "Le Wagon"
+      wagon_url: "https://www.lewagon.com/en"

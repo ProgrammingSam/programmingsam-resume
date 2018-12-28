@@ -2,9 +2,10 @@ en:
   about:
     index:
       about: "About"
-      coding: "Dev"
+      coding: "Code"
+      description: "..."
       music: "Music"
       science: "Science"
       technology: "High-tech"
-      videos: "Films and series"
+      videos: "Movies and series"
       curriculum_vitae: "Resume"

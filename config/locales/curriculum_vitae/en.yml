@@ -1,58 +1,47 @@
 en:
   curriculum_vitae:
     index:
+      company_frizbiz: "Frizbiz - VPGROUP"
+      company_idea: "IDEA SCRL"
+      company_listy: "Listy"
       cv: "Resume"
+      degree_date_heph_bac: "2014"
+      degree_date_heph_master: "2016"
+      degree_date_wagon: "2017"
+      degree_name_heph_bac: "Bachelor's degree in engineering science"
+      degree_name_heph_master: "Master's degree in industrial engineering electromechanical finality"
+      degree_name_wagon: "Fullstack Web Developer - Fullstack Certificate of completion"
       degrees: "Degrees"
       download: "Download my resume"
       experiences: "Experiences"
       file_name: "RESUME_BEN_ABBES_SAMI"
       file_path: "files/cv.pdf"
-      company_idea: "IDEA SCRL"
-      company_frizbiz: "Frizbiz - VPGROUP"
-      company_listy: "Listy"
-      degree_date_heph_bac: "2014"
-      degree_date_heph_master: "2016"
-      degree_date_wagon: "2017"
-      degree_name_heph_bac: "Bachelier en science de l’ingénieur"
-      degree_name_heph_master: "Master en ingénieur industriel finalité industrie"
-      degree_name_wagon: "Développeur Web fullstack - Fullstack Certificate of completion"
-      job_idea: "Stagiaire inégnieur d’études"
-      job_frizbiz: "Developpeur Web Ruby on Rails"
-      job_listy: "Co-fondateur & Developpeur Web Ruby on Rails"
-      job_date_idea: "février 2016 - juin 2016"
-      job_date_frizbiz: "août 2017 - décembre 2018"
-      job_date_listy: "novembre 2018 - aujourd'hui"
-      job_description_idea: "Intercommunale pour le Développement Économique et l’Aménagement du territoire de la région Mons-Borinage-Centre"
-      job_description_frizbiz: "Première plateforme web en France dédiée aux services entre particuliers."
-      job_description_listy: "..."
-      job_duration_idea: (5 mois)
-      job_duration_frizbiz: (1 an, 5 mois)
-      job_duration_listy: (2 mois)
-      job_location_idea: "Mons, Belgique"
+      frizbiz_url: "https://www.frizbiz.com/fr"
+      idea_url: "http://www.idea.be/fr/accueil.html"
+      job_idea: "Trainee design engineer"
+      job_frizbiz: "Web Developer Ruby On Rails"
+      job_listy: "Co-Founder & Web Developer Ruby On Rails"
+      job_date_idea: "February 2016 - June 2016"
+      job_date_frizbiz: "August 2017 - December 2018"
+      job_date_listy: "November 2018 - Today"
+      job_description_idea: "Intercommunal for economic development and regional development of the Mons-Borinage-Centre region "
+      job_description_frizbiz: "First web platform in France dedicated to services between individuals."
+      job_description_listy: "Web platform dedicated to the management of lists (birthday, wedding,..)."
+      job_location_idea: "Mons, Belgium"
       job_location_frizbiz: "Lille, France"
       job_location_listy: "Tourcoing, France"
-      job_tasks_idea_html: "<ul>
-                              <li>Chargé d’études au bureau d’études service électromécanique et techniques spéciales</li>
-                              <li>Réalisation du travail de fin d'études : Processus décisionnel : étude, modélisation, analyse fonctionnelle et suivi de chantier du projet de
-                      séchage des boues issues de stations d’épuration de Wasmuël</li>
-                            </ul>"
-      job_tasks_frizbiz_html: "<ul>
-                                <li>Maintenir le site</li>
-                                <li>Optimiser les performances</li>
-                                <li>Améliorer l'expérience utilisateur</li>
-                                <li>Travailler en TDD, améliorer la couverture de tests</li>
-                                <li>Amélioration du process Agile</li>
-                                <li>Garantir la sécurité du site</li>
-                                <li>Effectuer de la veille technologique</li>
-                                <li>Déploiement en environnement de recette et production</li>
-                              </ul>"
-      job_tasks_listy: "Developpeur back-end de l'application"
+      job_tasks_idea_html: "..."
+      job_tasks_frizbiz_html: "..."
+      job_tasks_listy_html: "..."
+      heph_url: "https://www.condorcet.be/"
       linkedin_url: "https://www.linkedin.com/in/programmingsam"
       linkedin: "Look my LinkedIn profile"
+      listy_url: "https://www.listy.fr"
       more_details: "For more details"
-      school_location_heph_bac: "Tournai, Belgique"
-      school_location_heph_master: "Tournai, Belgique"
+      school_location_heph_bac: "Tournai, Belgium"
+      school_location_heph_master: "Tournai, Belgium"
       school_location_wagon: "Lille, France"
       school_name_heph_bac: "HEPH Condorcet"
       school_name_heph_master: "HEPH Condorcet"
       school_name_wagon: "Le Wagon"
+      wagon_url: "https://www.lewagon.com/fr"
