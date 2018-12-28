@@ -1,9 +1,6 @@
 fr:
   curriculum_vitae:
     index:
-      company_idea: "IDEA SCRL"
-      company_frizbiz: "Frizbiz - VPGROUP"
-      company_listy: "Listy"
       cv: "Curriculum vitæ"
       degree_date_heph_bac: "2014"
       degree_date_heph_master: "2016"
@@ -48,8 +45,7 @@ fr:
                               <li>Etudier le marché</li>
                               <li>Développer et maintenir le site</li>
                               <li>Optimiser les performances</li>
-                              <li>Améliorer l'expérience utilisateur</li>
-                              <li>Travailler en TDD, améliorer la couverture de tests</li>
+                              <li>Travailler en TDD</li>
                               <li>Garantir la sécurité du site</li>
                               <li>Effectuer de la veille technologique</li>
                               <li>Déploiement en environnement de recette et production</li>
@@ -62,7 +58,5 @@ fr:
       school_location_heph_bac: "Tournai, Belgique"
       school_location_heph_master: "Tournai, Belgique"
       school_location_wagon: "Lille, France"
-      school_name_heph_bac: "HEPH Condorcet"
-      school_name_heph_master: "HEPH Condorcet"
-      school_name_wagon: "Le Wagon"
+      visit_link: "Voir le site"
       wagon_url: "https://www.lewagon.com/en"

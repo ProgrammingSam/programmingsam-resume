@@ -1,9 +1,6 @@
 en:
   curriculum_vitae:
     index:
-      company_frizbiz: "Frizbiz - VPGROUP"
-      company_idea: "IDEA SCRL"
-      company_listy: "Listy"
       cv: "Resume"
       degree_date_heph_bac: "2014"
       degree_date_heph_master: "2016"
@@ -39,7 +36,5 @@ en:
       school_location_heph_bac: "Tournai, Belgium"
       school_location_heph_master: "Tournai, Belgium"
       school_location_wagon: "Lille, France"
-      school_name_heph_bac: "HEPH Condorcet"
-      school_name_heph_master: "HEPH Condorcet"
-      school_name_wagon: "Le Wagon"
+      visit_link: "See the website"
       wagon_url: "https://www.lewagon.com/fr"
