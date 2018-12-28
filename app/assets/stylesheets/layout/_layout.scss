@@ -1,10 +1,17 @@
-html, body {
-  color: black;
-  height: 100%;
+html {
+
 }
 
-.home, .curriculum_vitae, .about {
+body {
+  color: black;
   padding: 0 50px 50px;
+}
+
+.home, .about {
+  height: 100vh;
+}
+
+.curriculum_vitae {
 }
 
 .networks {
@@ -45,6 +52,7 @@ html, body {
 .profile__picture {
   background: $bg-grey;
   height: 100%;
+  // transform: scaleX(-1);
 }
 .profile__hobbies {
   list-style-type: none;
@@ -127,7 +135,7 @@ html, body {
   font-weight: 700;
 }
 
-.hero__link, .profile__link {
+.hero__link, .profile__link, .timeline__link {
   color: black;
   font-size: 14px;
   font-weight: 700;
@@ -141,4 +149,14 @@ html, body {
   &:hover {
     text-decoration: none;
   }
+}
+
+.timeline {
+
+}
+
+.timeline__title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: auto;
 }

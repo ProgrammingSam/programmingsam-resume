@@ -11,7 +11,7 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 200,
+        value: 250,
         density: {
           enable: true,
           value_area: 800
@@ -82,11 +82,11 @@ var pJS = function(tag_id, params){
       detect_on: 'canvas',
       events: {
         onhover: {
-          enable: true,
+          enable: false,
           mode: 'grab'
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: 'push'
         },
         resize: true
@@ -116,7 +116,7 @@ var pJS = function(tag_id, params){
       },
       mouse:{}
     },
-    retina_detect: false,
+    retina_detect: true,
     fn: {
       interact: {},
       modes: {},
