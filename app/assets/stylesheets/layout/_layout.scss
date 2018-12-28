@@ -36,9 +36,9 @@ html, body {
 }
 
 .profile__description {
+  color: $gray-600;
   font-size: 18px;
   font-weight: 400;
-  color: $gray-600;
   margin-top: 20px;
 }
 
@@ -51,30 +51,29 @@ html, body {
 }
 
 .hobbies {
+  display: flex;
   margin: 0px;
   padding: 0px;
-  display: flex;
-
 }
 
 .hobbies__item {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-direction: column;
-  margin-top: 20px;
   margin-right: 20px;
+  margin-top: 20px;
 }
 
 .item__icon {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 30px;
-  border-radius: 50%;
   background-color: $primary;
+  border-radius: 50%;
   color: white;
-  width: 68px;
+  display: flex;
+  font-size: 30px;
   height: 68px;
+  justify-content: center;
+  width: 68px;
 }
 
 .item__text {
@@ -88,15 +87,15 @@ html, body {
 }
 
 .picture-container {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 
 .picture-container__box {
   height: 350px;
-  width: 350px;
   overflow: hidden;
+  width: 350px;
 
   img {
     max-width: 100%;
