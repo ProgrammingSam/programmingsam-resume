@@ -1,75 +1,126 @@
-h1
-  = t('.cv')
-p = t('.experiences')
-ul
-  li
-    p= t('.job_date_listy')
+.timeline.row.h-100.no-gutters
+  .col-md-12
+    h1.timeline__title.dotted
+      = t('.cv')
+  .col-md-6
+    = 'image'
+    i.fas.fa-rocket
+  .col-md-6
+    .timeline__logo
+      = image_tag image_url('companies/listy.png')
+    .badge.badge-secondary
+      = t('.job_date_listy')
     p= t('.job_listy')
-    = link_to 'https://www.listy.fr', target: '_blank'
-      p= t('.company_listy')
+    p= t('.job_description_listy')
+    p= t('.job_tasks_listy_html')
+    - %w[Ruby Rails Postgres JavaScript JQuery CSS3 SEO SASS HTML5 Yml Slim Git R&D].sort_by!{ |e| e }.each do |i|
+      .badge.badge-primary
+        = i
     p
       i.fas.fa-map-marker-alt
       = t('.job_location_listy')
-    p= t('.job_description_listy')
-    p= t('.job_tasks_listy')
-    - %w[Ruby Rails Postgres JavaScript JQuery CSS3 SEO SASS HTML5 Yml Slim Git R&D].each do |i|
+    = link_to t('.listy_url'), target: '_blank', class: 'timeline__link'
+      = t('.visit_link')
+      i.fas.fa-arrow-right
+
+  .col-md-6
+    = 'image'
+    i.fas.fa-briefcase
+
+  .col-md-6
+    .timeline__logo
+      = image_tag image_url('companies/frizbiz.png')
+    .badge.badge-secondary
+      = t('.job_date_frizbiz')
+    p= t('.job_frizbiz')
+    p= t('.job_description_frizbiz')
+    p= t('.job_tasks_frizbiz_html')
+    - %w[Ruby Rails Sequel MySQL JavaScript JQuery CSS3 SASS HTML5 Erb Haml Yml Slim Git Markdown].sort_by!{ |e| e }.each do |i|
       .badge.badge-primary
         = i
-  li
-    p= t('.job_date_frizbiz')
-    p= t('.job_frizbiz')
-    = link_to 'https://www.frizbiz.com/fr', target: '_blank'
-      p= t('.company_frizbiz')
     p
       i.fas.fa-map-marker-alt
       = t('.job_location_frizbiz')
-    p= t('.job_description_frizbiz')
-    p= t('.job_tasks_frizbiz_html')
-    - %w[Ruby Rails Sequel MySQL JavaScript JQuery CSS3 SASS HTML5 Erb Haml Yml Slim Git Markdown].each do |i|
+    = link_to t('.frizbiz_url'), target: '_blank', class: 'timeline__link'
+      = t('.visit_link')
+      i.fas.fa-arrow-right
+
+  .col-md-6
+    = 'image'
+    i.fas.fa-briefcase
+  .col-md-6
+    .timeline__logo
+      = image_tag image_url('companies/idea.png')
+    .badge.badge-secondary
+      = t('.job_date_idea')
+    p= t('.job_idea')
+    p= t('.job_description_idea')
+    p= t('.job_tasks_idea_html')
+    - %w[VBA MATLAB LaTeX C# C++].sort_by!{ |e| e }.each do |i|
       .badge.badge-primary
         = i
-  li
-    p= t('.job_date_idea')
-    p= t('.job_idea')
-    = link_to 'http://www.idea.be/fr/accueil.html', target: '_blank'
-      p= t('.company_idea')
     p
       i.fas.fa-map-marker-alt
       = t('.job_location_idea')
-    p= t('.job_description_idea')
-    p= t('.job_tasks_idea_html')
-    - %w[VBA MATLAB LaTeX].each do |i|
-      .badge.badge-primary
-        = i
+    = link_to t('.idea_url'), target: '_blank', class: 'timeline__link'
+      = t('.visit_link')
+      i.fas.fa-arrow-right
 
-p = t('.degrees')
-ul
-  li
-    p= t(".degree_date_wagon")
-    p= t(".degree_name_wagon")
-    p= t(".school_name_wagon")
+  .col-md-6
+    = 'image'
+    i.fas.fa-graduation-cap
+
+  .col-md-6
+    .timeline__logo
+      = image_tag image_url('schools/wagon.png')
+    .badge.badge-secondary
+      = t('.degree_date_wagon')
+    p= t('.degree_name_wagon')
     p
       i.fas.fa-map-marker-alt
-      = t(".school_location_wagon")
+      = t('.school_location_wagon')
+    = link_to t('.wagon_url'), target: '_blank', class: 'timeline__link'
+      = t('.visit_link')
+      i.fas.fa-arrow-right
 
-  li
-    p= t(".degree_date_heph_master")
-    p= t(".degree_name_heph_master")
-    p= t(".school_name_heph_master")
+  .col-md-6
+    = 'image'
+    i.fas.fa-graduation-cap
+
+  .col-md-6
+    .timeline__logo
+      = image_tag image_url('schools/heph.jpg')
+    .badge.badge-secondary
+      = t('.degree_date_heph_master')
+    p= t('.degree_name_heph_master')
     p
       i.fas.fa-map-marker-alt
-      = t(".school_location_heph_master")
+      = t('.school_location_heph_master')
+    = link_to t('.heph_url'), target: '_blank', class: 'timeline__link'
+      = t('.visit_link')
+      i.fas.fa-arrow-right
 
-  li
-    p= t(".degree_date_heph_bac")
-    p= t(".degree_name_heph_bac")
-    p= t(".school_name_heph_bac")
+  .col-md-6
+      = 'image'
+      i.fas.fa-graduation-cap
+
+  .col-md-6
+    .timeline__logo
+      = image_tag image_url('schools/heph.jpg')
+    .badge.badge-secondary
+      = t('.degree_date_heph_bac')
+    p= t('.degree_name_heph_bac')
     p
       i.fas.fa-map-marker-alt
-      = t(".school_location_heph_bac")
+      = t('.school_location_heph_bac')
+    = link_to t('.heph_url'), target: '_blank', class: 'timeline__link'
+      = t('.visit_link')
+      i.fas.fa-arrow-right
 
-= t('.more_details')
-a target='_blank' href= t('.file_path')
-  = t('.download')
-= link_to t('.linkedin_url'), target: '_blank'
-  = t('.linkedin')
+  .col-md-12
+    .timeline__mode-details
+      = t('.more_details')
+    a target='_blank' href= t('.file_path')
+      = t('.download')
+    = link_to t('.linkedin_url'), target: '_blank'
+      = t('.linkedin')

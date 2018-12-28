@@ -2,7 +2,10 @@ fr:
   about:
     index:
       about: "À propos"
-      coding: "Dev"
+      coding: "Développement"
+      description: "Après un cursus dans l'ingénierie au cours duquel j'ai accumulé un important bagage scientifique et découvert le monde de la programmation, j'ai souhaité m'orienter vers le développement web et d'en faire mon métier.
+                    En tant que perfectionniste, éternel curieux et passionné de sciences et de technologies, je suis en perpétuel apprentissage et recherche de nouveaux défis.
+                    J’essaye à mon échelle de rendre l’internet meilleur."
       music: "Musique"
       science: "Sciences"
       technology: "Technologies"

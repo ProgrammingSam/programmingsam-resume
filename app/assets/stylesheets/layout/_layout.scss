@@ -1,10 +1,16 @@
-html, body {
-  color: black;
-  height: 100%;
+html {
 }
 
-.home, .curriculum_vitae, .about {
+body {
+  color: black;
   padding: 0 50px 50px;
+}
+
+.home, .about {
+  height: 100vh;
+}
+
+.curriculum_vitae {
 }
 
 .networks {
@@ -36,26 +42,49 @@ html, body {
 }
 
 .profile__description {
+  color: $gray-600;
   font-size: 18px;
   font-weight: 400;
-  color: $gray-600;
   margin-top: 20px;
 }
 
 .profile__picture {
   background: $bg-grey;
   height: 100%;
+  // transform: scaleX(-1);
 }
 .profile__hobbies {
   list-style-type: none;
 }
 
 .hobbies {
-  margin-top: 30px;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
 }
 
 .hobbies__item {
-  display: inline;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.item__icon {
+  align-items: center;
+  background-color: $primary;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  height: 68px;
+  justify-content: center;
+  width: 68px;
+}
+
+.item__text {
+
 }
 
 .profile__title {
@@ -65,15 +94,15 @@ html, body {
 }
 
 .picture-container {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 
 .picture-container__box {
   height: 350px;
-  width: 350px;
   overflow: hidden;
+  width: 350px;
 
   img {
     max-width: 100%;
@@ -105,12 +134,12 @@ html, body {
   font-weight: 700;
 }
 
-.hero__link, .profile__link {
+.hero__link, .profile__link, .timeline__link {
   color: black;
   font-size: 14px;
   font-weight: 700;
-  margin-top: auto;
   margin-bottom: 50px;
+  margin-top: auto;
 
   i {
     margin-left: 5px;
@@ -119,4 +148,26 @@ html, body {
   &:hover {
     text-decoration: none;
   }
+}
+
+.timeline {
+}
+
+.timeline__mode-details {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.timeline__logo {
+  img {
+    height: 50px;
+    width: auto;
+  }
+}
+
+.timeline__title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: auto;
 }
