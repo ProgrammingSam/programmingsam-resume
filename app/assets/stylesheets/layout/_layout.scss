@@ -160,8 +160,37 @@ body {
 }
 
 .timeline__logo {
+  &--frizbiz {
+    img {
+      height: 50px;
+    }
+  }
+
+  &--heph {
+    img {
+      height: 90px;
+    }
+  }
+
+  &--idea{
+    img {
+      height: 60px;
+    }
+  }
+
+  &--listy {
+    img {
+      height: 50px;
+    }
+  }
+
+  &--wagon {
+    img {
+      height: 90px;
+    }
+  }
+
   img {
-    height: 50px;
     width: auto;
   }
 }
