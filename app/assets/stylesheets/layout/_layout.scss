@@ -194,8 +194,32 @@ body {
   }
 }
 
+.timeline__date-badge {
+}
+
 .timeline__title {
   font-size: 56px;
   font-weight: 700;
   margin-top: auto;
+}
+
+.timeline__skill-section {
+  margin-bottom: 30px;
+}
+
+.skill-section__badge {
+
+}
+
+.timeline__job-tasks {
+  background-color: $bg-grey;
+  border-radius: 0.5rem;
+  padding: 0.4em 0.4em;
+  font-weight: 300;
+  font-size: 14px;
+
+  ul {
+    list-style-type: none;
+    margin-bottom: 0px;
+  }
 }

@@ -8,14 +8,16 @@
   .col-md-6
     .timeline__logo.timeline__logo--listy
       = image_tag image_url('companies/listy.png')
-    .badge.badge-secondary
+    .badge.badge-secondary.timeline__date-badge
       = t('.job_date_listy')
     p= t('.job_listy')
     p= t('.job_description_listy')
-    p= t('.job_tasks_listy_html')
-    - %w[Ruby Rails Postgres JavaScript JQuery CSS3 SEO SASS HTML5 Yml Slim Git R&D].sort_by!{ |e| e }.each do |i|
-      .badge.badge-primary
-        = i
+    .timeline__job-tasks
+      = t('.job_tasks_listy_html')
+    .timeline__skill-section
+      - %w[Ruby Rails Postgres JavaScript JQuery CSS3 SEO SASS HTML5 Yml Slim Git R&D].sort_by!{ |e| e }.each do |i|
+        .badge.badge-primary.skill-section__badge
+          = i
     p
       i.fas.fa-map-marker-alt
       = t('.job_location_listy')
@@ -30,14 +32,16 @@
   .col-md-6
     .timeline__logo.timeline__logo--frizbiz
       = image_tag image_url('companies/frizbiz.png')
-    .badge.badge-secondary
+    .badge.badge-secondary.timeline__date-badge
       = t('.job_date_frizbiz')
     p= t('.job_frizbiz')
     p= t('.job_description_frizbiz')
-    p= t('.job_tasks_frizbiz_html')
-    - %w[Ruby Rails Sequel MySQL JavaScript JQuery CSS3 SASS HTML5 Erb Haml Yml Slim Git Markdown].sort_by!{ |e| e }.each do |i|
-      .badge.badge-primary
-        = i
+    .timeline__job-tasks
+      = t('.job_tasks_frizbiz_html')
+    .timeline__skill-section
+      - %w[Ruby Rails Sequel MySQL JavaScript JQuery CSS3 SASS HTML5 Erb Haml Yml Slim Git Markdown].sort_by!{ |e| e }.each do |i|
+        .badge.badge-primary.skill-section__badge
+          = i
     p
       i.fas.fa-map-marker-alt
       = t('.job_location_frizbiz')
@@ -51,14 +55,16 @@
   .col-md-6
     .timeline__logo.timeline__logo--idea
       = image_tag image_url('companies/idea.png')
-    .badge.badge-secondary
+    .badge.badge-secondary.timeline__date-badge
       = t('.job_date_idea')
     p= t('.job_idea')
     p= t('.job_description_idea')
-    p= t('.job_tasks_idea_html')
-    - %w[VBA MATLAB LaTeX C# C++].sort_by!{ |e| e }.each do |i|
-      .badge.badge-primary
-        = i
+    .timeline__job-tasks
+     = t('.job_tasks_idea_html')
+    .timeline__skill-section
+      - %w[VBA MATLAB LaTeX C# C++].sort_by!{ |e| e }.each do |i|
+        .badge.badge-primary.skill-section__badge
+          = i
     p
       i.fas.fa-map-marker-alt
       = t('.job_location_idea')
@@ -73,7 +79,7 @@
   .col-md-6
     .timeline__logo.timeline__logo--wagon
       = image_tag image_url('schools/wagon.png')
-    .badge.badge-secondary
+    .badge.badge-secondary.timeline__date-badge
       = t('.degree_date_wagon')
     p= t('.degree_name_wagon')
     p
@@ -90,7 +96,7 @@
   .col-md-6
     .timeline__logo.timeline__logo--heph
       = image_tag image_url('schools/heph.jpg')
-    .badge.badge-secondary
+    .badge.badge-secondary.timeline__date-badge
       = t('.degree_date_heph_master')
     p= t('.degree_name_heph_master')
     p
@@ -107,7 +113,7 @@
   .col-md-6
     .timeline__logo.timeline__logo--heph
       = image_tag image_url('schools/heph.jpg')
-    .badge.badge-secondary
+    .badge.badge-secondary.timeline__date-badge
       = t('.degree_date_heph_bac')
     p= t('.degree_name_heph_bac')
     p
