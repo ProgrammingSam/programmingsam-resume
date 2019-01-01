@@ -122,16 +122,16 @@
     = link_to t('.heph_url'), target: '_blank', class: 'timeline__link'
       = t('.visit_link')
       i.fas.fa-arrow-right
-
-  .col-md-12
-    .timeline__mode-details
-      = t('.more_details')
-    a target='_blank' href= t('.file_path')
-      = t('.download')
-    = link_to t('.linkedin_url'), target: '_blank'
-      = t('.linkedin')
-
   .col-md-12
     .timeline_chart
-    / Add link to my github account
-    img src='http://ghchart.rshah.org/FF5857/ProgrammingSam' alt="ProgrammingSam's Github chart"
+      .chart__title
+        = t('.my_contributions')
+      = link_to t('.github_url'), target:'_blank'
+        img src=t('.github_chart_url') alt=t('.chart_alt')
+
+  .col-md-12
+    .timeline__more-details
+      = t('.more_details')
+    = link_to t('.file_path'), target:'_blank', class: 'timeline__link'
+      = t('.download_resume')
+      i.fas.fa-arrow-right

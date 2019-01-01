@@ -8,3 +8,10 @@ fr:
       en: "en"
       fr: "fr"
       home: "ProgrammingSam"
+    sidebar:
+      github_url: "https://github.com/ProgrammingSam"
+      gitlab_url: "https://gitlab.com/ProgrammingSam"
+      linkedin_url: "https://www.linkedin.com/in/programmingsam"
+      mail: "programmingsam@gmail.com"
+      stackoverflow_url: "https://stackoverflow.com/users/7732599/programmingsam"
+      twitter_url: "https://twitter.com/ProgrammingSam"

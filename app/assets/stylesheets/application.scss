@@ -12,13 +12,14 @@
  */
 
 /* Bootstrap */
- @import "custom_variables";
- @import "bootstrap4";
+@import "custom_variables";
+@import "bootstrap4";
 
- /* Layout */
- @import "layout/layout";
- @import "layout/header";
- @import "layout/footer";
+/* Layout */
+@import "layout/layout";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
 
- /* Common */
- @import "common";
+/* Common */
+@import "common";

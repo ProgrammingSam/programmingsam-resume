@@ -1,6 +1,7 @@
 fr:
   curriculum_vitae:
     index:
+      chart_alt: "Graphique Github de ProgrammingSam"
       cv: "Curriculum vitæ"
       degree_date_heph_bac: "2014"
       degree_date_heph_master: "2016"
@@ -8,10 +9,12 @@ fr:
       degree_name_heph_bac: "Bachelier en sciences de l’ingénieur"
       degree_name_heph_master: "Master en ingénieur industriel finalité industrie (électromécanique)"
       degree_name_wagon: "Développeur Web fullstack - Fullstack Certificate of completion"
-      download: "Télécharger mon Curriculum vitæ"
+      download_resume: "Télécharger mon Curriculum vitæ"
       file_name: "CV_BEN_ABBES_SAMI"
       file_path: "files/cv.pdf"
       frizbiz_url: "https://www.frizbiz.com/fr"
+      github_chart_url: "http://ghchart.rshah.org/FF5857/ProgrammingSam"
+      github_url: "https://github.com/ProgrammingSam"
       idea_url: "http://www.idea.be/fr/accueil.html"
       job_idea: "Stagiaire ingénieur d’études"
       job_frizbiz: "Developpeur Web Ruby on Rails"
@@ -51,10 +54,9 @@ fr:
                               <li>Déploiement en environnement de recette et production</li>
                             </ul>"
       heph_url: "https://www.condorcet.be/"
-      linkedin: "Voir mon profile LinkedIn"
-      linkedin_url: "https://www.linkedin.com/in/programmingsam"
       listy_url: "https://www.listy.fr"
       more_details: "Pour plus de détails"
+      my_contributions: "Mes dernières contributions"
       school_location_heph_bac: "Tournai, Belgique"
       school_location_heph_master: "Tournai, Belgique"
       school_location_wagon: "Lille, France"

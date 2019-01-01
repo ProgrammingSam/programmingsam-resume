@@ -13,21 +13,6 @@ body {
 .curriculum_vitae {
 }
 
-.networks {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  right: 25px;
-  top: 50%;
-  transform: translate(50%, -50%);
-}
-
-.networks__icon {
-  color: black;
-  font-size: 22px;
-  margin: 5px 0;
-}
-
 .hero, .profile {
   flex-grow: 1!important;
 }
@@ -153,7 +138,7 @@ body {
 .timeline {
 }
 
-.timeline__mode-details {
+.timeline__more-details {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -226,4 +211,10 @@ body {
 
 .timeline_chart {
 
+}
+
+.chart__title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
