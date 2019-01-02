@@ -15,7 +15,7 @@
     .timeline__job-tasks
       = t('.job_tasks_listy_html')
     .timeline__skill-section
-      - %w[Ruby Rails Postgres JavaScript JQuery CSS3 SEO SASS HTML5 Yml Slim Git R&D].sort_by!{ |e| e }.each do |i|
+      - %w[Ruby Rails Postgres JavaScript JQuery CSS3 SASS HTML5 Yml Slim Git].sort_by!{ |e| e }.each do |i|
         .badge.badge-primary.skill-section__badge
           = i
     p

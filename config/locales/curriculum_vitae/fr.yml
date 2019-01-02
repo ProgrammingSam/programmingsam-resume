@@ -44,8 +44,7 @@ fr:
                                 <li>Déploiement en environnement de recette et production</li>
                               </ul>"
       job_tasks_listy_html: "<ul>
-                              <li>Recherches et développements</li>
-                              <li>Etudier le marché</li>
+                              <li>Recherches et développements (concurrences, SEO, technologies,...)</li>
                               <li>Développer et maintenir le site</li>
                               <li>Optimiser les performances</li>
                               <li>Travailler en TDD</li>
