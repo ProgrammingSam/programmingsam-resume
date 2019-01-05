@@ -13,6 +13,10 @@ body {
 .curriculum_vitae {
 }
 
+.bg-grey {
+  background: $bg-grey;
+}
+
 .hero, .profile {
   flex-grow: 1!important;
 }

@@ -2,9 +2,11 @@
   .col-md-12
     h1.timeline__title.dotted
       = t('.cv')
-  .col-md-6
+
+  .col-md-6.bg-grey
     = 'image'
     i.fas.fa-rocket
+
   .col-md-6
     .timeline__logo.timeline__logo--listy
       = image_tag image_url('companies/listy.png')
@@ -25,7 +27,7 @@
       = t('.visit_link')
       i.fas.fa-arrow-right
 
-  .col-md-6
+  .col-md-6.bg-grey
     = 'image'
     i.fas.fa-briefcase
 
@@ -49,9 +51,9 @@
       = t('.visit_link')
       i.fas.fa-arrow-right
 
-  .col-md-6
-    = 'image'
+  .col-md-6.bg-grey
     i.fas.fa-briefcase
+
   .col-md-6
     .timeline__logo.timeline__logo--idea
       = image_tag image_url('companies/idea.png')
@@ -72,7 +74,7 @@
       = t('.visit_link')
       i.fas.fa-arrow-right
 
-  .col-md-6
+  .col-md-6.bg-grey
     = 'image'
     i.fas.fa-graduation-cap
 
@@ -89,7 +91,7 @@
       = t('.visit_link')
       i.fas.fa-arrow-right
 
-  .col-md-6
+  .col-md-6.bg-grey
     i.fas.fa-graduation-cap
 
   .col-md-6
@@ -105,7 +107,7 @@
       = t('.visit_link')
       i.fas.fa-arrow-right
 
-  .col-md-6
+  .col-md-6.bg-grey
       i.fas.fa-graduation-cap
 
   .col-md-6
@@ -120,6 +122,7 @@
     = link_to t('.heph_url'), target: '_blank', class: 'timeline__link'
       = t('.visit_link')
       i.fas.fa-arrow-right
+
   .col-md-12
     .timeline_chart
       .chart__title
