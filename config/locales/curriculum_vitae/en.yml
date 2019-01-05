@@ -2,14 +2,14 @@ en:
   curriculum_vitae:
     index:
       chart_alt: "ProgrammingSam's Github chart"
-      cv: "Resume"
+      cv: "Curriculum vitæ"
       degree_date_heph_bac: "2014"
       degree_date_heph_master: "2016"
       degree_date_wagon: "2017"
       degree_name_heph_bac: "Bachelor's degree in engineering science"
       degree_name_heph_master: "Master's degree in industrial engineering electromechanical finality"
       degree_name_wagon: "Fullstack Web Developer - Fullstack Certificate of completion"
-      download_resume: "Download my resume"
+      download_resume: "Download my curriculum vitæ"
       file_name: "RESUME_BEN_ABBES_SAMI"
       file_path: "files/cv.pdf"
       frizbiz_url: "https://www.frizbiz.com/fr"
