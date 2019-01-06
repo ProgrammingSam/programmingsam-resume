@@ -23,7 +23,7 @@
     p
       i.fas.fa-map-marker-alt
       = t('.job_location_listy')
-    = link_to t('.listy_url'), target: '_blank', class: 'timeline__link'
+    = link_to t('.listy_url'), target: '_blank', class: 'link_with_arrow'
       = t('.visit_link')
       i.fas.fa-arrow-right
 
@@ -47,7 +47,7 @@
     p
       i.fas.fa-map-marker-alt
       = t('.job_location_frizbiz')
-    = link_to t('.frizbiz_url'), target: '_blank', class: 'timeline__link'
+    = link_to t('.frizbiz_url'), target: '_blank', class: 'link_with_arrow'
       = t('.visit_link')
       i.fas.fa-arrow-right
 
@@ -70,7 +70,7 @@
     p
       i.fas.fa-map-marker-alt
       = t('.job_location_idea')
-    = link_to t('.idea_url'), target: '_blank', class: 'timeline__link'
+    = link_to t('.idea_url'), target: '_blank', class: 'link_with_arrow'
       = t('.visit_link')
       i.fas.fa-arrow-right
 
@@ -87,7 +87,7 @@
     p
       i.fas.fa-map-marker-alt
       = t('.school_location_wagon')
-    = link_to t('.wagon_url'), target: '_blank', class: 'timeline__link'
+    = link_to t('.wagon_url'), target: '_blank', class: 'link_with_arrow'
       = t('.visit_link')
       i.fas.fa-arrow-right
 
@@ -103,7 +103,7 @@
     p
       i.fas.fa-map-marker-alt
       = t('.school_location_heph_master')
-    = link_to t('.heph_url'), target: '_blank', class: 'timeline__link'
+    = link_to t('.heph_url'), target: '_blank', class: 'link_with_arrow'
       = t('.visit_link')
       i.fas.fa-arrow-right
 
@@ -119,20 +119,21 @@
     p
       i.fas.fa-map-marker-alt
       = t('.school_location_heph_bac')
-    = link_to t('.heph_url'), target: '_blank', class: 'timeline__link'
+    = link_to t('.heph_url'), target: '_blank', class: 'link_with_arrow'
       = t('.visit_link')
       i.fas.fa-arrow-right
 
   .col-md-12
-    .timeline_chart
+    .timeline_chart.chart
       .chart__title
         = t('.my_contributions')
-      = link_to t('.github_url'), target:'_blank'
+      = link_to t('.github_url'), target:'_blank', class: 'chart__link'
         img src=t('.github_chart_url') alt=t('.chart_alt')
 
   .col-md-12
-    .timeline__more-details
-      = t('.more_details')
-    = link_to t('.file_path'), target:'_blank', class: 'timeline__link'
-      = t('.download_resume')
-      i.fas.fa-download
+    .timeline__more-details.timeline__more
+      .timeline__more-title
+        = t('.more_details')
+      = link_to t('.file_path'), target:'_blank', class: 'link_with_arrow'
+        = t('.download_resume')
+        i.fas.fa-download

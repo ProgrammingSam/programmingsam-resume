@@ -13,3 +13,19 @@
 .bg-grey {
   background: $bg-grey;
 }
+
+.link_with_arrow {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: auto;
+
+  i {
+    margin-left: 5px;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}

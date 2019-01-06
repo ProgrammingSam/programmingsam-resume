@@ -117,26 +117,16 @@ body {
   font-weight: 700;
 }
 
-.hero__link, .profile__link, .timeline__link {
-  color: black;
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 50px;
-  margin-top: auto;
-
-  i {
-    margin-left: 5px;
-  }
-
-  &:hover {
-    text-decoration: none;
-  }
-}
-
 .timeline {
 }
 
 .timeline__more-details {
+
+  display: flex;
+  justify-content: center;
+}
+
+.timeline__more-title {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -208,11 +198,15 @@ body {
 }
 
 .timeline_chart {
-
+  display: flex;
+  justify-content: center;
 }
 
 .chart__title {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.chart__link {
 }
