@@ -9,6 +9,7 @@ html
     title = meta_title
     meta name='title' content=meta_title
     meta name='description' content=meta_description
+
     / Facebook Open Graph data
     meta property='og:title' content=meta_title
     meta property='og:type' content='website'
@@ -16,6 +17,7 @@ html
     / meta property='og:image' content=meta_image
     meta property='og:description' content=meta_description
     meta property='og:site_name' content=meta_title
+
     / Twitter Card data
     meta name='twitter:card' content='summary_large_image'
     / meta name='twitter:site' content=DEFAULT_META['twitter_account']
@@ -23,9 +25,11 @@ html
     meta name='twitter:description' content=meta_description
     / meta name='twitter:creator' content=DEFAULT_META['twitter_account']
     / meta name='twitter:image:src' content=meta_image
+
     script crossorigin='anonymous' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' src='https://code.jquery.com/jquery-3.3.1.min.js'
     link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.1/css/all.css' integrity='sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP' crossorigin='anonymous'
-    link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900' rel="stylesheet"
+    / FIXME: Remove unused font size where design finished
+    link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900' rel='stylesheet'
     = stylesheet_link_tag 'application', media: 'all'
     = javascript_include_tag 'application'
     meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
