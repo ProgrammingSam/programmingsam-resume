@@ -13,10 +13,6 @@ body {
 .curriculum_vitae {
 }
 
-.bg-grey {
-  background: $bg-grey;
-}
-
 .hero, .profile {
   flex-grow: 1!important;
 }
@@ -38,7 +34,6 @@ body {
 }
 
 .profile__picture {
-  background: $bg-grey;
   height: 100%;
   // transform: scaleX(-1);
 }
@@ -99,7 +94,6 @@ body {
 }
 
 .hero__text {
-  background: $bg-grey;
   display: flex;
   flex-direction: column;
   height: 100%;
