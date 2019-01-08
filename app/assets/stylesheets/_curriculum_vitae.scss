@@ -12,6 +12,26 @@
   border-right: 6px solid $primary;
 }
 
+.timeline__right-col {
+  padding-left: 80px;
+}
+
+.timeline__center-line-icon {
+  position: absolute;
+  top: -14px;
+  right: -30px;
+  align-items: center;
+  background-color: $primary;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  height: 54px;
+  justify-content: center;
+  width: 54px;
+}
+
+
 .timeline__more-details {
   display: flex;
   justify-content: center;
@@ -28,6 +48,15 @@
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 50px;
+}
+
+.timeline__job-descritpion {
+
+}
+
+.timeline__job-position, .timeline__degree-name {
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .timeline__logo {
@@ -65,6 +94,35 @@
   }
 }
 
+.timeline__location {
+
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.location-icon {
+  display: flex;
+  align-items: center;
+  background-color: $secondary;
+  border-radius: 50%;
+  color: $primary;
+  font-size: 20px;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.location-name {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .timeline__date-badge {
   margin-right: 5px;
   font-weight: 400;
@@ -79,11 +137,12 @@
   font-size: 14px;
   font-weight: 300;
   padding: 0.4em 0.4em;
-  width: 100vh;
+  margin-bottom: 30px;
 
   ul {
     list-style-type: none;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
+    padding-left: 10px;
   }
 }
 
@@ -102,10 +161,12 @@
 .skill-section {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .skill-section__badge {
   margin-right: 5px;
+  margin-top: 5px;
   font-weight: 400;
   padding: 0.4rem;
   border-radius: 0.4rem;
