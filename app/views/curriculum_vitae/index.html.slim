@@ -66,6 +66,27 @@
           = t('.visit_link')
           i.fas.fa-arrow-right
 
+      .col-md-6.timeline__left-col.left-col
+        .left-col__projetcs
+          = image_tag image_url('projects/sharing_slot.jpg')
+        .timeline__center-line-icon
+          i.fas.fa-code
+
+      .col-md-6.timeline__right-col
+        .timeline__logo.timeline__logo--wagon
+          = image_tag image_url('schools/wagon.png')
+        .timeline__degree-name
+          = t('.degree_name_wagon')
+        .badge.badge-secondary.timeline__date-badge
+          = t('.degree_date_wagon')
+        .timeline__location.location
+          i.fas.fa-map-marker-alt.location-icon
+          .location-name
+            = t('.school_location_wagon')
+        = link_to t('.wagon_url'), target: '_blank', class: 'link--with-arrow'
+          = t('.visit_link')
+          i.fas.fa-arrow-right
+
       .col-md-6.timeline__left-col
         .timeline__center-line-icon
           i.fas.fa-briefcase
@@ -90,27 +111,6 @@
           .location-name
             = t('.job_location_idea')
         = link_to t('.idea_url'), target: '_blank', class: 'link--with-arrow'
-          = t('.visit_link')
-          i.fas.fa-arrow-right
-
-      .col-md-6.timeline__left-col.left-col
-        .left-col__projetcs
-          = image_tag image_url('projects/sharing_slot.jpg')
-        .timeline__center-line-icon
-          i.fas.fa-code
-
-      .col-md-6.timeline__right-col
-        .timeline__logo.timeline__logo--wagon
-          = image_tag image_url('schools/wagon.png')
-        .timeline__degree-name
-          = t('.degree_name_wagon')
-        .badge.badge-secondary.timeline__date-badge
-          = t('.degree_date_wagon')
-        .timeline__location.location
-          i.fas.fa-map-marker-alt.location-icon
-          .location-name
-            = t('.school_location_wagon')
-        = link_to t('.wagon_url'), target: '_blank', class: 'link--with-arrow'
           = t('.visit_link')
           i.fas.fa-arrow-right
 
