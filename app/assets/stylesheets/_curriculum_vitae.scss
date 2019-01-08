@@ -12,13 +12,30 @@
   border-right: 6px solid $primary;
 }
 
+.left-col {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.left-col__projetcs {
+  height: 400px;
+  overflow: hidden;
+  width: 400px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.1);
+
+  img {
+    max-width: 100%;
+  }
+}
+
 .timeline__right-col {
   padding-left: 80px;
 }
 
 .timeline__center-line-icon {
   position: absolute;
-  top: -14px;
+  top: 0px;
   right: -30px;
   align-items: center;
   background-color: $primary;
@@ -51,18 +68,23 @@
 }
 
 .timeline__job-descritpion {
-
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .timeline__job-position, .timeline__degree-name {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .timeline__logo {
+  margin-bottom: 10px;
+
   &--frizbiz {
     img {
-      height: 40px;
+      height: 50px;
     }
   }
 
@@ -80,7 +102,7 @@
 
   &--listy {
     img {
-      height: 50px;
+      height: 60px;
     }
   }
 
@@ -129,6 +151,7 @@
   padding: 0.4rem;
   border-radius: 0.4rem;
   font-size: 90%;
+  margin-bottom: 20px;
 }
 
 .timeline__job-tasks {

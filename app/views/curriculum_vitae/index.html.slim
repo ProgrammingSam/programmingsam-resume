@@ -5,8 +5,9 @@
         h1.timeline__title.dotted
           = t('.cv')
 
-      .col-md-6.timeline__left-col
-        = 'image'
+      .col-md-6.timeline__left-col.left-col
+        .left-col__projetcs
+          = image_tag image_url('projects/listy.png')
 
         .timeline__center-line-icon
           i.fas.fa-rocket
@@ -14,10 +15,10 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--listy
           = image_tag image_url('companies/listy.png')
-        .badge.badge-secondary.timeline__date-badge
-          = t('.job_date_listy')
         .timeline__job-position
           = t('.job_listy')
+        .badge.badge-secondary.timeline__date-badge
+          = t('.job_date_listy')
         .timeline__job-descritpion
           = t('.job_description_listy')
         .timeline__job-tasks
@@ -34,8 +35,9 @@
           = t('.visit_link')
           i.fas.fa-arrow-right
 
-      .col-md-6.timeline__left-col
-        = 'image'
+      .col-md-6.timeline__left-col.left-col
+        .left-col__projetcs
+          = image_tag image_url('projects/frizbiz.png')
 
         .timeline__center-line-icon
           i.fas.fa-briefcase
@@ -43,10 +45,10 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--frizbiz
           = image_tag image_url('companies/frizbiz.png')
-        .badge.badge-secondary.timeline__date-badge
-          = t('.job_date_frizbiz')
         .timeline__job-position
           = t('.job_frizbiz')
+        .badge.badge-secondary.timeline__date-badge
+          = t('.job_date_frizbiz')
         .timeline__job-descritpion
           = t('.job_description_frizbiz')
         .timeline__job-tasks
@@ -71,10 +73,10 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--idea
           = image_tag image_url('companies/idea.png')
-        .badge.badge-secondary.timeline__date-badge
-          = t('.job_date_idea')
         .timeline__job-position
           = t('.job_idea')
+        .badge.badge-secondary.timeline__date-badge
+          = t('.job_date_idea')
         .timeline__job-descritpion
           = t('.job_description_idea')
         .timeline__job-tasks
@@ -91,18 +93,19 @@
           = t('.visit_link')
           i.fas.fa-arrow-right
 
-      .col-md-6.timeline__left-col
-        = 'image'
+      .col-md-6.timeline__left-col.left-col
+        .left-col__projetcs
+          = image_tag image_url('projects/sharing_slot.jpg')
         .timeline__center-line-icon
           i.fas.fa-code
 
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--wagon
           = image_tag image_url('schools/wagon.png')
-        .badge.badge-secondary.timeline__date-badge
-          = t('.degree_date_wagon')
         .timeline__degree-name
           = t('.degree_name_wagon')
+        .badge.badge-secondary.timeline__date-badge
+          = t('.degree_date_wagon')
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
           .location-name
@@ -118,10 +121,10 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--heph
           = image_tag image_url('schools/heph.jpg')
-        .badge.badge-secondary.timeline__date-badge
-          = t('.degree_date_heph_master')
         .timeline__degree-name
           = t('.degree_name_heph_master')
+        .badge.badge-secondary.timeline__date-badge
+          = t('.degree_date_heph_master')
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
           .location-name
@@ -137,10 +140,10 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--heph
           = image_tag image_url('schools/heph.jpg')
+        .timeline__degree-name
+            = t('.degree_name_heph_bac')
         .badge.badge-secondary.timeline__date-badge
           = t('.degree_date_heph_bac')
-        .timeline__degree-name
-          = t('.degree_name_heph_bac')
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
           .location-name

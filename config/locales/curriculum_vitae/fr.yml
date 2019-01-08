@@ -30,8 +30,8 @@ fr:
       job_location_listy: "Tourcoing, France"
       job_tasks_idea_html: "<ul>
                               <li>Chargé d’études au bureau d’études du service électromécanique et techniques spéciales</li>
-                              <li>Réalisation du travail de fin d'études : Processus décisionnel : étude, modélisation, analyse fonctionnelle et suivi de chantier du projet de
-                                  séchage des boues issues de stations d’épuration de Wasmuël</li>
+                              <li>Réalisation du travail de fin d'études : <i>Processus décisionnel : étude, modélisation, analyse fonctionnelle et suivi de chantier du projet de
+                                  séchage des boues issues de stations d’épuration de Wasmuël</i></li>
                             </ul>"
       job_tasks_frizbiz_html: "<ul>
                                 <li>Maintenir le site</li>
