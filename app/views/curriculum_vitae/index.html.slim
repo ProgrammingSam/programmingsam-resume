@@ -15,11 +15,11 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--listy
           = image_tag image_url('companies/listy.png')
-        .timeline__job-position
+        .timeline__name
           = t('.job_listy')
         .badge.badge-secondary.timeline__date-badge
           = t('.job_date_listy')
-        .timeline__job-descritpion
+        .timeline__descritpion
           = t('.job_description_listy')
         .timeline__job-tasks
           = t('.job_tasks_listy_html')
@@ -45,11 +45,11 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--frizbiz
           = image_tag image_url('companies/frizbiz.png')
-        .timeline__job-position
+        .timeline__name
           = t('.job_frizbiz')
         .badge.badge-secondary.timeline__date-badge
           = t('.job_date_frizbiz')
-        .timeline__job-descritpion
+        .timeline__descritpion
           = t('.job_description_frizbiz')
         .timeline__job-tasks
           = t('.job_tasks_frizbiz_html')
@@ -75,9 +75,9 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--wagon
           = image_tag image_url('schools/wagon.png')
-        .timeline__degree-name
+        .timeline__name
           = t('.degree_name_wagon')
-        .timeline__degree-descritpion
+        .timeline__descritpion
           = t('.school_description_wagon')
         .badge.badge-secondary.timeline__date-badge
           = t('.degree_date_wagon')
@@ -96,11 +96,11 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--idea
           = image_tag image_url('companies/idea.png')
-        .timeline__job-position
+        .timeline__name
           = t('.job_idea')
         .badge.badge-secondary.timeline__date-badge
           = t('.job_date_idea')
-        .timeline__job-descritpion
+        .timeline__descritpion
           = t('.job_description_idea')
         .timeline__job-tasks
          = t('.job_tasks_idea_html')
@@ -123,11 +123,11 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--heph
           = image_tag image_url('schools/heph.jpg')
-        .timeline__degree-name
+        .timeline__name
           = t('.degree_name_heph_master')
         .badge.badge-secondary.timeline__date-badge
           = t('.degree_date_heph_master')
-        .timeline__degree-descritpion
+        .timeline__descritpion
           = t('.school_description_heph')
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
@@ -144,11 +144,11 @@
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--heph
           = image_tag image_url('schools/heph.jpg')
-        .timeline__degree-name
+        .timeline__name
             = t('.degree_name_heph_bac')
         .badge.badge-secondary.timeline__date-badge
           = t('.degree_date_heph_bac')
-        .timeline__degree-descritpion
+        .timeline__descritpion
           = t('.school_description_heph')
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
@@ -167,7 +167,7 @@
             = t('.download_resume')
             i.fas.fa-download
 
-      .col-md-6.timeline_chart.chart
+      .col-md-6.timeline__right-col.timeline_chart.chart
         .chart__title
           = t('.my_contributions')
         .timeline_chart.chart
