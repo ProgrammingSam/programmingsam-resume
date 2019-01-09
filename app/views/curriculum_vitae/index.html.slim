@@ -77,6 +77,8 @@
           = image_tag image_url('schools/wagon.png')
         .timeline__degree-name
           = t('.degree_name_wagon')
+        .timeline__degree-descritpion
+          = t('.school_description_wagon')
         .badge.badge-secondary.timeline__date-badge
           = t('.degree_date_wagon')
         .timeline__location.location
@@ -125,6 +127,8 @@
           = t('.degree_name_heph_master')
         .badge.badge-secondary.timeline__date-badge
           = t('.degree_date_heph_master')
+        .timeline__degree-descritpion
+          = t('.school_description_heph')
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
           .location-name
@@ -144,6 +148,8 @@
             = t('.degree_name_heph_bac')
         .badge.badge-secondary.timeline__date-badge
           = t('.degree_date_heph_bac')
+        .timeline__degree-descritpion
+          = t('.school_description_heph')
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
           .location-name
@@ -153,19 +159,17 @@
           i.fas.fa-arrow-right
 
 
+      .col-md-6.timeline__left-col.timeline__more-details.more-details
+        .more-details__title
+          = t('.more_details')
+        .timeline__more-details.more-details
+          = link_to t('.file_path'), target:'_blank', class: 'link--with-arrow'
+            = t('.download_resume')
+            i.fas.fa-download
 
       .col-md-6.timeline_chart.chart
         .chart__title
           = t('.my_contributions')
-      .col-md-6.timeline_chart.chart
-        = link_to t('.github_url'), target:'_blank', class: 'chart__link'
-          img src=t('.github_chart_url') alt=t('.chart_alt')
-
-
-      .col-md-6.timeline__more-details.more-details
-        .more-details__title
-          = t('.more_details')
-      .col-md-6.timeline__more-details.more-details
-        = link_to t('.file_path'), target:'_blank', class: 'link--with-arrow'
-          = t('.download_resume')
-          i.fas.fa-download
+        .timeline_chart.chart
+          = link_to t('.github_url'), target:'_blank', class: 'chart__link'
+            img src=t('.github_chart_url') alt=t('.chart_alt')

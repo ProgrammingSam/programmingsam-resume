@@ -57,20 +57,19 @@
   justify-content: center;
   align-items: center;
   padding-top: 50px;
+  flex-direction: column;
 }
 
 .more-details {
-
 }
 
 .more-details__title {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 50px;
 }
 
-.timeline__job-descritpion {
+.timeline__job-descritpion, .timeline__degree-descritpion {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -201,6 +200,7 @@
 .timeline_chart {
   padding-top: 50px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
