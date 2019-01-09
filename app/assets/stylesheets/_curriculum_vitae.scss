@@ -58,6 +58,7 @@
   align-items: center;
   padding-top: 50px;
   flex-direction: column;
+  background-color: white;
 }
 
 .more-details {
@@ -119,7 +120,6 @@
 }
 
 .timeline__location {
-
 }
 
 .location {
@@ -156,7 +156,7 @@
   margin-bottom: 20px;
 }
 
-.timeline__job-tasks {
+.timeline__tasks {
   background-color: $bg-grey;
   border-radius: 0.5rem;
   font-size: 14px;
