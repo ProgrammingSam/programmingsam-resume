@@ -1,7 +1,6 @@
 en:
   curriculum_vitae:
     index:
-      chart_alt: "ProgrammingSam's Github chart"
       cv: "Curriculum vitæ"
       degree_date_heph_bac: "2014"
       degree_date_heph_master: "2016"
@@ -13,8 +12,6 @@ en:
       file_name: "RESUME_BEN_ABBES_SAMI"
       file_path: "files/cv.pdf"
       frizbiz_url: "https://www.frizbiz.com/fr"
-      github_chart_url: "http://ghchart.rshah.org/FF5857/ProgrammingSam"
-      github_url: "https://github.com/ProgrammingSam"
       idea_url: "http://www.idea.be/fr/accueil.html"
       job_idea: "Trainee design engineer"
       job_frizbiz: "Web Developer Ruby on Rails"
@@ -28,13 +25,15 @@ en:
       job_location_idea: "Mons, Belgium"
       job_location_frizbiz: "Lille, France"
       job_location_listy: "Tourcoing, France"
-      job_tasks_idea_html: "..."
+      job_tasks_idea_html: "<ul>
+                              <li>Researcher at the design office of the electromechanical and special techniques department</li>
+                              <li>Graduation work: <i>Decision-making process: study, modeling, functional analysis and site monitoring of the project of drying  sludge from the treatment plant of Wasmuël</i></li>
+                            </ul>"
       job_tasks_frizbiz_html: "..."
       job_tasks_listy_html: "..."
       heph_url: "https://www.condorcet.be/"
       listy_url: "https://www.listy.fr"
       more_details: "For more details"
-      my_contributions: "My latest contributions"
       school_description_heph: "Provincial High School of Hainaut - Condorcet"
       school_description_wagon: "Le Wagon is an immersive coding bootcamp with campuses in more than 30 cities worldwide"
       school_location_heph_bac: "Tournai, Belgium"

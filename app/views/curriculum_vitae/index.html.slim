@@ -5,6 +5,13 @@
         h1.timeline__title.dotted
           = t('.cv')
 
+      .col-md-12.timeline__more-details.more-details
+        .more-details__title
+          = t('.more_details')
+        = link_to t('.file_path'), target:'_blank', class: 'link--with-arrow'
+          = t('.download_resume')
+          i.fas.fa-download
+
       .col-md-6.timeline__left-col.left-col
         .left-col__projetcs
           = image_tag image_url('projects/listy.png')
@@ -157,18 +164,3 @@
         = link_to t('.heph_url'), target: '_blank', class: 'link--with-arrow'
           = t('.visit_link')
           i.fas.fa-arrow-right
-
-
-      .col-md-6.timeline__more-details.more-details
-        .more-details__title
-          = t('.more_details')
-        = link_to t('.file_path'), target:'_blank', class: 'link--with-arrow'
-          = t('.download_resume')
-          i.fas.fa-download
-
-      .col-md-6.timeline_chart.chart
-        .chart__title
-          = t('.my_contributions')
-        .timeline_chart.chart
-          = link_to t('.github_url'), target:'_blank', class: 'chart__link'
-            img src=t('.github_chart_url') alt=t('.chart_alt')

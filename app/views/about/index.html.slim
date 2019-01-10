@@ -26,9 +26,16 @@
           i.fas.fa-film.item__icon
           .item__text
             = t('.videos')
+      .profile_chart.chart
+        .chart__title
+          = t('.my_contributions')
+        .timeline_chart.chart
+          = link_to t('.github_url'), target:'_blank', class: 'chart__link'
+            img src=t('.github_chart_url') alt=t('.chart_alt')
       = link_to curriculum_vitae_index_path, class: 'link--with-arrow'
         = t('.curriculum_vitae')
         i.fas.fa-arrow-right
+
   .col-md-6.bg-grey.profile__picture.picture-container
     .picture-container__box
       = image_tag image_url('avatar/me.jpeg')

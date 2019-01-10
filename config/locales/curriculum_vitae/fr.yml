@@ -1,7 +1,6 @@
 fr:
   curriculum_vitae:
     index:
-      chart_alt: "Graphique Github de ProgrammingSam"
       cv: "Curriculum vitæ"
       degree_date_heph_bac: "2014"
       degree_date_heph_master: "2016"
@@ -13,8 +12,6 @@ fr:
       file_name: "CV_BEN_ABBES_SAMI"
       file_path: "files/cv.pdf"
       frizbiz_url: "https://www.frizbiz.com/fr"
-      github_chart_url: "http://ghchart.rshah.org/FF5857/ProgrammingSam"
-      github_url: "https://github.com/ProgrammingSam"
       idea_url: "http://www.idea.be/fr/accueil.html"
       job_idea: "Stagiaire ingénieur d’études"
       job_frizbiz: "Developpeur Web Ruby on Rails"
@@ -55,7 +52,6 @@ fr:
       heph_url: "https://www.condorcet.be/"
       listy_url: "https://www.listy.fr"
       more_details: "Pour plus de détails"
-      my_contributions: "Mes dernières contributions"
       school_description_heph: "Haute Ecole Provinciale de Hainaut - Condorcet"
       school_description_wagon: "Le Wagon est école de codage immersif présente dans plus de 30 villes du monde entier"
       school_location_heph_bac: "Tournai, Belgique"
