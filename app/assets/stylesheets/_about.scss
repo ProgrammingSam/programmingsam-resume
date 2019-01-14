@@ -16,7 +16,7 @@
 
 .profile__description {
   color: $gray-600;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: $font-weight-light;
   margin-top: 20px;
 }
@@ -53,16 +53,13 @@
   border-radius: 50%;
   color: white;
   display: flex;
-  font-size: 30px;
+  font-size: 1.875rem;
   height: 68px;
   justify-content: center;
   width: 68px;
 }
 
 .item__text {
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
 }
 
 .profile__title {
@@ -86,7 +83,6 @@
   }
 }
 
-
 .profile_chart {
   display: flex;
   flex-direction: column;
@@ -98,17 +94,17 @@
 
 .chart__title {
   display: flex;
-  justify-content: flex-start;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: $font-weight-bold;
-  text-transform: uppercase;
+  justify-content: flex-start;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .chart__image {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 /* Responsive */

@@ -25,7 +25,7 @@
 }
 
 .hero__subtitle {
-  font-size: 28px;
+  font-size: 1.25rem;
   font-weight: $font-weight-bold;
 }
 
@@ -35,5 +35,8 @@
   .hero__vectors {
     background: $primary;
     height: 100%;
+  }
+  .hero__subtitle {
+    font-size: 1.75rem;
   }
 }

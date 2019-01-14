@@ -1,9 +1,9 @@
 .footer {
   background-color: $white;
-  margin-top: 50px;
   display: flex;
+  font-size: 0.875rem;
   justify-content: center;
-  font-size: 14px;
+  margin-top: 50px;
 }
 
 .footer__icon {
@@ -15,7 +15,7 @@
 
 .footer__text {
   font-weight: $font-weight-bold;
-  margin-right: 10px;
   margin-left: 10px;
+  margin-right: 10px;
   text-transform: uppercase;
 }
