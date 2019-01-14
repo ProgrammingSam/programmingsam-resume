@@ -16,16 +16,24 @@
 
 .hero__vectors {
   background: $primary;
-  height: 100%;
+  height: 50%;
 }
 
 .hero__title {
-  font-size: 56px;
-  font-weight: 700;
+  @extend .title;
   margin-top: auto;
 }
 
 .hero__subtitle {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
+}
+
+/* Responsive */
+
+@include media-breakpoint-up(md) {
+  .hero__vectors {
+    background: $primary;
+    height: 100%;
+  }
 }

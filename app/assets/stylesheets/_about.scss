@@ -1,5 +1,5 @@
 .about {
-  height: 100vh;
+  // height: 100vh;
 }
 
 .profile {
@@ -11,19 +11,18 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  // justify-content: center;
   padding: 0 50px;
 }
 
 .profile__description {
   color: $gray-600;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: $font-weight-light;
   margin-top: 20px;
 }
 
 .profile__picture {
-  height: 100%;
+  height: 50%;
   // transform: scaleX(-1);
 }
 .profile__hobbies {
@@ -40,6 +39,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-right: 20px;
   margin-top: 20px;
 }
@@ -60,11 +60,13 @@
 }
 
 .item__text {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 }
 
 .profile__title {
-  font-size: 56px;
-  font-weight: 700;
+  @extend .title;
   margin-top: 30px;
 }
 
@@ -88,8 +90,6 @@
 .profile_chart {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .chart {
@@ -97,15 +97,24 @@
 }
 
 .chart__title {
+  display: flex;
+  justify-content: flex-start;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-.chart__link {
+.chart__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.chart__image {
+/* Responsive */
 
+@include media-breakpoint-up(md) {
+  .profile__picture {
+    height: 100%;
+  }
 }

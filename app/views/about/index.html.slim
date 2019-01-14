@@ -10,19 +10,19 @@
           i.fas.fa-code.item__icon
           .item__text
             = t('.coding')
-        .hobbies__item
+        .hobbies__item.item
           i.fas.fa-atom.item__icon
           .item__text
             = t('.science')
-        .hobbies__item
+        .hobbies__item.item
           i.fas.fa-laptop.item__icon
           .item__text
             = t('.technology')
-        .hobbies__item
+        .hobbies__item.item
           i.fas.fa-headphones.item__icon
           .item__text
             = t('.music')
-        .hobbies__item
+        .hobbies__item.item
           i.fas.fa-film.item__icon
           .item__text
             = t('.videos')
@@ -30,7 +30,7 @@
         .chart__title
           = t('.my_contributions')
         .chart__image
-          = link_to t('.github_url'), target:'_blank', class: 'chart__link'
+          = link_to t('.github_url'), target:'_blank'
             img src=t('.github_chart_url') alt=t('.chart_alt')
       = link_to curriculum_vitae_index_path, class: 'link--with-arrow'
         = t('.curriculum_vitae')

@@ -4,53 +4,35 @@
 .timeline {
 }
 
-.timeline__background {
-  background: linear-gradient(90deg, $bg-grey 50%, white 50%);
-}
-
-.timeline__left-col {
-  border-right: 6px solid $primary;
-}
-
 .left-col {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-left: 100px;
 }
 
 .left-col__projetcs {
   overflow: hidden;
   width: 400px;
   box-shadow: 0 15px 30px 0 rgba(0,0,0,0.1);
+  margin-bottom: 60px;
 
   img {
     max-width: 100%;
     height: auto;
   }
-  margin-bottom: 60px;
 }
 
 .timeline__right-col {
-  padding-left: 80px;
   margin-bottom: 50px;
 }
 
-.timeline__center-line-icon {
-  position: absolute;
-  top: 0px;
-  right: -30px;
-  align-items: center;
-  background-color: $primary;
-  border-radius: 50%;
-  color: white;
-  display: flex;
-  font-size: 30px;
-  height: 54px;
-  justify-content: center;
-  width: 54px;
+.timeline__left-col {
+  border: 0;
 }
 
+.timeline__center-line-icon {
+  display: none;
+}
 
 .timeline__more-details {
   display: flex;
@@ -66,23 +48,25 @@
 
 .more-details__title {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   text-transform: uppercase;
 }
 
 .timeline__descritpion {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: $font-weight-light;
   margin-bottom: 10px;
 }
 
 .timeline__name {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   margin-bottom: 10px;
 }
 
 .timeline__logo {
+  display: flex;
+  justify-content: center;
   margin-bottom: 10px;
 
   &--frizbiz {
@@ -125,7 +109,7 @@
 .location {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -144,12 +128,12 @@
 .location-name {
   margin-left: 10px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: $font-weight-light;
 }
 
 .timeline__date-badge {
   margin-right: 5px;
-  font-weight: 400;
+  font-weight: $font-weight-light;
   padding: 0.4rem;
   border-radius: 0.4rem;
   font-size: 90%;
@@ -160,7 +144,7 @@
   background-color: $bg-grey;
   border-radius: 0.5rem;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: $font-weight-very-light;
   padding: 0.4em 0.4em;
   margin-bottom: 30px;
 
@@ -172,11 +156,9 @@
 }
 
 .timeline__title {
-  font-size: 56px;
-  font-weight: 700;
+  @extend .title;
   margin-top: auto;
   padding-top: 50px;
-  // padding-bottom: 50px;
 }
 
 .timeline__skill-section {
@@ -185,14 +167,62 @@
 
 .skill-section {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .skill-section__badge {
   margin-right: 5px;
   margin-top: 5px;
-  font-weight: 400;
+  font-weight: $font-weight-light;
   padding: 0.4rem;
   border-radius: 0.4rem;
+}
+
+/* Responsive */
+
+@include media-breakpoint-up(md) {
+  .timeline__center-line-icon {
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    align-items: center;
+    background-color: $primary;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    height: 54px;
+    justify-content: center;
+    width: 54px;
+  }
+
+  .timeline__left-col {
+    border-right: 6px solid $primary;
+  }
+
+  .timeline__right-col {
+    padding-left: 80px;
+  }
+
+  .timeline__background {
+    background: linear-gradient(90deg, $bg-grey 50%, white 50%);
+  }
+
+  .left-col {
+    padding-left: 50px;
+  }
+
+  .location {
+    justify-content: flex-start;
+  }
+
+  .skill-section {
+    justify-content: flex-start;
+  }
+
+  .timeline__logo {
+    display: flex;
+    justify-content: flex-start;
+  }
 }

@@ -17,7 +17,7 @@
 .link--with-arrow {
   color: black;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   margin-bottom: 50px;
   margin-top: auto;
 
@@ -27,5 +27,18 @@
 
   &:hover {
     text-decoration: none;
+  }
+}
+
+.title {
+  font-size: 40px;
+  font-weight: $font-weight-bold;
+}
+
+/* Responsive */
+
+@include media-breakpoint-up(md) {
+  .title {
+    font-size: 56px;
   }
 }
