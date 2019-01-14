@@ -13,3 +13,12 @@
   color: black !important;
   font-size: 0.875rem;
 }
+
+/* Responsive */
+
+@include media-breakpoint-up(md) {
+  .nav-item:last-of-type {
+    margin-left: 1px;
+    margin-right: 0;
+  }
+}
