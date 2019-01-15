@@ -29,8 +29,25 @@ en:
                               <li>Researcher at the design office of the electromechanical and special techniques department</li>
                               <li>Graduation work: <i>Decision-making process: study, modeling, functional analysis and site monitoring of the project of drying  sludge from the treatment plant of Wasmuël</i></li>
                             </ul>"
-      job_tasks_frizbiz_html: "..."
-      job_tasks_listy_html: "..."
+      job_tasks_frizbiz_html: "<ul>
+                                <li>Maintain the site</li>
+                                <li>Optimize performance</li>
+                                <li>Improve the user experience</li>
+                                <li>Work in TDD, improve test coverage </li>
+                                <li>Agile Process Improvement</li>
+                                <li>Guarantee site security</li>
+                                <li>Perform technology watch</li>
+                                <li>Deploying in a recipe and production environment</li>
+                              </ul>"
+      job_tasks_listy_html: "<ul>
+                              <li>Research and development (competitions, SEO, technologies, ...)</li>
+                              <li>Develop and maintain the site</li>
+                              <li>Optimize performance</li>
+                              <li>Work in TDD</li>
+                              <li>Guarantee site security</li>
+                              <li>Perform technology watch</li>
+                              <li>Deploying in a recipe and production environment</li>
+                            </ul>"
       heph_url: "https://www.condorcet.be/"
       listy_url: "https://www.listy.fr"
       more_details: "For more details"
