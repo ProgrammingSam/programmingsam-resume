@@ -7,7 +7,7 @@ en:
       degree_date_wagon: "2017"
       degree_name_heph_bac: "Bachelor's degree in engineering science"
       degree_name_heph_master: "Master's degree in industrial engineering electromechanical finality"
-      degree_name_wagon: "Fullstack Web Developer - Fullstack Certificate of completion"
+      degree_name_wagon: "FullStack Web Developer - FullStack Certificate of completion"
       download_resume: "Download my curriculum vitæ"
       file_name: "RESUME_BEN_ABBES_SAMI"
       file_path: "files/cv.pdf"
@@ -19,9 +19,9 @@ en:
       job_date_idea: "February 2016 - June 2016"
       job_date_frizbiz: "August 2017 - December 2018"
       job_date_listy: "November 2018 - Today"
-      job_description_idea: "Intercommunal for economic development and regional development of the Mons-Borinage-Centre region "
-      job_description_frizbiz: "First web platform in France dedicated to services between individuals."
-      job_description_listy: "Web platform dedicated to the management of lists (birthday, wedding,..)."
+      job_description_idea: "Intercommunal for economic development and regional development of the Mons-Borinage-Centre region"
+      job_description_frizbiz: "First web platform in France dedicated to services between individuals"
+      job_description_listy: "Web platform dedicated to the management of lists (birthday, wedding,...)"
       job_location_idea: "Mons, Belgium"
       job_location_frizbiz: "Lille, France"
       job_location_listy: "Tourcoing, France"
@@ -29,8 +29,25 @@ en:
                               <li>Researcher at the design office of the electromechanical and special techniques department</li>
                               <li>Graduation work: <i>Decision-making process: study, modeling, functional analysis and site monitoring of the project of drying  sludge from the treatment plant of Wasmuël</i></li>
                             </ul>"
-      job_tasks_frizbiz_html: "..."
-      job_tasks_listy_html: "..."
+      job_tasks_frizbiz_html: "<ul>
+                                <li>Maintain the site</li>
+                                <li>Optimize performance</li>
+                                <li>Improve the user experience</li>
+                                <li>Work in TDD, improve test coverage </li>
+                                <li>Agile Process Improvement</li>
+                                <li>Guarantee site security</li>
+                                <li>Perform technology watch</li>
+                                <li>Deploying in a recipe and production environment</li>
+                              </ul>"
+      job_tasks_listy_html: "<ul>
+                              <li>Research and development (competitions, SEO, technologies, ...)</li>
+                              <li>Develop and maintain the site</li>
+                              <li>Optimize performance</li>
+                              <li>Work in TDD</li>
+                              <li>Guarantee site security</li>
+                              <li>Perform technology watch</li>
+                              <li>Deploying in a recipe and production environment</li>
+                            </ul>"
       heph_url: "https://www.condorcet.be/"
       listy_url: "https://www.listy.fr"
       more_details: "For more details"

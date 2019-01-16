@@ -1,5 +1,4 @@
 .home {
-  height: 100vh;
 }
 
 .hero {
@@ -22,6 +21,7 @@
 .hero__title {
   @extend .title;
   margin-top: auto;
+  padding-top: 20px
 }
 
 .hero__subtitle {
@@ -38,5 +38,11 @@
   }
   .hero__subtitle {
     font-size: 1.75rem;
+  }
+  .home {
+    height: 100vh;
+  }
+  .hero__title {
+    padding-top: 0;
   }
 }

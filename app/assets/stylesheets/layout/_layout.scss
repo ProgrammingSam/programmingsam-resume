@@ -3,5 +3,13 @@ html {
 
 body {
   color: black;
-  padding: 0 50px 50px;
+  padding: 0 10px 10px;
+}
+
+/* Responsive */
+
+@include media-breakpoint-up(md) {
+  body {
+    padding: 0 50px 50px;
+  }
 }
