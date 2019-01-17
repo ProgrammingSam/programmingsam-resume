@@ -30,31 +30,30 @@ en:
                               <li>Graduation work: <i>Decision-making process: study, modeling, functional analysis and site monitoring of the project of drying  sludge from the treatment plant of Wasmuël</i></li>
                             </ul>"
       job_tasks_frizbiz_html: "<ul>
-                                <li>Maintain the site</li>
+                                <li>Maintain the application</li>
                                 <li>Optimize performance</li>
                                 <li>Improve the user experience</li>
                                 <li>Work in TDD, improve test coverage </li>
                                 <li>Agile Process Improvement</li>
-                                <li>Guarantee site security</li>
+                                <li>Guarantee application security</li>
                                 <li>Perform technology watch</li>
-                                <li>Deploying in a recipe and production environment</li>
+                                <li>Deploying in recipe and production environment</li>
                               </ul>"
       job_tasks_listy_html: "<ul>
                               <li>Research and development (competitions, SEO, technologies, ...)</li>
-                              <li>Develop and maintain the site</li>
+                              <li>Develop and maintain the application</li>
                               <li>Optimize performance</li>
                               <li>Work in TDD</li>
-                              <li>Guarantee site security</li>
+                              <li>Guarantee application security</li>
                               <li>Perform technology watch</li>
-                              <li>Deploying in a recipe and production environment</li>
+                              <li>Deploying in recipe and production environment</li>
                             </ul>"
       heph_url: "https://www.condorcet.be/"
       listy_url: "https://www.listy.fr"
       more_details: "For more details"
       school_description_heph: "Provincial High School of Hainaut - Condorcet"
       school_description_wagon: "Le Wagon is an immersive coding bootcamp with campuses in more than 30 cities worldwide"
-      school_location_heph_bac: "Tournai, Belgium"
-      school_location_heph_master: "Tournai, Belgium"
+      school_location_heph: "Tournai, Belgium"
       school_location_wagon: "Lille, France"
       visit_link: "See the website"
       wagon_url: "https://www.lewagon.com"
