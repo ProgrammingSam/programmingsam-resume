@@ -15,15 +15,12 @@
 }
 
 .link--with-arrow {
+  align-items: center;
   color: black;
+  display: inline-flex;
   font-size: 0.875rem;
   font-weight: $font-weight-bold;
-  margin-bottom: 50px;
-  margin-top: auto;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 20px auto 20px 0;
 
   i {
     margin-left: 5px;
@@ -35,7 +32,7 @@
 }
 
 .title {
-  font-size: 2.125rem;
+  font-size: 1.8rem;
   font-weight: $font-weight-bold;
 }
 
@@ -43,9 +40,6 @@
 
 @include media-breakpoint-up(md) {
   .title {
-    font-size: 3.5rem;
-  }
-  .link--with-arrow {
-    justify-content: flex-start;
+    font-size: 3rem;
   }
 }

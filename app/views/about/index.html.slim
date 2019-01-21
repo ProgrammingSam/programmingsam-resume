@@ -1,41 +1,43 @@
-.profile.row.h-100.no-gutters
-  .col-md-6
+.profile.row.no-gutters
+  .col-lg-6
     .profile__text
-      h1.profile__title.dotted
-        = t('.about')
-      .profile__description
-        = t('.description')
+      h1.profile__title.dotted = t('.about')
+      .picture-container__box.d-block.d-lg-none.mb-4
+        = image_tag image_url('avatar/me.jpeg')
+
+      .profile__description = t('.description')
+
       .profile__hobbies.hobbies
-        .hobbies__item.item
-          i.fas.fa-code.item__icon
-          .item__text
-            = t('.coding')
-        .hobbies__item.item
-          i.fas.fa-atom.item__icon
-          .item__text
-            = t('.science')
-        .hobbies__item.item
-          i.fas.fa-laptop.item__icon
-          .item__text
-            = t('.technology')
-        .hobbies__item.item
-          i.fas.fa-headphones.item__icon
-          .item__text
-            = t('.music')
-        .hobbies__item.item
-          i.fas.fa-film.item__icon
-          .item__text
-            = t('.videos')
+        .hobbies__item
+          i.fas.fa-code.hobbies__icon
+          .hobbies__text = t('.coding')
+
+        .hobbies__item
+          i.fas.fa-atom.hobbies__icon
+          .hobbies__text = t('.science')
+
+        .hobbies__item
+          i.fas.fa-laptop.hobbies__icon
+          .hobbies__text = t('.technology')
+
+        .hobbies__item
+          i.fas.fa-headphones.hobbies__icon
+          .hobbies__text = t('.music')
+
+        .hobbies__item
+          i.fas.fa-film.hobbies__icon
+          .hobbies__text = t('.videos')
+
       .profile_chart.chart
-        .chart__title
-          = t('.my_contributions')
+        .chart__title = t('.my_contributions')
         .chart__image
           = link_to t('.github_url'), target:'_blank'
             img src=t('.github_chart_url') alt=t('.chart_alt')
+
       = link_to curriculum_vitae_index_path, class: 'link--with-arrow'
         = t('.curriculum_vitae')
         i.fas.fa-arrow-right
 
-  .col-md-6.bg-grey.profile__picture.picture-container
+  .col-lg-6.bg-grey.align-items-center.justify-content-center.d-none.d-lg-flex
     .picture-container__box
       = image_tag image_url('avatar/me.jpeg')

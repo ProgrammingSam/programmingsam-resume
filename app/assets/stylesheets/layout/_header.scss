@@ -11,7 +11,7 @@
 .nav-link,
 .navbar-brand {
   color: black !important;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }
 
 /* Responsive */
@@ -20,12 +20,5 @@
   .nav-item:last-of-type {
     margin-left: 1px;
     margin-right: 0;
-  }
-}
-
-@include media-breakpoint-up(sm) {
-  .nav-link,
-  .navbar-brand {
-    font-size: 0.875rem;
   }
 }
