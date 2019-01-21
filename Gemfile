@@ -27,14 +27,13 @@ gem 'sass-rails', '~> 5.0'
 # Ruby wrapper for UglifyJS JavaScript compressor
 # https://github.com/lautis/uglifier
 gem 'uglifier', '>= 1.3.0'
-
-
+# Autoprefixer is a tool to parse CSS and add vendor prefixes to CSS
+# https://github.com/ai/autoprefixer-rails
+gem 'autoprefixer-rails', '~> 9.4.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
-
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
 # == Views enhancers ===========================================================
 # Provides Slim generators
 # https://github.com/slim-template/slim-rails
