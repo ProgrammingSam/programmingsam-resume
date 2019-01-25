@@ -3,12 +3,12 @@ en:
     internal_server_error:
       back_to_home: "Back to home"
       error_explanation: "An error has occurred on our servers, please try again if the problem persists."
-      error_type: "Erreur 500"
+      error_type: "Error 500"
     not_found:
       back_to_home: "Back to home"
       error_explanation: "The page you ask does not seem to exist, are you lost?"
-      error_type: "Erreur 404"
+      error_type: "Error 404"
     unacceptable:
       back_to_home: "Back to home"
       error_explanation: "The server was unable to perform the requested instructions."
-      error_type: "Erreur 422"
+      error_type: "Error 422"
