@@ -1,0 +1,14 @@
+fr:
+  errors:
+    internal_server_error:
+      back_to_home: "Retour à l'accueil"
+      error_explanation: "Une erreur s'est produite sur nos serveurs, veuillez réessayer si le problème persiste."
+      error_type: "Erreur 500"
+    not_found:
+      back_to_home: "Retour à l'accueil"
+      error_explanation: "La page que vous demandez ne semble pas exister, êtes-vous égaré ?"
+      error_type: "Erreur 404"
+    unacceptable:
+      back_to_home: "Retour à l'accueil"
+      error_explanation: "Le serveur n'a pas été en mesure de réaliser les instructions demandées."
+      error_type: "Erreur 422"

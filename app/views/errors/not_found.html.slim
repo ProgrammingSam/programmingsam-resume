@@ -1,1 +1,11 @@
-= 'not_found'
+- content_for :meta_title, "#{t('.error_type')} | #{DEFAULT_META["meta_title"]}"
+
+.container
+  .row.my-basis
+    .col-12
+      .title.mb-1 = t('.error_type')
+      p = t('.error_explanation')
+
+      = link_to root_path, class: 'link--with-arrow'
+        = t('.back_to_home')
+        i.fas.fa-arrow-right
