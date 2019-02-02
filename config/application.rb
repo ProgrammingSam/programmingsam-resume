@@ -38,6 +38,9 @@ module ProgrammingsamResume
     # Allow custom error pages
     config.exceptions_app = self.routes
 
+    # Add environments for Skylight Errors Handler
+    config.skylight.environments += ['development']
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
