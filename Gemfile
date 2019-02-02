@@ -9,11 +9,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'rails', '~> 5.2.1'
 
 # == Global dependencies =======================================================
+# Errors handler
+# https://rubygems.org/gems/skylight/versions/3.1.4
+gem 'skylight', '~> 3.1'
 # Ruby web server built for concurrency
 # https://github.com/puma/puma
 gem 'puma', '~> 3.11'
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 # Simple DSL for declaring JSON structures
 # https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
