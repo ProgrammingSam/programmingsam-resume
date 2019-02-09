@@ -16,15 +16,19 @@ fr:
       job_idea: "Stagiaire ingénieur d’études"
       job_frizbiz: "Développeur Web Ruby on Rails"
       job_listy: "Cofondateur & Développeur Web Ruby on Rails"
+      job_programmingsam: "Développeur Web Freelance"
       job_date_idea: "Février 2016 - Juin 2016"
       job_date_frizbiz: "Août 2017 - Décembre 2018"
       job_date_listy: "Novembre 2018 - Aujourd'hui"
+      job_date_programmingsam: "Février 2019 - Aujourd'hui"
       job_description_idea: "Intercommunale pour le Développement Économique et l’Aménagement du territoire de la région Mons-Borinage-Centre"
       job_description_frizbiz: "Première plateforme web en France dédiée aux services entre particuliers"
       job_description_listy: "Plateforme dédiée à la gestion de listes (anniversaire, mariage,...)"
+      job_description_programmingsam: "Activité principale en tant qu'indépendant"
       job_location_idea: "Mons, Belgique"
       job_location_frizbiz: "Lille, France"
       job_location_listy: "Tourcoing, France"
+      job_location_programmingsam: "Tournai, Belgique"
       job_tasks_idea_html: "<ul>
                               <li>Chargé d’études au bureau d’études du service électromécanique et techniques spéciales</li>
                               <li>Réalisation du travail de fin d'études : <i>Processus décisionnel : étude, modélisation, analyse fonctionnelle et suivi de chantier du projet de
@@ -49,6 +53,15 @@ fr:
                               <li>Effectuer de la veille technologique</li>
                               <li>Déploiement en environnement de recette et production</li>
                             </ul>"
+      job_tasks_programmingsam_html: "<ul>
+                                        <li>Développer et maintenir une application</li>
+                                        <li>Optimiser les performances</li>
+                                        <li>Améliorer l'expérience utilisateur</li>
+                                        <li>Travailler en TDD, améliorer la couverture de tests</li>
+                                        <li>Garantir la sécurité d'une application</li>
+                                        <li>Assurer la conformité RGPD</li>
+                                        <li>Déploiement en environnement de recette et production</li>
+                                     </ul>"
       heph_url: "https://www.condorcet.be/"
       listy_url: "https://www.listy.fr"
       more_details: "Pour plus de détails"

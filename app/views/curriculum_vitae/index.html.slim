@@ -14,6 +14,36 @@
 
       .col-md-6.timeline__left-col.left-col
         .left-col__projetcs
+          = image_tag image_url('projects/programmingsam_light.png')
+        .timeline__center-line-icon
+          i.fas.fa-briefcase
+
+      .col-md-6.timeline__right-col
+        .timeline__logo.timeline__logo--programmingsam
+          = image_tag image_url('companies/programmingsam.png')
+        .timeline__name
+          = t('.job_programmingsam')
+        .badge.badge-secondary.timeline__date-badge
+          = t('.job_date_programmingsam')
+        .timeline__descritpion
+          = t('.job_description_programmingsam')
+        .timeline__tasks
+          = t('.job_tasks_programmingsam_html')
+        .timeline__skill-section.skill-section
+          - %w[AWS Sequel LaTeX Ruby Rails PostgresSQL MySQL Heroky JavaScript JQuery CSS3 SASS HTML5 Erb Yml Slim Git Bootstrap4 Ajax CleverCloud SQLite].sort_by!{ |e| e }.each do |i|
+            .badge.badge-primary.skill-section__badge
+              = i
+        .timeline__location.location
+          i.fas.fa-map-marker-alt.location-icon
+          .location-name
+            = t('.job_location_programmingsam')
+        / FIXME: Add portfolio
+        / = link_to root_path, target: '_blank', class: 'link--with-arrow'
+        /   = t('.visit_link')
+        /   i.fas.fa-arrow-right
+
+      .col-md-6.timeline__left-col.left-col
+        .left-col__projetcs
           = image_tag image_url('projects/listy_light.png')
 
         .timeline__center-line-icon

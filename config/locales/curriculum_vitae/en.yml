@@ -16,15 +16,19 @@ en:
       job_idea: "Trainee design engineer"
       job_frizbiz: "Web Developer Ruby on Rails"
       job_listy: "Co-Founder & Web Developer Ruby on Rails"
+      job_programmingsam: "Freelance Web Developer"
       job_date_idea: "February 2016 - June 2016"
       job_date_frizbiz: "August 2017 - December 2018"
       job_date_listy: "November 2018 - Today"
+      job_date_programmingsam: "February 2019 - Today"
       job_description_idea: "Intercommunal for economic development and regional development of the Mons-Borinage-Centre region"
       job_description_frizbiz: "First web platform in France dedicated to services between individuals"
       job_description_listy: "Web platform dedicated to the management of lists (birthday, wedding,...)"
+      job_description_programmingsam: "Main activity as self-employed"
       job_location_idea: "Mons, Belgium"
       job_location_frizbiz: "Lille, France"
       job_location_listy: "Tourcoing, France"
+      job_location_programmingsam: "Tournai, Belgium"
       job_tasks_idea_html: "<ul>
                               <li>Researcher at the design office of the electromechanical and special techniques department</li>
                               <li>Graduation work: <i>Decision-making process: study, modeling, functional analysis and site monitoring of the project of drying  sludge from the treatment plant of Wasmuël</i></li>
@@ -33,7 +37,7 @@ en:
                                 <li>Maintain the application</li>
                                 <li>Optimize performance</li>
                                 <li>Improve the user experience</li>
-                                <li>Work in TDD, improve test coverage </li>
+                                <li>Work in TDD, improve test coverage</li>
                                 <li>Agile Process Improvement</li>
                                 <li>Guarantee application security</li>
                                 <li>Perform technology watch</li>
@@ -48,6 +52,15 @@ en:
                               <li>Perform technology watch</li>
                               <li>Deploying in recipe and production environment</li>
                             </ul>"
+      job_tasks_programmingsam_html: "<ul>
+                                        <li>Develop and maintain an application</li>
+                                        <li>Optimize performance</li>
+                                        <li>Improve the user experience</li>
+                                        <li>Work in TDD, improve test coverage</li>
+                                        <li>Guarantee application security</li>
+                                        <li>Ensure RGPD compliance</li>
+                                        <li>Deploying in recipe and production environment</li>
+                                     </ul>"
       heph_url: "https://www.condorcet.be/"
       listy_url: "https://www.listy.fr"
       more_details: "For more details"
