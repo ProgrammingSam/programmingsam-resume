@@ -37,10 +37,9 @@
           i.fas.fa-map-marker-alt.location-icon
           .location-name
             = t('.job_location_programmingsam')
-        / FIXME: Add portfolio
-        / = link_to root_path, target: '_blank', class: 'link--with-arrow'
-        /   = t('.visit_link')
-        /   i.fas.fa-arrow-right
+        = link_to t('.malt_url'), target: '_blank', class: 'link--with-arrow'
+          = t('.malt_link')
+          i.fas.fa-arrow-right
 
       .col-md-6.timeline__left-col.left-col
         .left-col__projetcs
