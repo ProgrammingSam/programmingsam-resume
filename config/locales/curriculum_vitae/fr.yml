@@ -35,7 +35,7 @@ fr:
                                   séchage des boues issues de stations d’épuration de Wasmuël</i></li>
                             </ul>"
       job_tasks_frizbiz_html: "<ul>
-                                <li>Maintenir le site</li>
+                                <li>Développer et maintenir l'application</li>
                                 <li>Optimiser les performances</li>
                                 <li>Améliorer l'expérience utilisateur</li>
                                 <li>Travailler en TDD, améliorer la couverture de tests</li>
@@ -46,7 +46,7 @@ fr:
                               </ul>"
       job_tasks_listy_html: "<ul>
                               <li>Recherches et développements (concurrences, SEO, technologies,...)</li>
-                              <li>Développer et maintenir le site</li>
+                              <li>Développer et maintenir l'application</li>
                               <li>Optimiser les performances</li>
                               <li>Travailler en TDD</li>
                               <li>Garantir la sécurité du site</li>
