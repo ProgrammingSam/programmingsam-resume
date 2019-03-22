@@ -2,6 +2,7 @@ en:
   about:
     index:
       about: "About"
+      avatar: "Avatar"
       chart_alt: "ProgrammingSam's Github chart"
       coding: "Code"
       curriculum_vitae: "Curriculum vitæ"

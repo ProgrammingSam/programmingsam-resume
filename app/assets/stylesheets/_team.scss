@@ -1,0 +1,49 @@
+.team {
+}
+
+.team__title {
+  @extend .title;
+  margin-top: auto;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+.team__role {
+  font-size: 0.875rem;
+  font-weight: $font-weight-light;
+}
+
+.team__name {
+  font-size: 1rem;
+  font-weight: $font-weight-bold;
+}
+
+.team__picture {
+  border-radius: 50%;
+  border: 3px solid $primary;
+  height: 140px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: auto;
+}
+
+/* Responsive */
+
+@include media-breakpoint-up(md) {
+  .team__background {
+    background: linear-gradient(90deg, $bg-grey 50%, white 50%);
+  }
+
+  .team__title {
+    padding-bottom: 70px;
+  }
+
+  .team__picture {
+    height: 200px;
+    margin-top: 0;
+  }
+
+  .team {
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,22 @@
+.team.h-100.profile.row.no-gutters.team__background.my-lg-5
+  .col-md-12.text-center
+    h1.team__title.dotted
+      = t('.title')
+  .col-md-4.align-items-center.justify-content-center.text-center
+    = image_tag image_url('avatar/me.png'), alt: t('.lead_designer'), class: 'team__picture'
+    .team__name
+      = t('.lead_designer_name')
+    .team__role
+      = t('.lead_designer')
+  .col-md-4.align-items-center.justify-content-center.text-center
+    = image_tag image_url('avatar/me.png'), alt: t('.lead_marketer'), class: 'team__picture'
+    .team__name
+      = t('.lead_marketer_name')
+    .team__role
+      = t('.lead_marketer')
+  .col-md-4.align-items-center.justify-content-center.text-center
+    = image_tag image_url('avatar/me.png'), alt: t('.lead_developer'), class: 'team__picture'
+    .team__name
+      = t('.lead_developer_name')
+    .team__role
+      = t('.lead_developer')

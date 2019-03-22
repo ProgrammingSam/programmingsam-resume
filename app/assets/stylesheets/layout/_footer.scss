@@ -21,6 +21,15 @@
   text-transform: uppercase;
 }
 
+a.footer_link {
+  color: black;
+  display: flex;
+  text-decoration: none;
+
+  &--hover, &--focus, &--active {
+    color: black;
+  }
+}
 @include media-breakpoint-up(md) {
   .footer {
     margin: 30px 0;

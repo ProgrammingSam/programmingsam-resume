@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   scope '/:locale', locale: /#{I18n.available_locales.join('|')}/ do
     resources :about, only: :index
+    resources :team, only: :index
     resources :curriculum_vitae, only: :index
     resources :home, only: :index
     root 'home#index'

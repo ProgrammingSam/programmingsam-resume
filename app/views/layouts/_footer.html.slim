@@ -1,5 +1,6 @@
 footer.footer
-  i.fas.fa-code.footer__icon
-  .footer__text
-    = t('.with')
-  i.fas.fa-heart.footer__icon.footer__icon--heart
+  = link_to team_index_path, class: 'footer_link'
+    i.fas.fa-code.footer__icon
+    .footer__text
+      = t('.with')
+    i.fas.fa-heart.footer__icon.footer__icon--heart
