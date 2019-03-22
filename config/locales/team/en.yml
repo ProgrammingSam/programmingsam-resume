@@ -1,6 +1,8 @@
 en:
   team:
     index:
+      hr_officer_name: "HumanResourcingSam"
+      hr_officer: "HR Officer"
       lead_designer_name: "DesigningSam"
       lead_designer: "Lead Designer"
       lead_developer_name: "ProgrammingSam"
