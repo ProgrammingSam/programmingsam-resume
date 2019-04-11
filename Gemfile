@@ -63,6 +63,9 @@ group :development, :test do
 end
 
 group :development do
+  # Static analysis tool which checks applications for security vulnerabilities
+  # https://github.com/presidentbeef/brakeman
+  gem 'brakeman', '~> 4.5'
   # A Ruby gem to load environment variables from `.env`
   # https://github.com/bkeepers/dotenv
   gem 'dotenv-rails'
