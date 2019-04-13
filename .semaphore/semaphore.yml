@@ -1,0 +1,48 @@
+version: v1.0
+
+name: ProgrammingSam CI Pipeline
+
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+
+blocks:
+  - name: Setup
+    task:
+      jobs:
+        - name: Bundler - Install Gems
+          commands:
+            - checkout
+            - cache restore gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock),gems-$SEMAPHORE_GIT_BRANCH-,gems-master-
+            - bundle install --deployment -j 4 --path vendor/bundle
+            - cache store gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock) vendor/bundle
+
+  - name: Code scanning
+      task:
+        prologue:
+          commands:
+            - checkout
+            - cache restore gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock),gems-$SEMAPHORE_GIT_BRANCH-,gems-master-
+            - bundle install --deployment --path vendor/bundle
+
+        jobs:
+          - name: Brakeman - Check Security
+            commands:
+              - bundle exec brakeman
+
+          - name: Rubocop - Check Style
+            commands:
+              - bundle exec rubocop
+
+          - name: Reek - Code Smells
+            commands:
+              - bundle exec reek
+
+          - name: ERB Lint - Check ERB and HTML
+            commands:
+              - bundle exec erblint --lint-all
+
+          - name: Slim Lint - Check Slim
+            commands:
+              - bundle exec slim-lint app/views/
