@@ -12,7 +12,6 @@
 
 ## Vulnerabilities
 [![Known Vulnerabilities](https://snyk.io/test/github/ProgrammingSam/programmingsam-resume/badge.svg?targetFile=Gemfile.lock)](https://snyk.io/test/github/ProgrammingSam/programmingsam-resume)
-[![Known Vulnerabilities](https://snyk.io/test/github/ProgrammingSam/programmingsam-resume/badge.svg)](https://snyk.io/test/github/ProgrammingSam/programmingsam-resume)
 
 ## Code quality
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/41b974d4a89b4d5cbd53c022e3ea94d5)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ProgrammingSam/programmingam-resume&amp;utm_campaign=Badge_Grade)
@@ -32,6 +31,8 @@ This resume application contains :
 * My degrees
 
 * My experiences
+
+* My resume
 
 * Ways to contact me
 
