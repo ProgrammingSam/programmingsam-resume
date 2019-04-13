@@ -1,0 +1,17 @@
+# See the docs : https://github.com/troessner/reek/tree/master/docs
+
+directories:
+  'app/channels':
+    IrresponsibleModule:
+      enabled: false
+  'app/controllers':
+    UtilityFunction:
+      enabled: false
+    IrresponsibleModule:
+      enabled: false
+  'app/helpers':
+    IrresponsibleModule:
+      enabled: false
+  'config/':
+    IrresponsibleModule:
+      enabled: false
