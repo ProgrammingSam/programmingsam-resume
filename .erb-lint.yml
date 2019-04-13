@@ -1,0 +1,13 @@
+exclude:
+  # bundled gems
+  - '*vendor/*'
+
+linters:
+  ErbSafety:
+    enabled: true
+  FinalNewline:
+    enabled: true
+  RightTrim:
+    enabled: true
+  NoJavascriptTagHelper:
+    enabled: true

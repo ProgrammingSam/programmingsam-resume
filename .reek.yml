@@ -1,0 +1,22 @@
+# See the docs : https://github.com/troessner/reek/tree/master/docs
+
+# Directory specific configuration
+directories:
+  'app/channels':
+    IrresponsibleModule:
+      enabled: false
+  'app/controllers':
+    UtilityFunction:
+      enabled: false
+    IrresponsibleModule:
+      enabled: false
+  'app/helpers':
+    IrresponsibleModule:
+      enabled: false
+  'config/':
+    IrresponsibleModule:
+      enabled: false
+
+# Excluding directories
+exclude_paths:
+  - 'vendor/'

@@ -1,0 +1,17 @@
+Metrics/AbcSize:
+  Enabled: true
+  Max: 30
+
+Style/Documentation:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    # bundled gems
+    - 'vendor/**/*'
+    # package testing gems
+    - 'testing/vendor/**/*'
+
+LineLength:
+  Exclude:
+    - 'app/helpers/meta_tags_helper.rb'
