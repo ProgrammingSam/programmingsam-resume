@@ -1,5 +1,6 @@
 # See the docs : https://github.com/troessner/reek/tree/master/docs
 
+# Directory specific configuration
 directories:
   'app/channels':
     IrresponsibleModule:
@@ -15,3 +16,7 @@ directories:
   'config/':
     IrresponsibleModule:
       enabled: false
+
+# Excluding directories
+exclude_paths:
+  - 'vendor/'
