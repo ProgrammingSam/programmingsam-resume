@@ -2,8 +2,8 @@ exclude:
   - 'app/views/layouts/_styled_head.html.slim'
   - 'app/views/layouts/application.html.slim'
   - 'app/views/curriculum_vitae/index.html.slim'
+  - 'app/views/layouts/tracking/_google_analytics.html.slim'
 
 linters:
   LineLength:
     max: 80
-    Exclude:

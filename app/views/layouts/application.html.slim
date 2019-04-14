@@ -36,6 +36,8 @@ html
     / FIXME: Remove unused font size where design finished
     link(href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900'
          rel='stylesheet')
+    = render 'layouts/tracking/google_analytics'
+
     = stylesheet_link_tag 'application', media: 'all'
     = javascript_include_tag 'application'
     meta(name='viewport'
