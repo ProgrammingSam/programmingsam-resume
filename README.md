@@ -18,7 +18,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/41b974d4a89b4d5cbd53c022e3ea94d5)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ProgrammingSam/programmingam-resume&amp;utm_campaign=Badge_Grade)
 
 ## CI Pipeline
-[![Build Status](https://semaphoreci.com/api/v1/programmingsam/programmingam-resume/branches/develop/shields_badge.svg)](https://semaphoreci.com/programmingsam/programmingam-resume)
+[![Build Status](https://semaphoreci.com/api/v1/programmingsam/programmingsam-resume/branches/develop/shields_badge.svg)](https://semaphoreci.com/programmingsam/programmingsam-resume)
 
 ## Application content
 This resume application contains :
