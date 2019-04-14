@@ -28,4 +28,5 @@
 //= require bootstrap4/util
 //= require particles/setup
 //= require particles/initialize
+//= require tracking/google_analytics
 //= require_tree .
