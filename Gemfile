@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Web-application framework
 # https://github.com/rails/rails
-gem 'rails', '~> 5.2.1'
+gem 'rails', '~> 5.2.3'
 
 # == Global dependencies =======================================================
 # Errors handler
