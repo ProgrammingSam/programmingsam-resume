@@ -4,9 +4,20 @@
       .col-md-12.text-center
         h1.competences__title.dotted
           = t('.title')
-        = t('.see')
-        =< link_to t('.github_profile_summary_link'),
-                   t('.github_profile_summary_url')
-        =< t('.or')
-        =< link_to t('.github_awards_link'),
-                   t('.github_awards_url')
+
+      .col-md-12.competences__more-details.more-details
+        .more-details__title
+          = t('.more_details')
+        = link_to t('.github_profile_summary_url'),
+                  target: '_blank',
+                  class: 'link--with-arrow m-1'
+          = t('.github_profile_summary_link')
+          i.fas.fa-arrow-right
+
+        .more-details__title
+          = t('.or')
+        = link_to t('.github_awards_url'),
+                   target: '_blank',
+                   class: 'link--with-arrow m-1'
+          = t('.github_awards_link')
+          i.fas.fa-arrow-right

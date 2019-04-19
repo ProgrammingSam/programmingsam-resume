@@ -2,13 +2,16 @@
 }
 
 .competences {
-
 }
 
 .competences__title {
   @extend .title;
   margin-top: auto;
   padding-top: 50px;
+}
+
+.competences__more-details {
+  @extend .content__more-details;
 }
 
 /* Responsive */
