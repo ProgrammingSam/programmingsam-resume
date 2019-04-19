@@ -1,1 +1,10 @@
-= t('.title')
+.competences.h-100.no-gutters
+  .competences__background
+    .row
+      .col-md-12.text-center
+        h1.competences__title.dotted
+          = t('.title')
+        = t('.see')
+        =< link_to t('.github_profile_summary_link'), t('.github_profile_summary_url')
+        =< t('.or')
+        =< link_to t('.github_awards_link'), t('.github_awards_url')

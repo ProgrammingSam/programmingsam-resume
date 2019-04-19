@@ -1,0 +1,20 @@
+.skills {
+}
+
+.competences {
+
+}
+
+.competences__title {
+  @extend .title;
+  margin-top: auto;
+  padding-top: 50px;
+}
+
+/* Responsive */
+
+@include media-breakpoint-up(md) {
+  .competences__background {
+    background: linear-gradient(90deg, $bg-grey 50%, white 50%);
+  }
+}

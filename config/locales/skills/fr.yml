@@ -1,4 +1,10 @@
 fr:
   skills:
     index:
+      github_awards_link: "le classement GitHub awards"
+      github_awards_url: "http://git-awards.com/users/search?login=programmingsam"
+      github_profile_summary_link: "ma progression en temps réel"
+      github_profile_summary_url: "https://profile-summary-for-github.com/user/ProgrammingSam"
+      or: "ou"
+      see: "Voir"
       title: "Mes compétences"

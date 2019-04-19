@@ -1,4 +1,10 @@
 en:
   skills:
     index:
+      github_awards_link: "..."
+      github_awards_url: "http://git-awards.com/users/search?login=programmingsam"
+      github_profile_summary_link: "..."
+      github_profile_summary: "https://profile-summary-for-github.com/user/ProgrammingSam"
+      or: "or"
+      see: "See"
       title: "My skills"
