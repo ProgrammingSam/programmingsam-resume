@@ -1,6 +1,8 @@
 fr:
   skills:
     index:
+      codewars_badge_alt: "ProgrammingSam on Codewars"
+      codewars_badge_url: "https://www.codewars.com/users/ProgrammingSam/badges/micro"
       codewars_link: "Voir mes réalisations en matière de maîtrise du code à travers des défis"
       codewars_url: "https://www.codewars.com/users/ProgrammingSam"
       github_awards_link: "Voir mon classement GitHub awards"
