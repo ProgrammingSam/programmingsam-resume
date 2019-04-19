@@ -1,6 +1,8 @@
 fr:
   skills:
     index:
+      codewars_link: "Voir mes réalisations en matière de maîtrise du code à travers des défis"
+      codewars_url: "https://www.codewars.com/users/ProgrammingSam"
       github_awards_link: "Voir mon classement GitHub awards"
       github_awards_url: "http://git-awards.com/users/search?login=programmingsam"
       github_profile_summary_link: "Voir ma progression en temps réel"
