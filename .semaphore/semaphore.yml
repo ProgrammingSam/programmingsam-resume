@@ -18,7 +18,7 @@ blocks:
             - bundle install --deployment -j 4 --path vendor/bundle
             - cache store gems-$SEMAPHORE_GIT_BRANCH-$(checksum Gemfile.lock) vendor/bundle
 
-  - name: Code scanning
+  - name: Code Scanning
     task:
       prologue:
         commands:
