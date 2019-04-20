@@ -3,7 +3,7 @@ en:
     index:
       codewars_badge_alt: "ProgrammingSam on Codewars"
       codewars_badge_url: "https://www.codewars.com/users/ProgrammingSam/badges/micro"
-      codewars_link: "See my achievements in code mastery through challenges"
+      codewars_link: "See my code mastery through challenges"
       codewars_url: "https://www.codewars.com/users/ProgrammingSam"
       github_awards_link: "See my ranking on GitHub awards"
       github_awards_url: "http://git-awards.com/users/search?login=programmingsam"
@@ -11,4 +11,5 @@ en:
       github_profile_summary_url: "https://profile-summary-for-github.com/user/ProgrammingSam"
       more_details: "For more details"
       or: "or"
+      subtitle: "List of languages that I practice"
       title: "Skills"
