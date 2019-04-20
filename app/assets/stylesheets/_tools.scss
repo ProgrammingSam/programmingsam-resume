@@ -14,4 +14,7 @@
 /* Responsive */
 
 @include media-breakpoint-up(md) {
+  .work-tools__background {
+    background: linear-gradient(90deg, white 50%, $bg-grey 50%);
+  }
 }

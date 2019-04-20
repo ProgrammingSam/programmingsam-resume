@@ -13,10 +13,30 @@
 .competences__more-details {
 }
 
+.competences__item {
+  // background-color: $primary;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 0.1875rem solid $primary;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
 /* Responsive */
 
 @include media-breakpoint-up(md) {
   .competences__background {
     background: linear-gradient(90deg, $bg-grey 50%, white 50%);
+  }
+
+  .competences__item {
+    &--left {
+      margin-left: 0.625rem;
+    }
+
+    &--right {
+      margin-right: 0.625rem;
+    }
   }
 }
