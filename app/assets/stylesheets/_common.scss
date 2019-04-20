@@ -51,6 +51,10 @@
   text-transform: uppercase;
 }
 
+.more-details__image {
+  margin-top: auto;
+}
+
 // Responsive
 
 @include media-breakpoint-up(md) {

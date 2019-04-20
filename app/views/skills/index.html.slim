@@ -4,9 +4,11 @@
       .col-md-12.text-center
         h1.competences__title.dotted
           = t('.title')
+
       .col-md-12.competences__more-details.more-details
         .more-details__title
           = t('.subtitle')
+
       .col-md-12.competences__more-details.more-details
         .more-details__title
           = t('.more_details')
@@ -31,8 +33,9 @@
                    class: 'link--with-arrow m-1'
           = t('.codewars_link')
           i.fas.fa-arrow-right
-          .more-details__image.ml-2
-            = image_tag t('.codewars_badge_url'), alt: t('.codewars_badge_alt')
+        .more-details__image
+          = image_tag t('.codewars_badge_url'),
+                      alt: t('.codewars_badge_alt')
 
 / Ruby(Rails/Sinatra) Git/Terminal(bash et zsh) SQL(MySQL, SQlite, PostgreSQL)
 / JavaScript(JQuery) HTML5 CSS3 (SASS/BEM/ERB/HAML) LaTeX
