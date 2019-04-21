@@ -41,6 +41,9 @@ blocks:
         - name: Slim Lint - Check Slim
           commands:
             - bundle exec slim-lint app/views/
-        - name: SCSS Lint - Check Slim
+        - name: SCSS Lint - Check SCSS
           commands:
             - bundle exec scss-lint app/assets/stylesheets/
+        - name: Traceroute - Check routes
+          commands:
+             - bundle exec rake traceroute FAIL_ON_ERROR=1
