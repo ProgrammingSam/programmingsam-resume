@@ -7,7 +7,7 @@ linters:
     enabled: false
   ColorKeyword:
     enabled: false
-  # Enabled for BEM formatting
+  # Disabled for BEM formatting
   SelectorFormat:
     enabled: false
   ColorVariable:

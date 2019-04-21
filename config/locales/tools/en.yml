@@ -1,5 +1,8 @@
 en:
   tools:
     index:
+      design: "Design"
+      development: "Dev"
+      other: "Other"
       subtitle: "List of my tools for effective development on macOS"
       title: "Tools"
