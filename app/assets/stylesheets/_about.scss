@@ -3,7 +3,7 @@
 }
 
 .profile {
-  flex-grow: 1!important;
+  flex-grow: 1 !important;
 }
 
 .profile__text {
@@ -28,7 +28,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 25px 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .hobbies__item {
@@ -51,7 +51,7 @@
 }
 
 .hobbies__text {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-weight: $font-weight-bold;
 }
 
@@ -87,7 +87,7 @@
 
 .chart__title {
   display: flex;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: $font-weight-bold;
   justify-content: flex-start;
   margin-bottom: 20px;
@@ -104,7 +104,7 @@
   }
 }
 
-/* Responsive */
+// Responsive
 
 @include media-breakpoint-up(md) {
   .profile__text {
@@ -119,7 +119,7 @@
   .hobbies {
     justify-content: space-between;
     margin: 25px 0;
-    padding: 0px;
+    padding: 0;
   }
 
   .hobbies__item {
@@ -143,7 +143,7 @@
   }
 
   .hobbies__text {
-    font-size: 0.8rem;
+    font-size: .8rem;
     font-weight: $font-weight-bold;
   }
 

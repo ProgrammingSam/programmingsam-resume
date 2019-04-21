@@ -15,7 +15,7 @@
 }
 
 .team__role {
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: $font-weight-light;
 }
 
@@ -25,15 +25,15 @@
 }
 
 .team__picture {
-  border-radius: 50%;
   border: 3px solid $primary;
+  border-radius: 50%;
   height: 140px;
   margin-bottom: 20px;
   margin-top: 20px;
   width: auto;
 }
 
-/* Responsive */
+// Responsive
 
 @include media-breakpoint-up(md) {
   .team__background {
