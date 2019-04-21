@@ -64,10 +64,13 @@ group :development, :test do
 end
 
 group :development do
+  # Configurable tool for writing clean and consistent SCSS
+  # https://github.com/brigade/scss-lint
+  gem 'scss_lint', '~> 0.57', require: false
   # Tool to help lint your ERB or HTML files
   # https://github.com/Shopify/erb-lint
   gem 'erb_lint', '~> 0.0', require: false
-  # Tool to help keep your Slim files clean and readable.
+  # Tool to help keep your Slim files clean and readable
   # It integrates with RuboCop
   # https://github.com/sds/slim-lint
   gem 'slim_lint', '~> 0.16', require: false

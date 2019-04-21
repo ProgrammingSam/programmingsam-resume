@@ -41,3 +41,6 @@ blocks:
         - name: Slim Lint - Check Slim
           commands:
             - bundle exec slim-lint app/views/
+        - name: SCSS Lint - Check Slim
+          commands:
+            - bundle exec scss-lint app/assets/stylesheets/
