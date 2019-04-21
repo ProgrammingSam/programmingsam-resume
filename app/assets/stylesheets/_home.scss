@@ -18,7 +18,7 @@
 .hero__title {
   @extend .title;
   margin-top: auto;
-  padding-top: 20px
+  padding-top: 20px;
 }
 
 .hero__subtitle {
@@ -26,7 +26,7 @@
   font-weight: $font-weight-bold;
 }
 
-/* Responsive */
+// Responsive
 
 @include media-breakpoint-up(md) {
   .hero__text {

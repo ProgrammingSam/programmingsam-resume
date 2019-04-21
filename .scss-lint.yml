@@ -1,0 +1,25 @@
+# FIXME: Enable over time after corrections
+
+
+exclude: app/assets/stylesheets/bootstrap4.scss
+
+linters:
+  BorderZero:
+    enabled: false
+  ColorKeyword:
+    enabled: false
+  # Enabled for BEM formatting
+  SelectorFormat:
+    enabled: false
+  ColorVariable:
+    enabled: false
+  PlaceholderInExtend:
+    enabled: false
+  EmptyRule:
+    enabled: false
+  QualifyingElement:
+    enabled: false
+  ImportantRule:
+    enabled: false
+  SingleLinePerSelector:
+    enabled: false

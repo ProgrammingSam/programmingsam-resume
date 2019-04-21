@@ -2,9 +2,9 @@
   display: inline-block;
   position: relative;
 
-  &:after {
+  &::after {
     color: $primary;
-    content: ".";
+    content: '.';
     margin-left: 1px;
     position: absolute;
   }
@@ -18,7 +18,7 @@
   align-items: center;
   color: black;
   display: inline-flex;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: $font-weight-bold;
   margin: 20px auto 20px 0;
 
@@ -36,7 +36,7 @@
   font-weight: $font-weight-bold;
 }
 
-/* Responsive */
+// Responsive
 
 @include media-breakpoint-up(md) {
   .title {

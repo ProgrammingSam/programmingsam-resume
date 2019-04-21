@@ -1,7 +1,7 @@
 .footer {
   background-color: $white;
   display: flex;
-  font-size: 0.875rem;
+  font-size: .875rem;
   justify-content: center;
   margin: 25px 0;
 }
@@ -30,6 +30,9 @@ a.footer_link {
     color: black;
   }
 }
+
+// Responsive
+
 @include media-breakpoint-up(md) {
   .footer {
     margin: 30px 0;

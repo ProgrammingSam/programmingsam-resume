@@ -11,10 +11,10 @@
 .nav-link,
 .navbar-brand {
   color: black !important;
-  font-size: 0.875rem;
+  font-size: .875rem;
 }
 
-/* Responsive */
+// Responsive
 
 @include media-breakpoint-up(md) {
   .nav-item:last-of-type {
