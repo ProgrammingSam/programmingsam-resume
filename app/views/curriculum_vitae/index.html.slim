@@ -15,13 +15,15 @@
 
       .col-md-6.timeline__left-col.left-col
         .left-col__projetcs
-          = image_tag image_url('projects/programmingsam_light.png')
+          = image_tag image_url('projects/programmingsam_light.png'),
+                      alt: t('.job_programmingsam')
         .timeline__center-line-icon
           i.fas.fa-briefcase
 
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--programmingsam
-          = image_tag image_url('companies/programmingsam.png')
+          = image_tag image_url('companies/programmingsam.png'),
+                      alt: t('.job_programmingsam')
         .timeline__name
           = t('.job_programmingsam')
         .badge.badge-secondary.timeline__date-badge
@@ -31,7 +33,7 @@
         .timeline__tasks
           = t('.job_tasks_programmingsam_html')
         .timeline__skill-section.skill-section
-          - %w[API AWS Sequel LaTeX Ruby Rails PostgresSQL MySQL Heroku JavaScript JQuery CSS3 SASS HTML5 Erb Yml Slim Git Bootstrap4 Ajax CleverCloud SQLite].sort_by!{ |e| e }.each do |i|
+          - %w[API AWS Sequel LaTeX Ruby Rails PostgresSQL MySQL Heroku JavaScript JQuery CSS3 SASS HTML5 Erb Yml Slim Git Bootstrap4 Ajax CleverCloud SQLite].sort_by! { |e| e }.each do |i|
             .badge.badge-primary.skill-section__badge
               = i
         .timeline__location.location
@@ -45,14 +47,16 @@
 
       .col-md-6.timeline__left-col.left-col
         .left-col__projetcs
-          = image_tag image_url('projects/listy_light.png')
+          = image_tag image_url('projects/listy_light.png'),
+                      alt: t('.job_listy')
 
         .timeline__center-line-icon
           i.fas.fa-rocket
 
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--listy
-          = image_tag image_url('companies/listy.png')
+          = image_tag image_url('companies/listy.png'),
+                      alt: t('.job_listy')
         .timeline__name
           = t('.job_listy')
         .badge.badge-secondary.timeline__date-badge
@@ -62,27 +66,30 @@
         .timeline__tasks
           = t('.job_tasks_listy_html')
         .timeline__skill-section.skill-section
-          - %w[API Ruby Rails PostgresSQL JavaScript JQuery CSS3 SASS HTML5 Yml Slim Git Bootstrap4 Ajax CleverCloud].sort_by!{ |e| e }.each do |i|
+          - %w[API Ruby Rails PostgresSQL JavaScript JQuery CSS3 SASS HTML5 Yml Slim Git Bootstrap4 Ajax CleverCloud].sort_by! { |e| e }.each do |i|
             .badge.badge-primary.skill-section__badge
               = i
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
           .location-name
             = t('.job_location_listy')
-        = link_to t('.listy_url'), target: '_blank', class: 'link--with-arrow'
+        = link_to t('.listy_url'), target: '_blank',
+                                   class: 'link--with-arrow'
           = t('.visit_link')
           i.fas.fa-arrow-right
 
       .col-md-6.timeline__left-col.left-col
         .left-col__projetcs
-          = image_tag image_url('projects/frizbiz_light.png')
+          = image_tag image_url('projects/frizbiz_light.png'),
+                      alt: t('.job_frizbiz')
 
         .timeline__center-line-icon
           i.fas.fa-briefcase
 
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--frizbiz
-          = image_tag image_url('companies/frizbiz.png')
+          = image_tag image_url('companies/frizbiz.png'),
+                      alt: t('.job_frizbiz')
         .timeline__name
           = t('.job_frizbiz')
         .badge.badge-secondary.timeline__date-badge
@@ -92,7 +99,7 @@
         .timeline__tasks
           = t('.job_tasks_frizbiz_html')
         .timeline__skill-section.skill-section
-          - %w[API Ruby Rails Sequel MySQL JavaScript JQuery CSS3 SASS HTML5 Erb Haml Yml Slim Git Markdown Bootstrap3 Ajax Cycloid AWS PostgresSQL LaTeX].sort_by!{ |e| e }.each do |i|
+          - %w[API Ruby Rails Sequel MySQL JavaScript JQuery CSS3 SASS HTML5 Erb Haml Yml Slim Git Markdown Bootstrap3 Ajax Cycloid AWS PostgresSQL LaTeX].sort_by! { |e| e }.each do |i|
             .badge.badge-primary.skill-section__badge
               = i
         .timeline__location.location
@@ -100,19 +107,22 @@
           .location-name
           .location-name
             = t('.job_location_frizbiz')
-        = link_to t('.frizbiz_url'), target: '_blank', class: 'link--with-arrow'
+        = link_to t('.frizbiz_url'), target: '_blank',
+                                     class: 'link--with-arrow'
           = t('.visit_link')
           i.fas.fa-arrow-right
 
       .col-md-6.timeline__left-col.left-col
         .left-col__projetcs
-          = image_tag image_url('projects/sharing_slot_light.png')
+          = image_tag image_url('projects/sharing_slot_light.png'),
+                      alt: t('.degree_name_wagon')
         .timeline__center-line-icon
           i.fas.fa-code
 
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--wagon
-          = image_tag image_url('schools/wagon.png')
+          = image_tag image_url('schools/wagon.png'),
+                      alt: t('.degree_name_wagon')
         .timeline__name
           = t('.degree_name_wagon')
         .badge.badge-secondary.timeline__date-badge
@@ -120,14 +130,15 @@
         .timeline__descritpion
           = t('.school_description_wagon')
         .timeline__skill-section.skill-section
-          - %w[API Ruby Rails SQLite JavaScript JQuery CSS3 SASS HTML5 Erb Yml Git Bootstrap3 Ajax Heroku Carrierwave Cloudinary].sort_by!{ |e| e }.each do |i|
+          - %w[API Ruby Rails SQLite JavaScript JQuery CSS3 SASS HTML5 Erb Yml Git Bootstrap3 Ajax Heroku Carrierwave Cloudinary].sort_by! { |e| e }.each do |i|
             .badge.badge-primary.skill-section__badge
               = i
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
           .location-name
             = t('.school_location_wagon')
-        = link_to t('.wagon_url'), target: '_blank', class: 'link--with-arrow'
+        = link_to t('.wagon_url'), target: '_blank',
+                                   class: 'link--with-arrow'
           = t('.visit_link')
           i.fas.fa-arrow-right
 
@@ -137,7 +148,8 @@
 
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--heph
-          = image_tag image_url('schools/heph.jpg')
+          = image_tag image_url('schools/heph.jpg'),
+                      alt: t('.degree_name_heph_master')
         .timeline__name
           = t('.degree_name_heph_master')
         .badge.badge-secondary.timeline__date-badge
@@ -148,7 +160,8 @@
           i.fas.fa-map-marker-alt.location-icon
           .location-name
             = t('.school_location_heph')
-        = link_to t('.heph_url'), target: '_blank', class: 'link--with-arrow'
+        = link_to t('.heph_url'), target: '_blank',
+                                  class: 'link--with-arrow'
           = t('.visit_link')
           i.fas.fa-arrow-right
 
@@ -158,7 +171,8 @@
 
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--idea
-          = image_tag image_url('companies/idea.png')
+          = image_tag image_url('companies/idea.png'),
+                      alt: t('.job_idea')
         .timeline__name
           = t('.job_idea')
         .badge.badge-secondary.timeline__date-badge
@@ -168,14 +182,15 @@
         .timeline__tasks
          = t('.job_tasks_idea_html')
         .timeline__skill-section.skill-section
-          - %w[VBA MATLAB LaTeX C# C++].sort_by!{ |e| e }.each do |i|
+          - %w[VBA MATLAB LaTeX C# C++].sort_by! { |e| e }.each do |i|
             .badge.badge-primary.skill-section__badge
               = i
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
           .location-name
             = t('.job_location_idea')
-        = link_to t('.idea_url'), target: '_blank', class: 'link--with-arrow'
+        = link_to t('.idea_url'), target: '_blank',
+                                  class: 'link--with-arrow'
           = t('.visit_link')
           i.fas.fa-arrow-right
 
@@ -185,7 +200,8 @@
 
       .col-md-6.timeline__right-col
         .timeline__logo.timeline__logo--heph
-          = image_tag image_url('schools/heph.jpg')
+          = image_tag image_url('schools/heph.jpg'),
+                      alt: t('.degree_name_heph_bac')
         .timeline__name
             = t('.degree_name_heph_bac')
         .badge.badge-secondary.timeline__date-badge
@@ -196,6 +212,7 @@
           i.fas.fa-map-marker-alt.location-icon
           .location-name
             = t('.school_location_heph')
-        = link_to t('.heph_url'), target: '_blank', class: 'link--with-arrow'
+        = link_to t('.heph_url'), target: '_blank',
+                                  class: 'link--with-arrow'
           = t('.visit_link')
           i.fas.fa-arrow-right
