@@ -1,5 +1,4 @@
 .tools {
-
 }
 
 .work-tools {
@@ -11,7 +10,7 @@
   padding-top: 50px;
 }
 
-/* Responsive */
+// Responsive
 
 @include media-breakpoint-up(md) {
   .work-tools__background {

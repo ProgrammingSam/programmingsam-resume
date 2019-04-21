@@ -1,6 +1,5 @@
 # FIXME: Enable over time after corrections
 
-
 exclude: app/assets/stylesheets/bootstrap4.scss
 
 linters:

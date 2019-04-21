@@ -16,14 +16,14 @@
 .competences__item {
   // background-color: $primary;
   align-items: center;
-  border-radius: 0.5rem;
-  border: 0.1875rem solid $primary;
+  border: .1875rem solid $primary;
+  border-radius: .5rem;
   display: flex;
   justify-content: center;
   padding: 5px;
 }
 
-/* Responsive */
+// Responsive
 
 @include media-breakpoint-up(md) {
   .competences__background {
@@ -32,11 +32,11 @@
 
   .competences__item {
     &--left {
-      margin-left: 0.625rem;
+      margin-left: .625rem;
     }
 
     &--right {
-      margin-right: 0.625rem;
+      margin-right: .625rem;
     }
   }
 }
