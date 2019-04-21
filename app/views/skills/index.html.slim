@@ -9,13 +9,13 @@
         .more-details__title
           = t('.subtitle')
 
-      .col-md-6.col-sm-12.text-center
-        .competences__item.competences__item--left
+      .col-md-6.col-sm-12
+        = link_to '#', class: 'competences__item competences__item--left'
           = 'RIGHT COL CANVAS'
 
-      .col-md-6.col-sm-12.text-center
-        .competences__item.competences__item--right
-          = 'LEFT COL CANVAS'
+      .col-md-6.col-sm-12
+        = link_to '#', class: 'competences__item competences__item--right'
+            = 'LEFT COL CANVAS'
 
       .col-md-12.competences__more-details.more-details
         .more-details__title
@@ -46,4 +46,5 @@
                       alt: t('.codewars_badge_alt')
 
 / Ruby (Rails/Sinatra) Git Terminal(bash et zsh) SQL(MySQL, SQlite, PostgreSQL)
-/ JavaScript (JQuery + Vue.js et React.js) HTML5 CSS3 (SASS/BEM/ERB/HAML) LaTeX Python
+/ JavaScript (JQuery + Vue.js et React.js) HTML5 CSS3 (SASS/BEM/ERB/HAML) LaTeX
+/ Python
