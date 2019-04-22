@@ -96,6 +96,36 @@
               .item__content
                 = t('.latex_content')
 
+      .col-md-6.col-sm-12
+        = link_to t('.html_url'),
+                  class: 'competences__item competences__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center
+              = image_tag image_url('skills/html.png'),
+                          alt: t('.html'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12
+              .item__title
+                = t('.html')
+              .item__content
+                = t('.html_content')
+
+      .col-md-6.col-sm-12
+        = link_to t('.css_url'),
+                  class: 'competences__item competences__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center
+              = image_tag image_url('skills/css.png'),
+                          alt: t('.css'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12
+              .item__title
+                = t('.css')
+              .item__content
+                = t('.css_content')
+
       .col-md-12.competences__more-details.more-details
         .more-details__title
           = t('.more_details')
@@ -126,4 +156,4 @@
 
 
 / HTML5 CSS3 (SASS/BEM/SLIM/ERB/HAML)
-/ Python
+/ Python YML ?
