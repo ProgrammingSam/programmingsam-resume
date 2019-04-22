@@ -14,13 +14,13 @@
 .competences__item {
   align-items: center;
   background-color: white;
-  border-radius: .5rem;
   border: .1875rem solid $primary;
+  border-radius: .5rem;
   color: black;
   display: flex;
   justify-content: center;
-  padding: 10px;
   margin-bottom: 20px;
+  padding: 10px;
 
   &:hover {
     color: black;
@@ -35,8 +35,8 @@
 
 .item__image {
   height: auto;
-  width: 40%;
   margin-bottom: 20px;
+  width: 40%;
 }
 
 .item__title {
@@ -69,8 +69,8 @@
   }
 
   .item__image {
-    width: 80%;
     margin-bottom: 0;
+    width: 80%;
   }
 }
 
