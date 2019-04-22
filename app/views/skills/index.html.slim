@@ -5,10 +5,6 @@
         h1.competences__title.dotted
           = t('.title')
 
-      .col-md-12.competences__more-details.more-details
-        .more-details__title
-          = t('.subtitle')
-
     .row
       .col-md-6.col-sm-12
         = link_to t('.ruby_url'),
@@ -70,6 +66,36 @@
               .item__content
                 = t('.shell_content')
 
+      .col-md-6.col-sm-12
+        = link_to t('.sql_url'),
+                  class: 'competences__item competences__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center
+              = image_tag image_url('skills/sql.png'),
+                          alt: t('.sql'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12
+              .item__title
+                = t('.sql')
+              .item__content
+                = t('.sql_content')
+
+      .col-md-6.col-sm-12
+        = link_to t('.latex_url'),
+                  class: 'competences__item competences__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center
+              = image_tag image_url('skills/latex.png'),
+                          alt: t('.latex'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12
+              .item__title
+                = t('.latex')
+              .item__content
+                = t('.latex_content')
+
       .col-md-12.competences__more-details.more-details
         .more-details__title
           = t('.more_details')
@@ -98,6 +124,6 @@
           = image_tag t('.codewars_badge_url'),
                       alt: t('.codewars_badge_alt')
 
-/ Git Terminal(bash et zsh) SQL(MySQL, SQlite, PostgreSQL)
-/ HTML5 CSS3 (SASS/BEM/ERB/HAML) LaTeX
+
+/ HTML5 CSS3 (SASS/BEM/SLIM/ERB/HAML)
 / Python
