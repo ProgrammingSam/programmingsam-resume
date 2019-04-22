@@ -35,7 +35,7 @@ en:
       shell_content: "Shell is a command line interpreter that I use in Bash, Zsh or VIM sessions on a daily basis."
       shell_url: "https://en.wikipedia.org/wiki/Shell_(computing)"
       shell: "Shell"
-      source_code_link: "See the source code of this application"
+      source_code_link: "See the source code of this app"
       source_code_url: "https://github.com/ProgrammingSam/programmingsam-resume"
       sql_content: "Structured Query Language is a language for exploiting relational databases. I use it with MySQL, PostgreSQL and SQLite"
       sql_url: "https://en.wikipedia.org/wiki/SQL"

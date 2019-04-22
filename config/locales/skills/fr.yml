@@ -41,6 +41,6 @@ fr:
       sql_url: "https://fr.wikipedia.org/wiki/Structured_Query_Language"
       sql: "SQL"
       title: "Compétences"
-      yaml_content: "YAML est un standard de sérialisation de données convivial pour tous les langages de programmation. Je l'utilise principalement pour des configurations."
+      yaml_content: "YAML est un standard de sérialisation de données \"human friendly\" pour tous les langages de programmation. Je l'utilise principalement pour des configurations."
       yaml_url: "https://yaml.org/"
       yaml: "YAML"
