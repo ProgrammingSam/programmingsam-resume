@@ -14,7 +14,7 @@
 .competences__item {
   align-items: center;
   background-color: white;
-  border: .1875rem solid $primary;
+  border: .1875rem solid $secondary;
   border-radius: .5rem;
   color: black;
   display: flex;
@@ -57,7 +57,7 @@
   }
 
   .competences__item {
-    height: 160px;
+    height: 170px;
 
     &--left {
       margin-left: .625rem;
