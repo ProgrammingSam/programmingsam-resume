@@ -295,5 +295,62 @@
         .more-details__title
           = t('.other')
 
-/ TexStudio Boostnote Slack
-/ Keka Cyberduck https://cyberduck.io/ Dash
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.texstudio_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/texstudio.png'),
+                          alt: t('.texstudio'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.texstudio')
+              .item__content
+                = t('.texstudio_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.slack_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/slack.png'),
+                          alt: t('.slack'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.slack')
+              .item__content
+                = t('.slack_content')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.cyberduck_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/cyberduck.png'),
+                          alt: t('.cyberduck'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.cyberduck')
+              .item__content
+                = t('.cyberduck_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.dash_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/dash.png'),
+                          alt: t('.dash'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.dash')
+              .item__content
+                = t('.dash_content')
