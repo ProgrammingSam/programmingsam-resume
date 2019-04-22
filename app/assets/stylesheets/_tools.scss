@@ -4,17 +4,19 @@
 .work-tools {
 }
 
-.work-tools__more-details {
-  @extend .more-details;
-}
-
-.work-tools__section {
-}
-
 .work-tools__title {
   @extend .title;
   margin-top: auto;
+  padding-bottom: 10px;
   padding-top: 50px;
+}
+
+.work-tools__more-details {
+  margin-top: 40px;
+}
+
+.work-tools__item {
+  @extend .box-item;
 }
 
 // Responsive

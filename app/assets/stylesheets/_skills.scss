@@ -16,40 +16,7 @@
 }
 
 .competences__item {
-  align-items: center;
-  background-color: white;
-  border: .1875rem solid $secondary;
-  border-radius: .5rem;
-  color: black;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  padding: 10px;
-
-  &:hover {
-    color: black;
-    text-decoration: none;
-    transform: translate3d(0, -3px, 0);
-    transition: all .3s;
-  }
-}
-
-.item {
-}
-
-.item__image {
-  height: auto;
-  width: 30%;
-}
-
-.item__title {
-  font-weight: $font-weight-bold;
-  margin-bottom: 15px;
-}
-
-.item__content {
-  font-size: .875rem;
-  font-weight: $font-weight-light;
+  @extend .box-item;
 }
 
 // Responsive
@@ -57,21 +24,5 @@
 @include media-breakpoint-up(md) {
   .competences__background {
     background: linear-gradient(90deg, $bg-grey 50%, white 50%);
-  }
-
-  .competences__item {
-    height: 190px;
-
-    &--left {
-      margin-left: .625rem;
-    }
-
-    &--right {
-      margin-right: .625rem;
-    }
-  }
-
-  .item__image {
-    width: 80%;
   }
 }

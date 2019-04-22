@@ -1,8 +1,15 @@
 fr:
   tools:
     index:
+      deployment: "Déploiement"
       design: "Design"
       development: "Développement"
       other: "Autres"
-      subtitle: "Liste de mes outils pour du développement efficace sur macOS"
       title: "Outils"
+      environment: "Environnements"
+      mac: "MacOS"
+      mac_url: "https://www.apple.com/fr/macos/mojave"
+      mac_content: "Missing locales"
+      ubuntu: "Ubuntu"
+      ubuntu_url: "https://www.ubuntu.com"
+      ubuntu_content: "Missing locales"
