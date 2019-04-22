@@ -326,7 +326,7 @@
                 = t('.slack_content')
 
       .col-md-5.offset-md-1.col-sm-12
-        = link_to t('.cyberduck_url'),
+        = link_to t('.frog_url'),
                   class: 'work-tools__item work-tools__item--left item',
                   target: '_blank'
           .row
@@ -354,3 +354,18 @@
                 = t('.dash')
               .item__content
                 = t('.dash_content')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.frog_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/frog.png'),
+                          alt: t('.frog'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.frog')
+              .item__content
+                = t('.frog_content')
