@@ -11,6 +11,10 @@
   padding-top: 50px;
 }
 
+.competences__more-details {
+  margin-top: 40px;
+}
+
 .competences__item {
   align-items: center;
   background-color: white;
@@ -57,7 +61,7 @@
   }
 
   .competences__item {
-    height: 170px;
+    height: 180px;
 
     &--left {
       margin-left: .625rem;
@@ -72,10 +76,4 @@
     margin-bottom: 0;
     width: 80%;
   }
-}
-
-@include media-breakpoint-up(sm) {
-  // .competences__item {
-  //   height: 400px;
-  // }
 }

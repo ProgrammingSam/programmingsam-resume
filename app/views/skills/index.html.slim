@@ -126,6 +126,36 @@
               .item__content
                 = t('.css_content')
 
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.python_url'),
+                  class: 'competences__item competences__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center
+              = image_tag image_url('skills/python.png'),
+                          alt: t('.python'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12
+              .item__title
+                = t('.python')
+              .item__content
+                = t('.python_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.yaml_url'),
+                  class: 'competences__item competences__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center
+              = image_tag image_url('skills/yaml.png'),
+                          alt: t('.yaml'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12
+              .item__title
+                = t('.yaml')
+              .item__content
+                = t('.yaml_content')
+
       .col-md-12.competences__more-details.more-details
         .more-details__title
           = t('.more_details')
@@ -145,6 +175,14 @@
 
         .more-details__title
           = t('.or')
+        = link_to t('.source_code_url'),
+                   target: '_blank',
+                   class: 'link--with-arrow m-1'
+          = t('.source_code_link')
+          i.fas.fa-arrow-right
+
+        .more-details__title
+          = t('.or')
         = link_to t('.codewars_url'),
                    target: '_blank',
                    class: 'link--with-arrow m-1'
@@ -153,5 +191,3 @@
         .more-details__image
           = image_tag t('.codewars_badge_url'),
                       alt: t('.codewars_badge_alt')
-
-/ Python YML ?
