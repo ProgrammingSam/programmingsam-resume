@@ -32,7 +32,7 @@ fr:
       ruby_content: "Ruby est un langage open-source dynamique qui met l'accent sur la simplicité et la productivité. Sa syntaxe élégante en facilite la lecture et l'écriture. Je l'utilise principalement pur ou avec des frameworks type Rails ou Sinatra."
       ruby_url: "https://www.ruby-lang.org/fr/"
       ruby: "Ruby"
-      shell_content: "Le Terminal est un interpréteur de lignes de commandes que j'utilise au quotidien en sessions Bash ou Zsh."
+      shell_content: "Le Terminal est un interpréteur de lignes de commandes que j'utilise au quotidien en sessions Bash, Zsh ou VIM."
       shell_url: "https://fr.wikipedia.org/wiki/Terminal_informatique"
       shell: "Terminal"
       source_code_link: "Voir le code source de l'application"
