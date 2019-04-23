@@ -229,6 +229,25 @@
 
       .col-md-12.work-tools__more-details.more-details
         .more-details__title
+          = t('.storage')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.aws_url'),
+                  class: 'work-tools__item work-tools__item--felt item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/aws.png'),
+                          alt: t('.aws'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.aws')
+              .item__content
+                = t('.aws_content')
+
+      .col-md-12.work-tools__more-details.more-details
+        .more-details__title
           = t('.design')
 
       .col-md-5.offset-md-1.col-sm-12
@@ -369,3 +388,18 @@
                 = t('.frog')
               .item__content
                 = t('.frog_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.boostnote_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/boostnote.png'),
+                          alt: t('.boostnote'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.boostnote')
+              .item__content
+                = t('.boostnote_content')
