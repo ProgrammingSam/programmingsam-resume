@@ -1,7 +1,7 @@
 fr:
   tools:
     index:
-      atom_content: "Un éditeur de texte piratable pour le 21ème siècle."
+      atom_content: "Un éditeur de texte piratable pour le 21ème siècle. Il supporte des plug-ins écrits en Node.js et implémente Git Control. La plupart des extensions sont sous licence libre et sont maintenues par la communauté. Atom est basé sur Chromium et Electron et est écrit en CoffeeScript."
       atom_url: "https://atom.io"
       atom: "Atom"
       aws_content: "Amazon Simple Storage Service (Amazon S3) est un service de stockage d'objet offrant une scalabilité, une disponibilité des données, une sécurité et des performances de pointe."

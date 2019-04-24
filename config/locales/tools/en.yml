@@ -1,7 +1,7 @@
 en:
   tools:
     index:
-      atom_content: "A hackable text editor for the 21st Century."
+      atom_content: "A hackable text editor for the 21st Century. It supports plug-ins written in Node.js and implements Git Control. Most extensions are freely licensed and maintained by the community. Atom is based on Chromium and Electron and is written in CoffeeScript."
       atom_url: "https://atom.io"
       atom: "Atom"
       aws_content: "Amazon Simple Storage Service (Amazon S3) is an object storage service that provides scalability, data availability, security, and peak performance."
