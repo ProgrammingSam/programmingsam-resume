@@ -83,6 +83,6 @@ en:
       ubuntu_content: "Ubuntu is an open source software operating system that runs from the desktop, to the cloud, to all your internet connected things."
       ubuntu_url: "https://www.ubuntu.com"
       ubuntu: "Ubuntu"
-      virtualbox_content: "Missing locales"
+      virtualbox_content: "Oracle VM VirtualBox allows users to run almost any operating system on the same computer and toggle freely between different operating system instances running simultaneously."
       virtualbox_url: "https://www.virtualbox.org"
       virtualbox: "VirtualBox"
