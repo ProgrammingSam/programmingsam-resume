@@ -115,3 +115,16 @@
     width: 80%;
   }
 }
+
+
+@include media-breakpoint-down(md) {
+  .box-item {
+    height: 330px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .box-item {
+    height: auto;
+  }
+}
