@@ -18,4 +18,14 @@ xml.urlset(xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9') do
     xml.changefreq('monthly')
     xml.priority '1.0'
   end
+  xml.url do
+    xml.loc tools_url(locale: :fr)
+    xml.changefreq('monthly')
+    xml.priority '1.0'
+  end
+  xml.url do
+    xml.loc skills_url(locale: :fr)
+    xml.changefreq('monthly')
+    xml.priority '1.0'
+  end
 end
