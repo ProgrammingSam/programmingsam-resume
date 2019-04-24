@@ -41,6 +41,6 @@ en:
       sql_url: "https://en.wikipedia.org/wiki/SQL"
       sql: "SQL"
       title: "Skills"
-      yaml_content: "YAML is a human friendly data serialization standard for all programming languages, I mainly use it for configurations."
+      yaml_content: "YAML is a human friendly data serialization standard for all programming languages. I mainly use it for configurations."
       yaml_url: "https://yaml.org"
       yaml: "YAML"
