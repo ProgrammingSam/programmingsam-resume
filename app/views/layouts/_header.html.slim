@@ -17,6 +17,13 @@ nav.navbar.navbar-expand-lg.navbar-light
         li.nav-item
           = link_to curriculum_vitae_index_path, class: 'nav-link'
             = t('.curriculum_vitae')
+
+        li.nav-item
+          = link_to skills_path, class: 'nav-link'
+            = t('.skills')
+        li.nav-item
+          = link_to tools_path, class: 'nav-link'
+            = t('.tools')
         li.nav-item
           = link_to t('.fr'), { locale: t('.fr') }, class: 'nav-link'
         li.nav-item

@@ -8,6 +8,8 @@ en:
       en: "en"
       fr: "fr"
       home: "ProgrammingSam"
+      skills: "Skills"
+      tools: "Tools"
     sidebar:
       github_url: "https://github.com/ProgrammingSam"
       gitlab_url: "https://gitlab.com/ProgrammingSam"

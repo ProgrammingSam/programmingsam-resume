@@ -1,0 +1,28 @@
+.tools {
+}
+
+.work-tools {
+}
+
+.work-tools__title {
+  @extend .title;
+  margin-top: auto;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+.work-tools__more-details {
+  margin-top: 40px;
+}
+
+.work-tools__item {
+  @extend .box-item;
+}
+
+// Responsive
+
+@include media-breakpoint-up(md) {
+  .work-tools__background {
+    background: linear-gradient(90deg, white 50%, $bg-grey 50%);
+  }
+}

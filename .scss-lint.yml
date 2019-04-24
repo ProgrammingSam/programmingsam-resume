@@ -1,6 +1,5 @@
 # FIXME: Enable over time after corrections
 
-
 exclude: app/assets/stylesheets/bootstrap4.scss
 
 linters:
@@ -8,7 +7,7 @@ linters:
     enabled: false
   ColorKeyword:
     enabled: false
-  # Enabled for BEM formatting
+  # Disabled for BEM formatting
   SelectorFormat:
     enabled: false
   ColorVariable:

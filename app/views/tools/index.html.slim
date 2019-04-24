@@ -1,0 +1,405 @@
+.work-tools.h-100.no-gutters
+  .work-tools__background
+    .row
+      .col-md-12.text-center
+        h1.work-tools__title.dotted
+          = t('.title')
+
+      .col-md-12.work-tools__more-details.more-details
+        .more-details__title
+          = t('.environment')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.mac_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/mac.png'),
+                          alt: t('.mac'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.mac')
+              .item__content
+                = t('.mac_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.ubuntu_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/ubuntu.png'),
+                          alt: t('.ubuntu'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.ubuntu')
+              .item__content
+                = t('.ubuntu_content')
+
+      .col-md-12.work-tools__more-details.more-details
+        .more-details__title
+          = t('.development')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.iterm_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/iterm.png'),
+                          alt: t('.iterm'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.iterm')
+              .item__content
+                = t('.iterm_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.atom_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/atom.png'),
+                          alt: t('.atom'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.atom')
+              .item__content
+                = t('.atom_content')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.firefox_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/firefox.png'),
+                          alt: t('.firefox'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.firefox')
+              .item__content
+                = t('.firefox_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.chrome_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/chrome.png'),
+                          alt: t('.chrome'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.chrome')
+              .item__content
+                = t('.chrome_content')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.github_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/github.png'),
+                          alt: t('.github'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.github')
+              .item__content
+                = t('.github_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.gitlab_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/gitlab.png'),
+                          alt: t('.gitlab'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.gitlab')
+              .item__content
+                = t('.gitlab_content')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.sequelpro_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/sequelpro.png'),
+                          alt: t('.sequelpro'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.sequelpro')
+              .item__content
+                = t('.sequelpro_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.psequel_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/psequel.png'),
+                          alt: t('.psequel'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.psequel')
+              .item__content
+                = t('.psequel_content')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.sqlitebrowser_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/sqlitebrowser.png'),
+                          alt: t('.sqlitebrowser'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.sqlitebrowser')
+              .item__content
+                = t('.sqlitebrowser_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.virtualbox_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/virtualbox.png'),
+                          alt: t('.virtualbox'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.virtualbox')
+              .item__content
+                = t('.virtualbox_content')
+
+      .col-md-12.work-tools__more-details.more-details
+        .more-details__title
+          = t('.deployment')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.clevercloud_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/clevercloud.png'),
+                          alt: t('.clevercloud'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.clevercloud')
+              .item__content
+                = t('.clevercloud_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.heroku_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/heroku.png'),
+                          alt: t('.heroku'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.heroku')
+              .item__content
+                = t('.heroku_content')
+
+      .col-md-12.work-tools__more-details.more-details
+        .more-details__title
+          = t('.storage')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.aws_url'),
+                  class: 'work-tools__item work-tools__item--felt item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/aws.png'),
+                          alt: t('.aws'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.aws')
+              .item__content
+                = t('.aws_content')
+
+      .col-md-12.work-tools__more-details.more-details
+        .more-details__title
+          = t('.design')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.sketch_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/sketch.png'),
+                          alt: t('.sketch'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.sketch')
+              .item__content
+                = t('.sketch_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.gimp_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/gimp.png'),
+                          alt: t('.gimp'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.gimp')
+              .item__content
+                = t('.gimp_content')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.imagealpha_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/imagealpha.png'),
+                          alt: t('.imagealpha'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.imagealpha')
+              .item__content
+                = t('.imagealpha_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.imageoptim_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/imageoptim.png'),
+                          alt: t('.imageoptim'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.imageoptim')
+              .item__content
+                = t('.imageoptim_content')
+
+      .col-md-12.work-tools__more-details.more-details
+        .more-details__title
+          = t('.other')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.texstudio_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/texstudio.png'),
+                          alt: t('.texstudio'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.texstudio')
+              .item__content
+                = t('.texstudio_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.slack_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/slack.png'),
+                          alt: t('.slack'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.slack')
+              .item__content
+                = t('.slack_content')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.frog_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/cyberduck.png'),
+                          alt: t('.cyberduck'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.cyberduck')
+              .item__content
+                = t('.cyberduck_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.dash_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/dash.png'),
+                          alt: t('.dash'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.dash')
+              .item__content
+                = t('.dash_content')
+
+      .col-md-5.offset-md-1.col-sm-12
+        = link_to t('.frog_url'),
+                  class: 'work-tools__item work-tools__item--left item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/frog.png'),
+                          alt: t('.frog'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.frog')
+              .item__content
+                = t('.frog_content')
+
+      .col-md-5.col-sm-12
+        = link_to t('.boostnote_url'),
+                  class: 'work-tools__item work-tools__item--right item',
+                  target: '_blank'
+          .row
+            .col-md-3.col-sm-12.text-center.m-auto
+              = image_tag image_url('tools/boostnote.png'),
+                          alt: t('.boostnote'),
+                          class: 'item__image'
+            .col-md-9.col-sm-12.m-auto
+              .item__title
+                = t('.boostnote')
+              .item__content
+                = t('.boostnote_content')
