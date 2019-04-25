@@ -58,12 +58,12 @@
 .box-item {
   align-items: center;
   background-color: white;
-  border: .1875rem solid $secondary;
   border-radius: .5rem;
+  border: .1875rem solid $secondary;
   color: black;
   display: flex;
+  height: 100%;
   justify-content: center;
-  margin-bottom: 20px;
   padding: 10px;
 
   &:hover {
@@ -100,8 +100,6 @@
   }
 
   .box-item {
-    height: 190px;
-
     &--left {
       margin-left: .625rem;
     }
@@ -113,17 +111,5 @@
 
   .item__image {
     width: 80%;
-  }
-}
-
-@include media-breakpoint-down(md) {
-  .box-item {
-    height: 360px;
-  }
-}
-
-@include media-breakpoint-down(sm) {
-  .box-item {
-    height: auto;
   }
 }
