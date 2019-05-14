@@ -1,5 +1,5 @@
 exclude:
-  - 'app/views/layouts/_styled_head.html.slim'
+  - 'app/views/layouts/head/ascii_art.html.slim'
   - 'app/views/layouts/application.html.slim'
   - 'app/views/curriculum_vitae/index.html.slim'
   - 'app/views/layouts/tracking/_google_analytics.html.slim'

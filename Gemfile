@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.5'
 # Optimizes and caches expensive computations
 # https://github.com/Shopify/bootsnap
 gem 'bootsnap', '>= 1.1.0', require: false
+
 # == Assets ====================================================================
 # Official integration for projects with the Sass stylesheet language
 # https://github.com/rails/sass-rails
@@ -31,10 +32,7 @@ gem 'uglifier', '>= 1.3.0'
 # Autoprefixer is a tool to parse CSS and add vendor prefixes to CSS
 # https://github.com/ai/autoprefixer-rails
 gem 'autoprefixer-rails', '~> 9.4.5'
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
-# Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
+
 # == Views enhancers ===========================================================
 # Provides Slim generators
 # https://github.com/slim-template/slim-rails
@@ -48,13 +46,17 @@ gem 'turbolinks', '~> 5'
 # Provides some utility view helpers
 # https://github.com/thoughtbot/flutie
 gem 'flutie', '~> 2.0'
+
 # == Background jobs ===========================================================
+
 # == Authentication ============================================================
+
 # == Form manager and validator ================================================
+
 # == Databases =================================================================
-# Use sqlite3 as the database for Active Record
-# gem 'sqlite3'
+
 # == Controllers enhancers =====================================================
+
 # == Models enhancers ==========================================================
 
 group :development, :test do
