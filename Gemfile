@@ -23,9 +23,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # == Assets ====================================================================
-# Official integration for projects with the Sass stylesheet language
-# https://github.com/rails/sass-rails
-gem 'sass-rails', '~> 5.0', '>= 5.0.7'
+# Integrate SassC-Ruby with Rails!
+# https://github.com/sass/sassc-rails
+gem 'sassc-rails', '~> 2.1'
 # Ruby wrapper for UglifyJS JavaScript compressor
 # https://github.com/lautis/uglifier
 gem 'uglifier', '>= 1.3.0'

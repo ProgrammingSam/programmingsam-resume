@@ -11,6 +11,8 @@ AllCops:
     - 'vendor/**/*'
     # package testing gems
     - 'testing/vendor/**/*'
+    # binstubs files
+    - 'bin/*'
 
 LineLength:
   Exclude:
