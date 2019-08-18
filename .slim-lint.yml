@@ -6,5 +6,38 @@ exclude:
   - 'app/views/layouts/tracking/_google_analytics.html.slim'
 
 linters:
-  LineLength:
-    max: 80
+  RuboCop:
+    enabled: true
+    # These cops are incredibly noisy since the Ruby we extract from Slim
+    # templates isn't well-formatted, so we ignore them.
+    ignored_cops:
+      - Layout/AlignArguments
+      - Layout/AlignArray
+      - Layout/AlignHash
+      - Layout/AlignParameters
+      - Layout/EmptyLineAfterGuardClause
+      - Layout/FirstParameterIndentation
+      - Layout/IndentArray
+      - Layout/IndentationConsistency
+      - Layout/IndentationWidth
+      - Layout/InitialIndentation
+      - Layout/MultilineArrayBraceLayout
+      - Layout/MultilineAssignmentLayout
+      - Layout/MultilineHashBraceLayout
+      - Layout/MultilineMethodCallBraceLayout
+      - Layout/MultilineMethodCallIndentation
+      - Layout/MultilineMethodDefinitionBraceLayout
+      - Layout/MultilineOperationIndentation
+      - Layout/TrailingBlankLines
+      - Layout/TrailingWhitespace
+      - Lint/BlockAlignment
+      - Lint/EndAlignment
+      - Lint/Void
+      - Metrics/BlockLength
+      - Metrics/BlockNesting
+      - Metrics/LineLength
+      - Naming/FileName
+      - Style/FrozenStringLiteralComment
+      - Style/IfUnlessModifier
+      - Style/Next
+      - Style/WhileUntilModifier
