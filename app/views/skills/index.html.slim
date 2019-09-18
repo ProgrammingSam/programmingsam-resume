@@ -155,6 +155,21 @@
               .item__content
                 = t('.yaml_content')
 
+      .col-md-5.offset-md-1.mb-3
+        = link_to t('.r_url'),
+                class: 'competences__item competences__item--left item',
+                target: '_blank'
+          .row
+            .col-md-3.text-center.m-auto
+              = image_tag image_url('skills/r.png'),
+                      alt: t('.r'),
+                      class: 'item__image'
+            .col-md-9.m-auto
+              .item__title
+                = t('.r')
+              .item__content
+                = t('.r_content')
+
       .col-md-12.competences__more-details.more-details
         .more-details__title
           = t('.more_details')
