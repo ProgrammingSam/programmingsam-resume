@@ -208,6 +208,21 @@
               .item__content
                 = t('.virtualbox_content')
 
+      .col-md-5.mb-3
+        = link_to t('.semaphore_url'),
+                class: 'work-tools__item work-tools__item--left item',
+                target: '_blank'
+          .row
+            .col-md-3.text-center.m-auto
+              = image_tag image_url('tools/semaphore.png'),
+                      alt: t('.semaphore'),
+                      class: 'item__image'
+            .col-md-9.m-auto
+              .item__title
+                = t('.semaphore')
+              .item__content
+                = t('.semaphore_content')
+
       .col-md-12.work-tools__more-details.more-details
         .more-details__title
           = t('.deployment')
