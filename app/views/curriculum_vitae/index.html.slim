@@ -14,7 +14,7 @@
           i.fas.fa-download
 
       .col-md-6.timeline__left-col.left-col
-        .left-col__projetcs
+        .left-col__projects
           = image_tag image_url('projects/programmingsam_light.png'),
                       alt: t('.job_programmingsam')
         .timeline__center-line-icon
@@ -28,7 +28,7 @@
           = t('.job_programmingsam')
         .badge.badge-secondary.timeline__date-badge
           = t('.job_date_programmingsam')
-        .timeline__descritpion
+        .timeline__description
           = t('.job_description_programmingsam')
         .timeline__tasks
           = t('.job_tasks_programmingsam_html')
@@ -46,7 +46,7 @@
           i.fas.fa-arrow-right
 
       .col-md-6.timeline__left-col.left-col
-        .left-col__projetcs
+        .left-col__projects
           = image_tag image_url('projects/listy_light.png'),
                       alt: t('.job_listy')
 
@@ -61,7 +61,7 @@
           = t('.job_listy')
         .badge.badge-secondary.timeline__date-badge
           = t('.job_date_listy')
-        .timeline__descritpion
+        .timeline__description
           = t('.job_description_listy')
         .timeline__tasks
           = t('.job_tasks_listy_html')
@@ -79,7 +79,7 @@
           i.fas.fa-arrow-right
 
       .col-md-6.timeline__left-col.left-col
-        .left-col__projetcs
+        .left-col__projects
           = image_tag image_url('projects/frizbiz_light.png'),
                       alt: t('.job_frizbiz')
 
@@ -94,7 +94,7 @@
           = t('.job_frizbiz')
         .badge.badge-secondary.timeline__date-badge
           = t('.job_date_frizbiz')
-        .timeline__descritpion
+        .timeline__description
           = t('.job_description_frizbiz')
         .timeline__tasks
           = t('.job_tasks_frizbiz_html')
@@ -105,7 +105,6 @@
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
           .location-name
-          .location-name
             = t('.job_location_frizbiz')
         = link_to t('.frizbiz_url'), target: '_blank',
                                      class: 'link--with-arrow'
@@ -113,7 +112,7 @@
           i.fas.fa-arrow-right
 
       .col-md-6.timeline__left-col.left-col
-        .left-col__projetcs
+        .left-col__projects
           = image_tag image_url('projects/sharing_slot_light.png'),
                       alt: t('.degree_name_wagon')
         .timeline__center-line-icon
@@ -127,7 +126,7 @@
           = t('.degree_name_wagon')
         .badge.badge-secondary.timeline__date-badge
           = t('.degree_date_wagon')
-        .timeline__descritpion
+        .timeline__description
           = t('.school_description_wagon')
         .timeline__skill-section.skill-section
           - %w[API Ruby Rails SQLite JavaScript JQuery CSS3 SASS HTML5 Erb Yml Git Bootstrap3 Ajax Heroku Carrierwave Cloudinary].sort_by! { |e| e }.each do |i|
@@ -154,7 +153,7 @@
           = t('.degree_name_heph_master')
         .badge.badge-secondary.timeline__date-badge
           = t('.degree_date_heph_master')
-        .timeline__descritpion
+        .timeline__description
           = t('.school_description_heph')
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
@@ -177,10 +176,10 @@
           = t('.job_idea')
         .badge.badge-secondary.timeline__date-badge
           = t('.job_date_idea')
-        .timeline__descritpion
+        .timeline__description
           = t('.job_description_idea')
         .timeline__tasks
-         = t('.job_tasks_idea_html')
+          = t('.job_tasks_idea_html')
         .timeline__skill-section.skill-section
           - %w[VBA MATLAB LaTeX C# C++].sort_by! { |e| e }.each do |i|
             .badge.badge-primary.skill-section__badge
@@ -203,10 +202,10 @@
           = image_tag image_url('schools/heph.jpg'),
                       alt: t('.degree_name_heph_bac')
         .timeline__name
-            = t('.degree_name_heph_bac')
+          = t('.degree_name_heph_bac')
         .badge.badge-secondary.timeline__date-badge
           = t('.degree_date_heph_bac')
-        .timeline__descritpion
+        .timeline__description
           = t('.school_description_heph')
         .timeline__location.location
           i.fas.fa-map-marker-alt.location-icon
