@@ -3,6 +3,7 @@ exclude:
   - 'app/views/layouts/head/_assets.html.slim'
   - 'app/views/layouts/head/_meta.html.slim'
   - 'app/views/layouts/tracking/_google_analytics.html.slim'
+  - 'app/views/curriculum_vitae/index.html.slim'
 
 linters:
   RuboCop:
