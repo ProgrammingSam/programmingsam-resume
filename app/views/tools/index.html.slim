@@ -44,6 +44,21 @@
           = t('.development')
 
       .col-md-5.offset-md-1.mb-3
+        = link_to t('.rubymine_url'),
+                class: 'work-tools__item work-tools__item--left item',
+                target: '_blank'
+          .row
+            .col-md-3.text-center.m-auto
+              = image_tag image_url('tools/rubymine.png'),
+                      alt: t('.rubymine'),
+                      class: 'item__image'
+            .col-md-9.m-auto
+              .item__title
+                = t('.rubymine')
+              .item__content
+                = t('.rubymine_content')
+
+      .col-md-5.mb-3
         = link_to t('.iterm_url'),
                   class: 'work-tools__item work-tools__item--left item',
                   target: '_blank'
@@ -58,7 +73,7 @@
               .item__content
                 = t('.iterm_content')
 
-      .col-md-5.mb-3
+      .col-md-5.offset-md-1.mb-3
         = link_to t('.atom_url'),
                   class: 'work-tools__item work-tools__item--right item',
                   target: '_blank'
@@ -73,7 +88,7 @@
               .item__content
                 = t('.atom_content')
 
-      .col-md-5.offset-md-1.mb-3
+      .col-md-5.mb-3
         = link_to t('.firefox_url'),
                   class: 'work-tools__item work-tools__item--left item',
                   target: '_blank'
@@ -88,7 +103,7 @@
               .item__content
                 = t('.firefox_content')
 
-      .col-md-5.mb-3
+      .col-md-5.offset-md-1.mb-3
         = link_to t('.chrome_url'),
                   class: 'work-tools__item work-tools__item--right item',
                   target: '_blank'
@@ -103,7 +118,7 @@
               .item__content
                 = t('.chrome_content')
 
-      .col-md-5.offset-md-1.mb-3
+      .col-md-5.mb-3
         = link_to t('.github_url'),
                   class: 'work-tools__item work-tools__item--left item',
                   target: '_blank'
@@ -118,7 +133,7 @@
               .item__content
                 = t('.github_content')
 
-      .col-md-5.mb-3
+      .col-md-5.offset-md-1.mb-3
         = link_to t('.gitlab_url'),
                   class: 'work-tools__item work-tools__item--right item',
                   target: '_blank'
@@ -133,7 +148,7 @@
               .item__content
                 = t('.gitlab_content')
 
-      .col-md-5.offset-md-1.mb-3
+      .col-md-5.mb-3
         = link_to t('.sequelpro_url'),
                   class: 'work-tools__item work-tools__item--left item',
                   target: '_blank'
@@ -148,7 +163,7 @@
               .item__content
                 = t('.sequelpro_content')
 
-      .col-md-5.mb-3
+      .col-md-5.offset-md-1.mb-3
         = link_to t('.psequel_url'),
                   class: 'work-tools__item work-tools__item--right item',
                   target: '_blank'
@@ -163,7 +178,7 @@
               .item__content
                 = t('.psequel_content')
 
-      .col-md-5.offset-md-1.mb-3
+      .col-md-5.mb-3
         = link_to t('.sqlitebrowser_url'),
                   class: 'work-tools__item work-tools__item--left item',
                   target: '_blank'
@@ -178,7 +193,7 @@
               .item__content
                 = t('.sqlitebrowser_content')
 
-      .col-md-5.mb-3
+      .col-md-5.offset-md-1.mb-3
         = link_to t('.virtualbox_url'),
                   class: 'work-tools__item work-tools__item--right item',
                   target: '_blank'
