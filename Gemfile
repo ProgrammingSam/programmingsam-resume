@@ -23,9 +23,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # == Assets ====================================================================
-# Integrate SassC-Ruby with Rails!
-# https://github.com/sass/sassc-rails
-gem 'sassc-rails', '~> 2.1'
+# Ruby on Rails stylesheet engine for Sass
+# https://github.com/rails/sass-rails
+gem 'sass-rails', '~> 5.1'
 # Ruby wrapper for UglifyJS JavaScript compressor
 # https://github.com/lautis/uglifier
 gem 'uglifier', '>= 1.3.0'
@@ -96,7 +96,7 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Rails application preloader
   # https://github.com/rails/spring
-  gem 'spring'
+  gem 'spring', '~> 2.0'
   # Makes Spring watch the filesystem for changes using Listen
   # rather than by polling the filesystem
   # https://github.com/jonleighton/spring-watcher-listen
