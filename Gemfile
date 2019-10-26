@@ -25,7 +25,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # == Assets ====================================================================
 # Ruby on Rails stylesheet engine for Sass
 # https://github.com/rails/sass-rails
-gem 'sass-rails', '~> 5.1'
+gem 'sass-rails', '~> 5.1', '>= 5.1.0'
 # Ruby wrapper for UglifyJS JavaScript compressor
 # https://github.com/lautis/uglifier
 gem 'uglifier', '>= 1.3.0'
@@ -74,7 +74,7 @@ group :development do
   gem 'scss_lint', '~> 0.57', require: false
   # Tool to help lint your ERB or HTML files
   # https://github.com/Shopify/erb-lint
-  gem 'erb_lint', '~> 0.0', '>= 0.0.28', require: false
+  gem 'erb_lint', '~> 0.0', '>= 0.0.29', require: false
   # Tool to help keep your Slim files clean and readable
   # It integrates with RuboCop
   # https://github.com/sds/slim-lint
@@ -90,7 +90,7 @@ group :development do
   gem 'brakeman', '~> 4.5', require: false
   # A Ruby gem to load environment variables from `.env`
   # https://github.com/bkeepers/dotenv
-  gem 'dotenv-rails', '>= 2.7.2'
+  gem 'dotenv-rails', '>= 2.7.5'
   # Listens to file modifications and notifies you about the changes
   # https://github.com/guard/listen
   gem 'listen', '>= 3.0.5', '< 3.2'
