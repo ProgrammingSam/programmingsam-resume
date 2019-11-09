@@ -87,7 +87,7 @@ group :development do
   gem 'rubocop', '~> 0.63', require: false
   # Static analysis tool which checks applications for security vulnerabilities
   # https://github.com/presidentbeef/brakeman
-  gem 'brakeman', '~> 4.5', require: false
+  gem 'brakeman', '~> 4.7', '>= 4.7.1', require: false
   # A Ruby gem to load environment variables from `.env`
   # https://github.com/bkeepers/dotenv
   gem 'dotenv-rails', '>= 2.7.2'
