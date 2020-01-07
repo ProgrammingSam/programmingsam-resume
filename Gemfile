@@ -74,7 +74,7 @@ group :development do
   gem 'scss_lint', '~> 0.57', require: false
   # Tool to help lint your ERB or HTML files
   # https://github.com/Shopify/erb-lint
-  gem 'erb_lint', '~> 0.0', '>= 0.0.28', require: false
+  gem 'erb_lint', '~> 0.0', '>= 0.0.29', require: false
   # Tool to help keep your Slim files clean and readable
   # It integrates with RuboCop
   # https://github.com/sds/slim-lint
