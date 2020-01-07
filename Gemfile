@@ -115,7 +115,7 @@ group :test do
   gem 'chromedriver-helper', '>= 2.1.1'
   # Ruby bindings for Selenium/WebDriver
   # https://github.com/SeleniumHQ/selenium
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 3.141.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
