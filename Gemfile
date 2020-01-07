@@ -14,7 +14,7 @@ gem 'rails', '~> 5.2.3'
 gem 'skylight', '~> 3.1'
 # Ruby web server built for concurrency
 # https://github.com/puma/puma
-gem 'puma', '~> 3.12', '>= 3.12.2'
+gem 'puma', '~> 3.12'
 # Simple DSL for declaring JSON structures
 # https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
