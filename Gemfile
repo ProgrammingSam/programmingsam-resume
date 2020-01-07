@@ -14,7 +14,7 @@ gem 'rails', '~> 5.2.3'
 gem 'skylight', '~> 3.1'
 # Ruby web server built for concurrency
 # https://github.com/puma/puma
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12', '>= 3.12.2'
 # Simple DSL for declaring JSON structures
 # https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
@@ -87,7 +87,7 @@ group :development do
   gem 'rubocop', '~> 0.63', require: false
   # Static analysis tool which checks applications for security vulnerabilities
   # https://github.com/presidentbeef/brakeman
-  gem 'brakeman', '~> 4.5', require: false
+  gem 'brakeman', '~> 4.7', '>= 4.7.1', require: false
   # A Ruby gem to load environment variables from `.env`
   # https://github.com/bkeepers/dotenv
   gem 'dotenv-rails', '>= 2.7.5'
@@ -115,7 +115,7 @@ group :test do
   gem 'chromedriver-helper', '>= 2.1.1'
   # Ruby bindings for Selenium/WebDriver
   # https://github.com/SeleniumHQ/selenium
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 3.141.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
