@@ -87,7 +87,7 @@ group :development do
   gem 'rubocop', '~> 0.63', require: false
   # Static analysis tool which checks applications for security vulnerabilities
   # https://github.com/presidentbeef/brakeman
-  gem 'brakeman', '~> 4.5', require: false
+  gem 'brakeman', '~> 4.7', '>= 4.7.1', require: false
   # A Ruby gem to load environment variables from `.env`
   # https://github.com/bkeepers/dotenv
   gem 'dotenv-rails', '>= 2.7.2'
@@ -115,7 +115,7 @@ group :test do
   gem 'chromedriver-helper', '>= 2.1.1'
   # Ruby bindings for Selenium/WebDriver
   # https://github.com/SeleniumHQ/selenium
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 3.141.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
