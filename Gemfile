@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Web-application framework
 # https://github.com/rails/rails
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 
 # == Global dependencies =======================================================
 # Errors handler
@@ -74,7 +74,7 @@ group :development do
   gem 'scss_lint', '~> 0.57', require: false
   # Tool to help lint your ERB or HTML files
   # https://github.com/Shopify/erb-lint
-  gem 'erb_lint', '~> 0.0', '>= 0.0.29', require: false
+  gem 'erb_lint', '~> 0.0', '>= 0.0.30', require: false
   # Tool to help keep your Slim files clean and readable
   # It integrates with RuboCop
   # https://github.com/sds/slim-lint
@@ -109,7 +109,7 @@ end
 group :test do
   # Simulating how a real user would interact with the app
   # https://github.com/teamcapybara/capybara
-  gem 'capybara', '>= 3.28.0', '< 4.0'
+  gem 'capybara', '>= 3.29.0', '< 4.0'
   # Easy installation and use of chromedriver
   # https://github.com/flavorjones/chromedriver-helper
   gem 'chromedriver-helper', '>= 2.1.1'
