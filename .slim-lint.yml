@@ -11,16 +11,21 @@ linters:
     # These cops are incredibly noisy since the Ruby we extract from Slim
     # templates isn't well-formatted, so we ignore them.
     ignored_cops:
+      - Style/UnneededInterpolation
+      - Layout/EmptyLineAfterGuardClause
+      - Style/EvalWithLocation
+      - Style/SafeNavigation
+      - Security/Eval
+      - Style/StringLiterals
       - Layout/AlignArguments
+      # defaults from slim-lint must be repeated because of additions
       - Layout/AlignArray
       - Layout/AlignHash
       - Layout/AlignParameters
-      - Layout/EmptyLineAfterGuardClause
       - Layout/FirstParameterIndentation
       - Layout/IndentArray
       - Layout/IndentationConsistency
       - Layout/IndentationWidth
-      - Layout/InitialIndentation
       - Layout/MultilineArrayBraceLayout
       - Layout/MultilineAssignmentLayout
       - Layout/MultilineHashBraceLayout
@@ -37,6 +42,7 @@ linters:
       - Metrics/BlockNesting
       - Metrics/LineLength
       - Naming/FileName
+      - Style/EmptyLineAfterGuardClause
       - Style/FrozenStringLiteralComment
       - Style/IfUnlessModifier
       - Style/Next
