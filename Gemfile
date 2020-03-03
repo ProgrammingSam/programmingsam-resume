@@ -74,7 +74,7 @@ group :development do
   gem 'scss_lint', '~> 0.59', require: false
   # Tool to help lint your ERB or HTML files
   # https://github.com/Shopify/erb-lint
-  gem 'erb_lint' #, '~> 0.0', '>= 0.0.29', require: false
+  gem 'erb_lint', '~> 0.0', require: false
   # Tool to help keep your Slim files clean and readable
   # It integrates with RuboCop
   # https://github.com/sds/slim-lint
@@ -90,7 +90,7 @@ group :development do
   gem 'brakeman', '~> 4.8', require: false
   # A Ruby gem to load environment variables from `.env`
   # https://github.com/bkeepers/dotenv
-  gem 'dotenv-rails','~> 2.7'
+  gem 'dotenv-rails', '~> 2.7'
   # Listens to file modifications and notifies you about the changes
   # https://github.com/guard/listen
   gem 'listen', '~> 3.2'

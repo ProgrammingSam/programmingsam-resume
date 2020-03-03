@@ -293,7 +293,7 @@ DEPENDENCIES
   capybara (>= 3.31, < 4.0)
   chromedriver-helper (>= 2.1)
   dotenv-rails (~> 2.7)
-  erb_lint
+  erb_lint (~> 0.0)
   flutie (~> 2.2)
   jbuilder (~> 2.10)
   listen (~> 3.2)

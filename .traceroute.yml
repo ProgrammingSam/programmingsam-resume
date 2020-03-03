@@ -1,3 +1,14 @@
 ignore_unreachable_actions:
   - ^rails/mailers#index
   - ^rails/mailers#preview
+ignore_unused_routes:
+  - ^seo/sitemap#index
+  - ^errors#not_found
+  - ^errors#unacceptable
+  - ^errors#internal_server_error
+  - ^about#index
+  - ^curriculum_vitae#index
+  - ^skills#index
+  - ^team#index
+  - ^tools#index
+  - ^home#index
