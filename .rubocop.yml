@@ -5,6 +5,27 @@ Metrics/AbcSize:
 Style/Documentation:
   Enabled: false
 
+Style/FormatStringToken:
+  Exclude:
+    - 'config/routes.rb'
+
+Layout/LineLength:
+  Max: 80
+  Exclude:
+    - 'app/helpers/meta_tags_helper.rb'
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
+
 AllCops:
   Exclude:
     # bundled gems
@@ -14,11 +35,4 @@ AllCops:
     # binstubs files
     - 'bin/*'
 
-Style/FormatStringToken:
-  Exclude:
-    - 'config/routes.rb'
 
-Metrics/LineLength:
-  Max: 80
-  Exclude:
-    - 'app/helpers/meta_tags_helper.rb'
