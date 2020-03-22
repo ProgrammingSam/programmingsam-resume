@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Web-application framework
 # https://github.com/rails/rails
-gem 'rails', '~> 6.0.2'
+gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 
 # == Global dependencies =======================================================
 # Errors handler
@@ -25,7 +25,7 @@ gem 'bootsnap', '~> 1.4', require: false
 # == Assets ====================================================================
 # Ruby on Rails stylesheet engine for Sass
 # https://github.com/rails/sass-rails
-gem 'sass-rails', '~> 5.1'
+gem 'sass-rails', '~> 5.1', '>= 5.1.0'
 # Ruby wrapper for UglifyJS JavaScript compressor
 # https://github.com/lautis/uglifier
 gem 'uglifier', '~> 4.2'
@@ -39,7 +39,7 @@ gem 'autoprefixer-rails', '~> 9.7'
 gem 'slim-rails', '~> 3.2.0'
 # Locale data for Ruby on Rails
 # https://github.com/svenfuchs/rails-i18n
-gem 'rails-i18n', '~> 6.0'
+gem 'rails-i18n', '~> 6.0', '>= 6.0.0'
 # Makes navigating in the web application faster
 # https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5.2'
@@ -68,13 +68,13 @@ end
 group :development do
   # Rake task that helps you find dead routes and unused actions
   # https://github.com/amatsuda/traceroute
-  gem 'traceroute', '~> 0.8'
+  gem 'traceroute', '~> 0.8', '>= 0.8.0'
   # Configurable tool for writing clean and consistent SCSS
   # https://github.com/brigade/scss-lint
   gem 'scss_lint', '~> 0.59', require: false
   # Tool to help lint your ERB or HTML files
   # https://github.com/Shopify/erb-lint
-  gem 'erb_lint', '~> 0.0', require: false
+  gem 'erb_lint', '~> 0.0', '>= 0.0.30', require: false
   # Tool to help keep your Slim files clean and readable
   # It integrates with RuboCop
   # https://github.com/sds/slim-lint
@@ -90,7 +90,7 @@ group :development do
   gem 'brakeman', '~> 4.8', require: false
   # A Ruby gem to load environment variables from `.env`
   # https://github.com/bkeepers/dotenv
-  gem 'dotenv-rails', '~> 2.7'
+  gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
   # Listens to file modifications and notifies you about the changes
   # https://github.com/guard/listen
   gem 'listen', '~> 3.2'
