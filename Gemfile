@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Web-application framework
 # https://github.com/rails/rails
-gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 
 # == Global dependencies =======================================================
 # Errors handler
@@ -109,7 +109,7 @@ end
 group :test do
   # Simulating how a real user would interact with the app
   # https://github.com/teamcapybara/capybara
-  gem 'capybara', '>= 3.31', '< 4.0'
+  gem 'capybara', '>= 3.31.0', '< 4.0'
   # Easy installation and use of chromedriver
   # https://github.com/flavorjones/chromedriver-helper
   gem 'chromedriver-helper', '>= 2.1'
