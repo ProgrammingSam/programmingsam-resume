@@ -78,13 +78,13 @@ group :development do
   # Tool to help keep your Slim files clean and readable
   # It integrates with RuboCop
   # https://github.com/sds/slim-lint
-  gem 'slim_lint', '~> 0.20', require: false
+  gem 'slim_lint', '~> 0.20', '>= 0.20.0', require: false
   # Code smell detector for Ruby
   # https://github.com/troessner/reek
   gem 'reek', '~> 5.6', require: false
   # Best practices based on official Ruby on Rails
   # https://github.com/rubocop-hq/rubocop
-  gem 'rubocop', '~> 0.80', require: false
+  gem 'rubocop', '~> 0.80', '>= 0.80.1', require: false
   # Static analysis tool which checks applications for security vulnerabilities
   # https://github.com/presidentbeef/brakeman
   gem 'brakeman', '~> 4.8', require: false
