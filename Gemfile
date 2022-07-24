@@ -11,13 +11,13 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 # == Global dependencies =======================================================
 # Errors handler
 # https://rubygems.org/gems/skylight/versions/3.1.4
-gem 'skylight', '~> 3.1'
+gem 'skylight', '~> 3.1', '>= 3.1.5'
 # Ruby web server built for concurrency
 # https://github.com/puma/puma
 gem 'puma', '~> 4.3'
 # Simple DSL for declaring JSON structures
 # https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.10'
+gem 'jbuilder', '~> 2.10', '>= 2.10.0'
 # Optimizes and caches expensive computations
 # https://github.com/Shopify/bootsnap
 gem 'bootsnap', '~> 1.4', require: false
