@@ -6,18 +6,18 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Web-application framework
 # https://github.com/rails/rails
-gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
+gem 'rails', '~> 6.0.5', '>= 6.0.5.1'
 
 # == Global dependencies =======================================================
 # Errors handler
 # https://rubygems.org/gems/skylight/versions/3.1.4
-gem 'skylight', '~> 3.1'
+gem 'skylight', '~> 3.1', '>= 3.1.5'
 # Ruby web server built for concurrency
 # https://github.com/puma/puma
-gem 'puma', '~> 4.3'
+gem 'puma', '~> 4.3', '>= 4.3.12'
 # Simple DSL for declaring JSON structures
 # https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.10'
+gem 'jbuilder', '~> 2.10', '>= 2.10.0'
 # Optimizes and caches expensive computations
 # https://github.com/Shopify/bootsnap
 gem 'bootsnap', '~> 1.4', require: false
@@ -78,13 +78,13 @@ group :development do
   # Tool to help keep your Slim files clean and readable
   # It integrates with RuboCop
   # https://github.com/sds/slim-lint
-  gem 'slim_lint', '~> 0.20', require: false
+  gem 'slim_lint', '~> 0.20', '>= 0.20.0', require: false
   # Code smell detector for Ruby
   # https://github.com/troessner/reek
   gem 'reek', '~> 5.6', require: false
   # Best practices based on official Ruby on Rails
   # https://github.com/rubocop-hq/rubocop
-  gem 'rubocop', '~> 0.80', require: false
+  gem 'rubocop', '~> 0.80', '>= 0.80.1', require: false
   # Static analysis tool which checks applications for security vulnerabilities
   # https://github.com/presidentbeef/brakeman
   gem 'brakeman', '~> 4.8', require: false
@@ -109,10 +109,10 @@ end
 group :test do
   # Simulating how a real user would interact with the app
   # https://github.com/teamcapybara/capybara
-  gem 'capybara', '>= 3.31', '< 4.0'
+  gem 'capybara', '>= 3.31.0', '< 4.0'
   # Easy installation and use of chromedriver
   # https://github.com/flavorjones/chromedriver-helper
-  gem 'chromedriver-helper', '>= 2.1'
+  gem 'chromedriver-helper', '>= 2.1.1'
   # Ruby bindings for Selenium/WebDriver
   # https://github.com/SeleniumHQ/selenium
   gem 'selenium-webdriver', '>= 3.142'
