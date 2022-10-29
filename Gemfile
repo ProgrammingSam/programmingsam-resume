@@ -109,7 +109,7 @@ end
 group :test do
   # Simulating how a real user would interact with the app
   # https://github.com/teamcapybara/capybara
-  gem 'capybara', '>= 3.31', '< 4.0'
+  gem 'capybara', '>= 3.31.0', '< 4.0'
   # Easy installation and use of chromedriver
   # https://github.com/flavorjones/chromedriver-helper
   gem 'chromedriver-helper', '>= 2.1'
